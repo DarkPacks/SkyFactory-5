@@ -1,2 +1,2 @@
-import { rootGenerator } from "./scripts/project-generator";
+import { rootGenerator } from "./scripts/generator";
 module.exports = rootGenerator;

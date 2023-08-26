@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import glob from "glob-promise";
 import { compileFromFile } from "json-schema-to-typescript";
 import path from "path";
-import { RegisterGeneratorFn } from "scripts/project-generator/models";
+import { RegisterGeneratorFn } from "scripts/generator/models";
 import { schemaPath } from "./constants";
 import { schemaFiles } from "./schema-files";
 

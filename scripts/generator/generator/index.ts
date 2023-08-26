@@ -1,5 +1,5 @@
 import path from "path";
-import { RegisterGeneratorFn } from "scripts/project-generator/models";
+import { RegisterGeneratorFn } from "scripts/generator/models";
 
 export const registerGenerator: RegisterGeneratorFn = (plop, metadata) => {
   plop.setGenerator("Project Generator Generator", {
