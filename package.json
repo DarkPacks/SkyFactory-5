@@ -6,6 +6,7 @@
   "author": "DarkPacks",
   "scripts": {
     "generate-schema-types": "npm install && ts-node ./scripts/generate-schema-types",
+    "generate": "npm install && ts-node ./node_modules/plop/bin/plop.js",
     "lint:direct": "jest --config jest-eslint.config.js",
     "lint:fix:direct": "cross-env FIX=true jest --config jest-eslint.config.js",
     "lint:fix": "npm install && npm run lint:fix:direct",
@@ -23,6 +24,7 @@
   "homepage": "https://github.com/DarkPacks/SkyFactory-5#readme",
   "type": "commonjs",
   "devDependencies": {
+    "@swc/core": "^1.3.78",
     "@types/node": "^18.17.6",
     "@typescript-eslint/eslint-plugin": "^6.4.1",
     "@typescript-eslint/parser": "^6.4.1",
@@ -33,6 +35,7 @@
     "eslint-plugin-editorconfig": "^4.0.3",
     "eslint-plugin-import": "^2.28.1",
     "eslint-plugin-typescript-paths": "^0.0.33",
+    "glob": "^7.2.3",
     "husky": "^8.0.3",
     "jest": "^29.6.3",
     "jest-runner-eslint": "^1.1.0",
@@ -40,6 +43,7 @@
     "lint-staged": "^14.0.1",
     "minecraft-launcher-core": "3.17.2",
     "msmc": "4.1.0",
+    "plop": "^3.1.2",
     "prettier": "^3.0.2",
     "ts-node": "^10.9.1",
     "typescript": "^5.1.6"

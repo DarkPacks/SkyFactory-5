@@ -1,0 +1,9 @@
+import { RegisterGeneratorFn } from "scripts/project-generator/models";
+
+export const registerGenerator: RegisterGeneratorFn = (plop) => {
+  plop.setGenerator("{{name}}", {
+    description: "{{description}}",
+    prompts: [],
+    actions: [],
+  });
+};
