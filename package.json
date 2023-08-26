@@ -5,7 +5,6 @@
   "description": "",
   "author": "DarkPacks",
   "scripts": {
-    "generate-schema-types": "npm install && ts-node ./scripts/generate-schema-types",
     "generate": "npm install && ts-node ./node_modules/plop/bin/plop.js",
     "lint:direct": "jest --config jest-eslint.config.js",
     "lint:fix:direct": "cross-env FIX=true jest --config jest-eslint.config.js",
