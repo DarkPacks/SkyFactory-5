@@ -29,6 +29,7 @@ enum PromptName {
 
 enum Thing {
   BlockAndItem = "Block and Item",
+  Food = "Food",
 }
 
 export const registerGenerator: RegisterGeneratorFn = (plop) => {
@@ -128,6 +129,11 @@ const getActionsForThing: DynamicActionsFunction = (answers) => {
           generateSkipFn(Thing.BlockAndItem),
           actionData,
         ),
+      );
+      break;
+    case Thing.Food:
+      actions.push(
+        ...getActionsForFood(generateSkipFn(Thing.Food), actionData),
       );
       break;
 
@@ -231,6 +237,32 @@ function getActionsForBlockAndItem(
       templateFile: path.resolve(
         __dirname,
         "./templates/data/loot_tables/block.json",
+      ),
+      data,
+    },
+  ];
+}
+
+function getActionsForFood(skip: SkipFn, data: ActionData): ActionType[] {
+  return [
+    createLangAction("item", skip),
+    {
+      type: "add",
+      skip,
+      path: getPath(`./things/${packNamespace}/item/{{snakeCase path}}.json`),
+      templateFile: path.resolve(
+        __dirname,
+        "./templates/things/item.food.json",
+      ),
+      data,
+    },
+    {
+      type: "add",
+      skip,
+      path: getPath(`./things/${packNamespace}/food/{{snakeCase path}}.json`),
+      templateFile: path.resolve(
+        __dirname,
+        "./templates/things/food.food.json",
       ),
       data,
     },
