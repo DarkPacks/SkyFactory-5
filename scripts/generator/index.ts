@@ -4,7 +4,7 @@ import { GeneratorModule } from "./models";
 
 export async function rootGenerator(plop: NodePlopAPI) {
   const files = await glob(__dirname + "/**/index.ts", {
-    ignore: [__filename],
+    ignore: [__filename, __dirname + "/common/**/*"],
   });
 
   const modules: GeneratorModule[] = await Promise.all(

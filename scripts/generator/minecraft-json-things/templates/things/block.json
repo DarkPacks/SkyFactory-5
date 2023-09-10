@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:dirt",
+  "material": "minecraft:dirt",
+  "type": "minecraft:plain",
+  "sound_type": "minecraft:gravel",
+  "explosion_resistance": 1,
+  "destroy_time": 0.75,
+  "replaceable": false,
+  "item": {
+    "group": "decorations"
+  }
+}
