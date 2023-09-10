@@ -23,4 +23,5 @@ export enum PromptName {
 export enum Thing {
   BlockAndItem = "Block and Item",
   Food = "Food",
+  Stick = "Stick",
 }

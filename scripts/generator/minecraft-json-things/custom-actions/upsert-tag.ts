@@ -3,42 +3,47 @@ import type { CustomActionFunction } from "node-plop";
 import path from "path";
 import {
   getSrcPath,
-  packNamespace,
   PromptName,
 } from "scripts/generator/minecraft-json-things/constants";
+import { formatResourceLocation } from "scripts/generator/minecraft-json-things/utils/resource-location";
 import {
   checkFileExists,
   readJSONFile,
   writeJSONFile,
 } from "scripts/utils/file";
 
-const defaultFormatFunc = (s: string) => s;
-
-export function createUpsertLangAction(
+export function createUpsertTagAction(
   type: "item" | "block",
-  formatPath: (basePath: string) => string = defaultFormatFunc,
-  formatName: (baseName: string) => string = defaultFormatFunc,
+  tagNamespace: string,
+  tagPath: string,
 ): CustomActionFunction {
-  const filePath = getSrcPath(`./assets/${packNamespace}/lang/en_us.json`);
+  const filePath = getSrcPath(
+    `./data/${tagNamespace}/tags/${type}s/${tagPath}.json`,
+  );
 
-  type LangData = {
-    [k: string]: string;
+  type TagData = {
+    values?: string[];
   };
 
   return async (answers) => {
-    let json: LangData = {};
+    let json: TagData = {};
 
     if (await checkFileExists(filePath)) {
-      json = await readJSONFile<LangData>(filePath);
+      json = await readJSONFile<TagData>(filePath);
     } else {
       await mkdir(path.parse(filePath).dir, { recursive: true });
     }
 
-    const langKey = `${type}.${answers[PromptName.Namespace]}.${formatPath(
-      answers[PromptName.Path],
-    )}`;
+    if (!json.values) {
+      json.values = [];
+    }
 
-    json[langKey] = formatName(answers[PromptName.Name]);
+    json.values.push(
+      formatResourceLocation(
+        answers[PromptName.Namespace],
+        answers[PromptName.Path],
+      ),
+    );
 
     await writeJSONFile(filePath, json, "json");
 

@@ -4,6 +4,7 @@ import { genEnsureConfirmedAction } from "scripts/generator/common";
 import { RegisterGeneratorFn } from "scripts/generator/models";
 import { getActionsForBlockAndItem } from "./action-getters/block-and-item";
 import { getActionsForFood } from "./action-getters/food";
+import { getActionsForStick } from "./action-getters/stick";
 import { packNamespace, PromptName, Thing } from "./constants";
 import { ActionData } from "./models";
 import { formatResourceLocation } from "./utils/resource-location";
@@ -22,7 +23,9 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
         type: "input",
         name: PromptName.Name,
         message: (answers) =>
-          `What is the name of your ${answers[PromptName.Thing]}?`,
+          shouldBeBaseAnswer(answers)
+            ? `What is the base name of your ${answers[PromptName.Thing]}?`
+            : `What is the name of your ${answers[PromptName.Thing]}?`,
       },
       {
         type: "input",
@@ -44,7 +47,9 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
         default: (answers: Answers) =>
           `${answers[PromptName.Name].toLowerCase().replaceAll(" ", "_")}`,
         message: (answers) =>
-          `What is the path for the ${answers[PromptName.Thing]}?`,
+          shouldBeBaseAnswer(answers)
+            ? `What is the base path of your ${answers[PromptName.Thing]}?`
+            : `What is the path for the ${answers[PromptName.Thing]}?`,
         validate: (input) => {
           if (/^[a-z0-9_]+$/.test(input)) {
             return true;
@@ -92,6 +97,9 @@ const getActionsForThing: DynamicActionsFunction = (answers) => {
     case Thing.Food:
       actions.push(...getActionsForFood(actionData));
       break;
+    case Thing.Stick:
+      actions.push(...getActionsForStick(actionData));
+      break;
 
     default:
       break;
@@ -99,3 +107,12 @@ const getActionsForThing: DynamicActionsFunction = (answers) => {
 
   return actions;
 };
+
+function shouldBeBaseAnswer(answers: Answers): boolean {
+  switch (answers[PromptName.Thing] as Thing) {
+    case Thing.Stick:
+      return true;
+    default:
+      return false;
+  }
+}
