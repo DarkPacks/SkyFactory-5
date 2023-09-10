@@ -1,36 +1,12 @@
-import { mkdir } from "fs/promises";
 import type { Answers } from "inquirer";
-import type {
-  ActionType,
-  CustomActionFunction,
-  DynamicActionsFunction,
-} from "node-plop";
-import path from "path";
+import type { ActionType, DynamicActionsFunction } from "node-plop";
 import { genEnsureConfirmedAction } from "scripts/generator/common";
 import { RegisterGeneratorFn } from "scripts/generator/models";
-import {
-  checkFileExists,
-  readJSONFile,
-  writeJSONFile,
-} from "scripts/utils/file";
-
-const packNamespace = "sf5_things";
-const jsonThingsPackRootDir = path.resolve(
-  `./src/minecraft/thingpacks/${packNamespace}`,
-);
-
-enum PromptName {
-  Thing = "thing",
-  Name = "name",
-  Namespace = "namespace",
-  Path = "path",
-  Confirmed = "confirmed",
-}
-
-enum Thing {
-  BlockAndItem = "Block and Item",
-  Food = "Food",
-}
+import { getActionsForBlockAndItem } from "./action-getters/block-and-item";
+import { getActionsForFood } from "./action-getters/food";
+import { packNamespace, PromptName, Thing } from "./constants";
+import { ActionData } from "./models";
+import { formatResourceLocation } from "./utils/resource-location";
 
 export const registerGenerator: RegisterGeneratorFn = (plop) => {
   plop.setGenerator("Minecraft JsonThings", {
@@ -93,20 +69,6 @@ export const registerGenerator: RegisterGeneratorFn = (plop) => {
   });
 };
 
-type SkipFn = (answers: Answers) => boolean;
-
-type ActionData = {
-  resourceLocation: string;
-};
-
-const generateSkipFn =
-  (thing: Thing): SkipFn =>
-  (answers: Answers) =>
-    answers[PromptName.Thing] !== thing;
-
-const getPath = (relativePath: string) =>
-  path.resolve(jsonThingsPackRootDir, relativePath);
-
 const getActionsForThing: DynamicActionsFunction = (answers) => {
   const actions: ActionType[] = [
     genEnsureConfirmedAction(PromptName.Confirmed),
@@ -117,24 +79,18 @@ const getActionsForThing: DynamicActionsFunction = (answers) => {
   }
 
   const actionData: ActionData = {
-    resourceLocation: `${answers[PromptName.Namespace]}:${
-      answers[PromptName.Path]
-    }`,
+    resourceLocation: formatResourceLocation(
+      answers[PromptName.Namespace],
+      answers[PromptName.Path],
+    ),
   };
 
   switch (answers?.thing as Thing) {
     case Thing.BlockAndItem:
-      actions.push(
-        ...getActionsForBlockAndItem(
-          generateSkipFn(Thing.BlockAndItem),
-          actionData,
-        ),
-      );
+      actions.push(...getActionsForBlockAndItem(actionData));
       break;
     case Thing.Food:
-      actions.push(
-        ...getActionsForFood(generateSkipFn(Thing.Food), actionData),
-      );
+      actions.push(...getActionsForFood(actionData));
       break;
 
     default:
@@ -143,128 +99,3 @@ const getActionsForThing: DynamicActionsFunction = (answers) => {
 
   return actions;
 };
-
-function createLangAction(
-  type: "item" | "block",
-  skip: SkipFn,
-): CustomActionFunction {
-  const filePath = getPath(`./assets/${packNamespace}/lang/en_us.json`);
-
-  type LangData = {
-    [k: string]: string;
-  };
-
-  return async (answers) => {
-    if (skip(answers)) {
-      return "";
-    }
-
-    let json: LangData = {};
-
-    if (await checkFileExists(filePath)) {
-      json = await readJSONFile<LangData>(filePath);
-    } else {
-      await mkdir(path.parse(filePath).dir, { recursive: true });
-    }
-
-    const langKey = `${type}.${answers[PromptName.Namespace]}.${
-      answers[PromptName.Path]
-    }`;
-
-    json[langKey] = answers[PromptName.Name];
-
-    await writeJSONFile(filePath, json, "json");
-
-    return `Upserted ${filePath}`;
-  };
-}
-
-function getActionsForBlockAndItem(
-  skip: SkipFn,
-  data: ActionData,
-): ActionType[] {
-  return [
-    createLangAction("block", skip),
-    {
-      type: "add",
-      skip,
-      path: getPath(`./things/${packNamespace}/block/{{snakeCase path}}.json`),
-      templateFile: path.resolve(__dirname, "./templates/things/block.json"),
-      data,
-    },
-    {
-      type: "add",
-      skip,
-      path: getPath(
-        `./assets/${packNamespace}/blockstates/{{snakeCase path}}.json`,
-      ),
-      templateFile: path.resolve(
-        __dirname,
-        "./templates/assets/blockstate.block.json",
-      ),
-      data,
-    },
-    {
-      type: "add",
-      skip,
-      path: getPath(
-        `./assets/${packNamespace}/models/block/{{snakeCase path}}.json`,
-      ),
-      templateFile: path.resolve(
-        __dirname,
-        "./templates/assets/model.block.json",
-      ),
-      data,
-    },
-    {
-      type: "add",
-      skip,
-      path: getPath(
-        `./assets/${packNamespace}/models/item/{{snakeCase path}}.json`,
-      ),
-      templateFile: path.resolve(
-        __dirname,
-        "./templates/assets/item-model.block.json",
-      ),
-      data,
-    },
-    {
-      type: "add",
-      skip,
-      path: getPath(
-        `./data/${packNamespace}/loot_tables/blocks/{{snakeCase path}}.json`,
-      ),
-      templateFile: path.resolve(
-        __dirname,
-        "./templates/data/loot_tables/block.json",
-      ),
-      data,
-    },
-  ];
-}
-
-function getActionsForFood(skip: SkipFn, data: ActionData): ActionType[] {
-  return [
-    createLangAction("item", skip),
-    {
-      type: "add",
-      skip,
-      path: getPath(`./things/${packNamespace}/item/{{snakeCase path}}.json`),
-      templateFile: path.resolve(
-        __dirname,
-        "./templates/things/item.food.json",
-      ),
-      data,
-    },
-    {
-      type: "add",
-      skip,
-      path: getPath(`./things/${packNamespace}/food/{{snakeCase path}}.json`),
-      templateFile: path.resolve(
-        __dirname,
-        "./templates/things/food.food.json",
-      ),
-      data,
-    },
-  ];
-}
