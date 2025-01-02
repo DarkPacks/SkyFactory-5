@@ -3,7 +3,7 @@ import crafttweaker.api.text.Component;
 
 val color = Globals.colors[ColorName.Blue];
 val textColor = 0x0080FF;
-val component = Component.literal(color.getName()).withStyle(style => style.withColor(textColor));
+val component = Component.literal(color.getDisplayName()()).withStyle(style => style.withColor(textColor));
 
 val items as IItemStack[] = [
   <item:minecraft:lingering_potion>.withTag({Potion: "minecraft:water"}),

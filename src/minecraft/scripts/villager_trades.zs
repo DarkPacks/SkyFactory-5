@@ -84,22 +84,22 @@ villagerTrades.addWanderingTrade(1, 4, <item:pizzacraft:olive_sapling>, 4, 8);
 villagerTrades.addWanderingTrade(1, 4, <item:thermal:corn_seeds>, 4, 8);
 villagerTrades.addWanderingTrade(1, 4, <item:thermal:onion_seeds>, 4, 8);
 // Level 2
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/pink_loot_bag", Color: 15961002, Name: "Pink Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/yellow_loot_bag", Color: 16701501, Name: "Yellow Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/white_loot_bag", Color: 16383998, Name: "White Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/light_blue_loot_bag", Color: 3847130, Name: "Light Blue Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/orange_loot_bag", Color: 16351261, Name: "Orange Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/black_loot_bag", Color: 1908001, Name: "Black Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/gray_loot_bag", Color: 4673362, Name: "Gray Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/lime_loot_bag", Color: 8439583, Name: "Lime Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/blue_loot_bag", Color: 3949738, Name: "Blue Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/purple_loot_bag", Color: 8991416, Name: "Purple Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/cyan_loot_bag", Color: 1481884, Name: "Cyan Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/light_gray_loot_bag", Color: 10329495, Name: "Light Gray Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/red_loot_bag", Color: 11546150, Name: "Red Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/green_loot_bag", Color: 6192150, Name: "Green Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/brown_loot_bag", Color: 8606770, Name: "Brown Loot Bag"}), 4, 9);
-villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/magenta_loot_bag", Color: 13061821, Name: "Magenta Loot Bag"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/pink_loot_bag", Color: 15961002, Name: "粉色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/yellow_loot_bag", Color: 16701501, Name: "黄色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/white_loot_bag", Color: 16383998, Name: "白色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/light_blue_loot_bag", Color: 3847130, Name: "淡蓝色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/orange_loot_bag", Color: 16351261, Name: "橙色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/black_loot_bag", Color: 1908001, Name: "黑色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/gray_loot_bag", Color: 4673362, Name: "灰色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/lime_loot_bag", Color: 8439583, Name: "黄绿色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/blue_loot_bag", Color: 3949738, Name: "蓝色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/purple_loot_bag", Color: 8991416, Name: "紫色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/cyan_loot_bag", Color: 1481884, Name: "青色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/light_gray_loot_bag", Color: 10329495, Name: "淡灰色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/red_loot_bag", Color: 11546150, Name: "红色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/green_loot_bag", Color: 6192150, Name: "绿色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/brown_loot_bag", Color: 8606770, Name: "棕色战利品袋"}), 4, 9);
+villagerTrades.addWanderingTrade(2, 8, <item:lootbags:loot_bag>.withTag({Type: "COMMON", Loot: "skyfactory_5:loot_bags/magenta_loot_bag", Color: 13061821, Name: "品红色战利品袋"}), 4, 9);
 
 
 // // Armorer

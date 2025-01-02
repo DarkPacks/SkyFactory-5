@@ -6,26 +6,26 @@ import crafttweaker.api.entity.EntityType;
 public class Globals {
   public static val colors as Color[ColorName] = {
     // Commented colors are being kept for reference
-    ColorName.None: new Color(ColorName.None, "Colorless", "none", 9539985), // #919191
-    ColorName.Red: new Color(ColorName.Red, "Red", "red", 11546150), // #b02e26
-    ColorName.Green: new Color(ColorName.Green, "Green", "green", 6192150), // #5d7c15
-    ColorName.Lime: new Color(ColorName.Lime, "Lime", "lime", 8439583), // #80c71f
+    ColorName.None: new Color(ColorName.None, "无色", "none", 9539985), // #919191
+    ColorName.Red: new Color(ColorName.Red, "红色", "red", 11546150), // #b02e26
+    ColorName.Green: new Color(ColorName.Green, "绿色", "green", 6192150), // #5d7c15
+    ColorName.Lime: new Color(ColorName.Lime, "黄绿色", "lime", 8439583), // #80c71f
     // ColorName.Blue: new Color(ColorName.Blue, "Blue", "blue", 33023), // #0080ff
-    ColorName.Blue: new Color(ColorName.Blue, "Blue", "blue", 3949738), // #3c44a9
-    ColorName.LightBlue: new Color(ColorName.LightBlue, "Light Blue", "light_blue", 3847130), // #3ab3da
-    ColorName.Gray: new Color(ColorName.Gray, "Gray", "gray", 4673362), // #474f52
-    ColorName.LightGray: new Color(ColorName.LightGray, "Light Gray", "light_gray", 10329495), // #9c9d97
-    ColorName.Yellow: new Color(ColorName.Yellow, "Yellow", "yellow", 16701501), // #ffd83d
+    ColorName.Blue: new Color(ColorName.Blue, "蓝色", "blue", 3949738), // #3c44a9
+    ColorName.LightBlue: new Color(ColorName.LightBlue, "淡蓝色", "light_blue", 3847130), // #3ab3da
+    ColorName.Gray: new Color(ColorName.Gray, "灰色", "gray", 4673362), // #474f52
+    ColorName.LightGray: new Color(ColorName.LightGray, "淡灰色", "light_gray", 10329495), // #9c9d97
+    ColorName.Yellow: new Color(ColorName.Yellow, "黄色", "yellow", 16701501), // #ffd83d
     // ColorName.Purple: new Color(ColorName.Purple, "Purple", "purple", 8388736), // #800080
-    ColorName.Purple: new Color(ColorName.Purple, "Purple", "purple", 8991416), // #8932b7
-    ColorName.Magenta: new Color(ColorName.Magenta, "Magenta", "magenta", 13061821), // #c64fbd
-    ColorName.Pink: new Color(ColorName.Pink, "Pink", "pink", 15961002), // #f38caa
-    ColorName.White: new Color(ColorName.White, "White", "white", 16383998), // #f9ffff
-    ColorName.Black: new Color(ColorName.Black, "Black", "black", 1908001), // #1d1c21
-    ColorName.Brown: new Color(ColorName.Brown, "Brown", "brown", 8606770), // #825432
-    ColorName.LightBrown: new Color(ColorName.LightBrown, "Brown", "brown", 9849600), // #964B00
-    ColorName.Cyan: new Color(ColorName.Cyan, "Cyan", "cyan", 1481884), // #169c9d
-    ColorName.Orange: new Color(ColorName.Orange, "Orange", "orange", 16351261), // #f9801d
+    ColorName.Purple: new Color(ColorName.Purple, "紫色", "purple", 8991416), // #8932b7
+    ColorName.Magenta: new Color(ColorName.Magenta, "品红色", "magenta", 13061821), // #c64fbd
+    ColorName.Pink: new Color(ColorName.Pink, "粉色", "pink", 15961002), // #f38caa
+    ColorName.White: new Color(ColorName.White, "白色", "white", 16383998), // #f9ffff
+    ColorName.Black: new Color(ColorName.Black, "黑色", "black", 1908001), // #1d1c21
+    ColorName.Brown: new Color(ColorName.Brown, "棕色", "brown", 8606770), // #825432
+    ColorName.LightBrown: new Color(ColorName.LightBrown, "棕色", "brown", 9849600), // #964B00
+    ColorName.Cyan: new Color(ColorName.Cyan, "青色", "cyan", 1481884), // #169c9d
+    ColorName.Orange: new Color(ColorName.Orange, "橙色", "orange", 16351261), // #f9801d
     ColorName.RGB: new Color(ColorName.RGB, "RGB", "rgb", 16755200) // #FFAA00
   };
 
@@ -160,6 +160,7 @@ public class Globals {
     <entitytype:monsterplus:opalescent_eye>: new StagedMob(<entitytype:monsterplus:opalescent_eye>, MobStage.OPALESCENT_EYE),
     <entitytype:monsterplus:overgrown_skeleton>: new StagedMob(<entitytype:monsterplus:overgrown_skeleton>, MobStage.OVERGROWN_SKELETON),
     <entitytype:monsterplus:swamp_zombie>: new StagedMob(<entitytype:monsterplus:swamp_zombie>, MobStage.SWAMP_ZOMBIE),
+    <entitytype:moofluids:fluid_cow>: new StagedMob(<entitytype:moofluids:fluid_cow>, MobStage.FLUID_COW),
     <entitytype:sushigocrafting:shrimp>: new StagedMob(<entitytype:sushigocrafting:shrimp>, MobStage.SHRIMP),
     <entitytype:sushigocrafting:tuna>: new StagedMob(<entitytype:sushigocrafting:tuna>, MobStage.TUNA),
     <entitytype:veincreeper:black>: new StagedMob(<entitytype:veincreeper:black>, MobStage.BLACK_VEIN_CREEPER),

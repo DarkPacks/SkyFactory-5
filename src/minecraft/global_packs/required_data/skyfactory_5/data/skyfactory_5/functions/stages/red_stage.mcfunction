@@ -11,6 +11,6 @@ execute as @e[type=player,distance=..16] run colorfulskies color @s sky b02e26
 execute as @e[type=player,distance=..16] run playsound minecraft:ui.toast.challenge_complete master @s ~ ~ ~ 0.35
 
 title @s title {"text":"","color":"#8A2520"}
-title @s subtitle [{"text":"Red","color":"#8A2520"},{"text":" Has Been Added to Your Palette","color":"#FFFFFF"}]
+title @s subtitle [{"text":"你的世界中恢复了 ","color":"#FFFFFF"},{"text":"红色","color":"#8A2520"}]
 
 execute as @e[type=player,distance=..16] run tag @s add red_stage

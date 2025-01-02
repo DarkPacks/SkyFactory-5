@@ -7,10 +7,10 @@ events.register<GameStageAdded>((event) => {
 
   switch event.stage {
     case "brown":
-      message = "Brown has been added to your pallette";
+      message = "你的世界中恢复了棕色";
       break;
     case "black":
-      message = "Black has been added to your pallette";
+      message = "你的世界中恢复了黑色";
       break;
   }
 
