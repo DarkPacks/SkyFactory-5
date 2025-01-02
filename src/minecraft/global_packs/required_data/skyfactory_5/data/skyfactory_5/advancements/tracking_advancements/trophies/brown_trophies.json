@@ -4,7 +4,7 @@
       "item": "obtrophies:trophy",
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:brown\"}}"
     },
-    "title": "Brown Trophies!",
+    "title": "棕色奖杯！",
     "description": {
       "text": " "
     },
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/trophies/root",
   "criteria": {
-    "Bat": {
+    "bat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Brown Vein Creeper": {
+    "brown_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Cod": {
+    "cod": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Cow": {
+    "cow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "Donkey": {
+    "donkey": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,7 +70,18 @@
         ]
       }
     },
-    "Ghast Cow": {
+    "fluid_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["obtrophies:trophy"],
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"moofluids:fluid_cow\"}}"
+          }
+        ]
+      }
+    },
+    "ghast_cow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -81,7 +92,7 @@
         ]
       }
     },
-    "Horse": {
+    "horse": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -92,7 +103,7 @@
         ]
       }
     },
-    "Husk": {
+    "husk": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -103,7 +114,7 @@
         ]
       }
     },
-    "Mule": {
+    "mule": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -114,7 +125,7 @@
         ]
       }
     },
-    "Rabbit": {
+    "rabbit": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -125,7 +136,7 @@
         ]
       }
     },
-    "Tadpole": {
+    "tadpole": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -136,7 +147,7 @@
         ]
       }
     },
-    "Villager": {
+    "villager": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

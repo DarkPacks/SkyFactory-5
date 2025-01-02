@@ -4,7 +4,7 @@
       "item": "obtrophies:trophy",
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:gray\"}}"
     },
-    "title": "Gray Trophies!",
+    "title": "灰色奖杯！",
     "description": {
       "text": " "
     },
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/trophies/root",
   "criteria": {
-    "Abyssologer": {
+    "abyssologer": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Bouldering Zombie": {
+    "bouldering_zombie": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Cat": {
+    "cat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Evoker": {
+    "evoker": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "Gray Vein Creeper": {
+    "gray_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,7 +70,7 @@
         ]
       }
     },
-    "Illusioner": {
+    "illusioner": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -81,7 +81,7 @@
         ]
       }
     },
-    "Pillager": {
+    "pillager": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -92,7 +92,7 @@
         ]
       }
     },
-    "Ravager": {
+    "ravager": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -103,7 +103,7 @@
         ]
       }
     },
-    "Silverfish": {
+    "silverfish": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -114,7 +114,7 @@
         ]
       }
     },
-    "Vindicator": {
+    "vindicator": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

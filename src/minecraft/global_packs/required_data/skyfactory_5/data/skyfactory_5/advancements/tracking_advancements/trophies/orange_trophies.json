@@ -4,7 +4,7 @@
       "item": "obtrophies:trophy",
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:orange\"}}"
     },
-    "title": "Orange Trophies!",
+    "title": "橙色奖杯！",
     "description": {
       "text": " "
     },
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/trophies/root",
   "criteria": {
-    "Blaze": {
+    "blaze": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Fox": {
+    "fox": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Hyper Rabbit": {
+    "hyper_rabbit": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Lava Monster": {
+    "lava_monster": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "Lava Squid": {
+    "lava_squid": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,7 +70,7 @@
         ]
       }
     },
-    "Magma Cow": {
+    "magma_cow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -81,7 +81,7 @@
         ]
       }
     },
-    "Magma Cube": {
+    "magma_cube": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -92,7 +92,7 @@
         ]
       }
     },
-    "Mother Lava Squid": {
+    "mother_lava_squid": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -103,7 +103,7 @@
         ]
       }
     },
-    "Orange Vein Creeper": {
+    "orange_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -114,7 +114,7 @@
         ]
       }
     },
-    "Pufferfish": {
+    "pufferfish": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -125,7 +125,7 @@
         ]
       }
     },
-    "Tropical Fish": {
+    "tropical_fish": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -136,7 +136,7 @@
         ]
       }
     },
-    "Wooly Cow": {
+    "wooly_cow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

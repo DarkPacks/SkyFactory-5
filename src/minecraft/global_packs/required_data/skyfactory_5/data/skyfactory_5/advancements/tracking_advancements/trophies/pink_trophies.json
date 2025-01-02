@@ -4,7 +4,7 @@
       "item": "obtrophies:trophy",
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:pink\"}}"
     },
-    "title": "Pink Trophies!",
+    "title": "粉色奖杯！",
     "description": {
       "text": " "
     },
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/trophies/orange_trophies",
   "criteria": {
-    "Axolotl": {
+    "axolotl": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Hoglin": {
+    "hoglin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Jumbo Rabbit": {
+    "jumbo_rabbit": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Moolip": {
+    "moolip": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "Pig": {
+    "pig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,7 +70,7 @@
         ]
       }
     },
-    "Piglin": {
+    "piglin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -81,7 +81,7 @@
         ]
       }
     },
-    "Piglin Brute": {
+    "piglin_brute": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -92,7 +92,7 @@
         ]
       }
     },
-    "Pink Vein Creeper": {
+    "pink_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -103,7 +103,7 @@
         ]
       }
     },
-    "Shrimp": {
+    "shrimp": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -114,7 +114,7 @@
         ]
       }
     },
-    "Teacup Pig": {
+    "teacup_pig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -125,7 +125,7 @@
         ]
       }
     },
-    "Zoglin": {
+    "zoglin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -136,7 +136,7 @@
         ]
       }
     },
-    "Zombified Pig": {
+    "zombified_pig": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -147,7 +147,7 @@
         ]
       }
     },
-    "Zombified Piglin": {
+    "zombified_piglin": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

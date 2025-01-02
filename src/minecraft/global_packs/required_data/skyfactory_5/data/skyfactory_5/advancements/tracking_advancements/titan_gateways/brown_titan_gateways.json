@@ -4,7 +4,7 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:normal/brown_vein_creeper\"}"
     },
-    "title": "Brown Titan Gateways!",
+    "title": "棕色Titan传送门！",
     "description": {
       "text": " "
     },
@@ -66,6 +66,17 @@
           {
             "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/donkey\"}"
+          }
+        ]
+      }
+    },
+    "fluid_cow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["gateways:gate_pearl"],
+            "nbt": "{gateway:\"gateways:normal/fluid_cow\"}"
           }
         ]
       }

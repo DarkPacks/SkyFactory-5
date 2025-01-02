@@ -4,7 +4,7 @@
       "item": "obtrophies:trophy",
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:red\"}}"
     },
-    "title": "Red Trophies!",
+    "title": "红色奖杯！",
     "description": {
       "text": " "
     },
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/trophies/purple_trophies",
   "criteria": {
-    "Cluck Shroom": {
+    "cluck_shroom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Mooshroom": {
+    "mooshroom": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Parrot": {
+    "parrot": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Red Vein Creeper": {
+    "red_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "Red Chu Chu": {
+    "red_chu_chu": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,7 +70,7 @@
         ]
       }
     },
-    "Salmon": {
+    "salmon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -81,7 +81,7 @@
         ]
       }
     },
-    "Strider": {
+    "strider": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -92,7 +92,7 @@
         ]
       }
     },
-    "Wandering Winemaker": {
+    "wandering_winemaker": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
