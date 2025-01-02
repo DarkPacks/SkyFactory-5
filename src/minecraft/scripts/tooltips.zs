@@ -26,7 +26,7 @@ import crafttweaker.api.text.Component;
 */
 
 
- var tool_belt_tip = Component.literal("Upgrade with a Belt Pouch in an Anvil").setStyle(<constant:formatting:gold>);
+ var tool_belt_tip = Component.literal("在铁砧中用腰带包升级").setStyle(<constant:formatting:gold>);
  <item:toolbelt:belt>.addTooltip(tool_belt_tip);
 
 
@@ -38,7 +38,7 @@ import crafttweaker.api.text.Component;
 // twitch channel and use code darkosto at checkout to get
 // negative 10% off your next purchase!
 
- var uses_channel = Component.literal("**Uses a Channel**").setStyle(<constant:formatting:yellow>);
+ var uses_channel = Component.literal("**需要使用频道**").setStyle(<constant:formatting:yellow>);
 
  <item:ae2:drive>.addTooltip(uses_channel);
  <item:ae2:spatial_io_port>.addTooltip(uses_channel);
@@ -73,22 +73,21 @@ import crafttweaker.api.text.Component;
  <item:ae2:chest>.addTooltip(uses_channel);
 
 // Create
- var extruder = Component.literal("Creates Cobblestone, Stone, and Basalt").setStyle(<constant:formatting:yellow>);
+ var extruder = Component.literal("用于创造圆石、石头以及玄武岩。").setStyle(<constant:formatting:yellow>);
  <item:create_mechanical_extruder:mechanical_extruder>.addTooltip(extruder);
 
  // Things I find funny
-  var blooming_onion = Component.literal("Legally distinct!").setStyle(<constant:formatting:white>);
+  var blooming_onion = Component.literal("字面意义上的上不同！").setStyle(<constant:formatting:white>);
   blooming_onion.setStyle(<constant:minecraft:formatting:italic>);
   <item:sf5_things:block_of_blooming_onion>.addTooltip(blooming_onion);
 
 // OB Trophies
- var obtrophies = Component.literal("Click to Toggle Spawning").setStyle(<constant:formatting:yellow>);
+ var obtrophies = Component.literal("点击开关生成").setStyle(<constant:formatting:yellow>);
  <item:obtrophies:trophy>.addTooltip(obtrophies);
 
 
 // Energetic Sheep
- var energetic_wool1 = Component.literal("Can be used to power devices by clicking").setStyle(<constant:formatting:yellow>);
- var energetic_wool2 = Component.literal("compatible machines with the Wool in hand").setStyle(<constant:formatting:yellow>);
+ var energetic_wool1 = Component.literal("手持羊毛点击兼容的机器为其供电").setStyle(<constant:formatting:yellow>);
 
  <item:energeticsheep:white_energetic_wool>.addTooltip(energetic_wool1);
  <item:energeticsheep:orange_energetic_wool>.addTooltip(energetic_wool1);
@@ -107,46 +106,40 @@ import crafttweaker.api.text.Component;
  <item:energeticsheep:red_energetic_wool>.addTooltip(energetic_wool1);
  <item:energeticsheep:black_energetic_wool>.addTooltip(energetic_wool1);
 
- <item:energeticsheep:white_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:orange_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:magenta_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:light_blue_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:yellow_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:lime_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:pink_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:gray_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:light_gray_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:cyan_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:purple_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:blue_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:brown_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:green_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:red_energetic_wool>.addTooltip(energetic_wool2);
- <item:energeticsheep:black_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:white_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:orange_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:magenta_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:light_blue_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:yellow_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:lime_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:pink_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:gray_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:light_gray_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:cyan_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:purple_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:blue_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:brown_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:green_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:red_energetic_wool>.addTooltip(energetic_wool2);
+//  <item:energeticsheep:black_energetic_wool>.addTooltip(energetic_wool2);
 
 
 
-  var energetic_shears1 = Component.literal("Can be used to power devices by clicking").setStyle(<constant:formatting:yellow>);
-  var energetic_shears2 = Component.literal("with the Shears in hand or inserting into a compatible machine").setStyle(<constant:formatting:yellow>);
+  var energetic_shears1 = Component.literal("手持脉冲剪刀点击或放入兼容的机器中为其供电").setStyle(<constant:formatting:yellow>);
   <item:energeticsheep:energetic_shears>.addTooltip(energetic_shears1);
-  <item:energeticsheep:energetic_shears>.addTooltip(energetic_shears2);
 
 // Crafting Station
-  var crafting_station1 = Component.literal("Can be used to craft any shaped ").setStyle(<constant:formatting:yellow>);
-  var crafting_station2 = Component.literal("or shapeless recipes").setStyle(<constant:formatting:yellow>);
+  var crafting_station1 = Component.literal("用于制作所有有序及无序配方。").setStyle(<constant:formatting:yellow>);
   <item:craftingstation:crafting_station>.addTooltip(crafting_station1);
-  <item:craftingstation:crafting_station>.addTooltip(crafting_station2);
 
 // Draconic Evolution Chaos Shards
-  var chaos_shard1 = Component.literal("Located at the center of a Chaos Island ").setStyle(<constant:formatting:yellow>);
-  var chaos_shard2 = Component.literal("in the End after defeating the").setStyle(<constant:formatting:yellow>);
-  var chaos_shard3 = Component.literal("Chaos Guardian").setStyle(<constant:formatting:yellow>);
+  var chaos_shard1 = Component.literal("在击败混沌守卫后，生成在混沌之岛的中心。").setStyle(<constant:formatting:yellow>);
+  var chaos_shard2 = Component.literal("混沌之岛以(0,0)为中心，在每个方向上每隔10000格生成一个。").setStyle(<constant:formatting:yellow>);
   <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard1);
   <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard2);
-  <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard3);
 
 // RFTools Dimensions
-  var lost_knowledge1 = Component.literal("Dropped by Endermen, Ender Tots, and Angry Endermen or found in RFTools Dimension Loot Chests").withStyle(style => style.withColor(0xf9ffff));
+  var lost_knowledge1 = Component.literal("由末影人、末影幼崽、愤怒末影人掉落，或在RFTools维度的战利品箱中找到。").withStyle(style => style.withColor(0xf9ffff));
   // var lost_knowledge2 = Component.literal("or found in RFTools Dimension Loot Chests").setStyle(<constant:formatting:yellow>);
   <item:rftoolsdim:common_lost_knowledge>.addTooltip(lost_knowledge1);
  // <item:rftoolsdim:common_lost_knowledge>.addTooltip(lost_knowledge2);
@@ -158,5 +151,5 @@ import crafttweaker.api.text.Component;
  // <item:rftoolsdim:legendary_lost_knowledge>.addTooltip(lost_knowledge2);
 
 // Mystical Agriculture
-  var inferium_essence = Component.literal("Dropped from Lime Leaves").setStyle(<constant:formatting:yellow>);
+  var inferium_essence = Component.literal("由黄绿色树叶掉落").setStyle(<constant:formatting:yellow>);
   <item:mysticalagriculture:inferium_essence>.addTooltip(inferium_essence);

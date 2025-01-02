@@ -5,7 +5,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:sf5_blocks": {
-      "name": "Blocks",
+      "name": "skyfactory_5.recipes.block_resources",
       "icon": {
         "item": "minecraft:cobblestone"
       },

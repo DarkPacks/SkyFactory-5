@@ -70,17 +70,6 @@
         ]
       }
     },
-    "fluid_cow": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/fluid_cow\"}"
-          }
-        ]
-      }
-    },
     "ghast_cow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {

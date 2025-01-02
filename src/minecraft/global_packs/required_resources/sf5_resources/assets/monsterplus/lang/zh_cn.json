@@ -11,7 +11,7 @@
   "entity.monsterplus.purple_fireball": "深渊火球",
   "entity.monsterplus.spectral_skeleton": "幽灵仆从",
   "entity.monsterplus.swamp_zombie": "沼泽僵尸",
-  "item.monsterplus.abyssologer_spawn_egg": "生成-深渊隐士",
+  "item.monsterplus.abyssologer_spawn_egg": "深渊隐士刷怪蛋",
   "item.monsterplus.ancient_crystal": "远古水晶",
   "item.monsterplus.crystal_arrow": "晶体箭",
   "item.monsterplus.crystal_boots": "远古水晶靴子",
@@ -25,10 +25,10 @@
   "item.monsterplus.darkstar": "深黑之星",
   "item.monsterplus.glow_skeleton_spawn_egg": "荧光骷髅",
   "item.monsterplus.gnawing_jaw": "折磨之颌",
-  "item.monsterplus.lava_squid_spawn_egg": "生成-熔岩鱿鱼",
-  "item.monsterplus.mother_lava_squid_spawn_egg": "生成-熔岩鱿鱼之母",
-  "item.monsterplus.opalescent_eye_spawn_egg": "生成-幻彩之眼",
-  "item.monsterplus.overgrown_skeleton_spawn_egg": "生成-蔓生骷髅",
-  "item.monsterplus.spectral_skeleton_spawn_egg": "生成-幽灵仆从",
-  "item.monsterplus.swamp_zombie_spawn_egg": "生成-沼泽僵尸"
+  "item.monsterplus.lava_squid_spawn_egg": "熔岩鱿鱼刷怪蛋",
+  "item.monsterplus.mother_lava_squid_spawn_egg": "熔岩鱿鱼之母刷怪蛋",
+  "item.monsterplus.opalescent_eye_spawn_egg": "幻彩之眼刷怪蛋",
+  "item.monsterplus.overgrown_skeleton_spawn_egg": "蔓生骷髅刷怪蛋",
+  "item.monsterplus.spectral_skeleton_spawn_egg": "幽灵仆从刷怪蛋",
+  "item.monsterplus.swamp_zombie_spawn_egg": "沼泽僵尸刷怪蛋"
 }

@@ -153,7 +153,7 @@ ContentBuilder.factory
       Type: "COMMON",
       Loot: "skyfactory_5:loot_bags/" + color.getResourceName() + "_loot_bag",
       Color: color.asDecimal(),
-      Name: color.getDisplayName() + " Loot Bag"
+      Name: color.getName() + "战利品袋"
     });
   })
   .registerItem(ColoredItem.Wool, (color) => {

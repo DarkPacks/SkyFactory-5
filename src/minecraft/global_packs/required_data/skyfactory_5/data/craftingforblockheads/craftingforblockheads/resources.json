@@ -5,7 +5,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:sf5_resources": {
-      "name": "Resources",
+      "name": "skyfactory_5.recipes.resources",
       "icon": {
         "item": "minecraft:iron_ingot"
       },

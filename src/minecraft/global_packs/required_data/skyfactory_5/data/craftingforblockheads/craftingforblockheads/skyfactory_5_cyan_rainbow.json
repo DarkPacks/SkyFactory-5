@@ -14,7 +14,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:rainbow_cyan_crafting_table": {
-      "name": "Cyan Recipes",
+      "name": "skyfactory_5.recipes.skyfactory_5_cyan",
       "icon": {
         "item": "colouredstuff:crafting_table_cyan"
       },
@@ -134,7 +134,9 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["rainbow_crafting_table_present"],
+      "hard_requirements": [
+        "rainbow_crafting_table_present"
+      ],
       "priority": 9995
     }
   }

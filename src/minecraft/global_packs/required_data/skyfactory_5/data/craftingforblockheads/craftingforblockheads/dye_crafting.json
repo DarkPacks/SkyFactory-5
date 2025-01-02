@@ -5,7 +5,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:sf5_dye": {
-      "name": "Color Dyes",
+      "name": "skyfactory_5.recipes.dye_crafting",
       "icon": {
         "item": "minecraft:yellow_dye"
       },

@@ -10,7 +10,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:crafting_stick": {
-      "name": "Crafting Stick",
+      "name": "skyfactory_5.recipes.crafting_stick",
       "icon": {
         "item": "cyclic:crafting_stick"
       },
@@ -93,7 +93,9 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["crafting_stick_present"],
+      "hard_requirements": [
+        "crafting_stick_present"
+      ],
       "priority": 100000
     }
   }

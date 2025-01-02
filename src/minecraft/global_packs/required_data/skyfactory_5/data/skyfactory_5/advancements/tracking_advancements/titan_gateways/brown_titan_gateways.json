@@ -4,7 +4,7 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:normal/brown_vein_creeper\"}"
     },
-    "title": "棕色Titan传送门！",
+    "title": "巨型棕色传送门！",
     "description": {
       "text": " "
     },
@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/bat\"}"
           }
         ]
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/brown_vein_creeper\"}"
           }
         ]
@@ -42,7 +46,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/cod\"}"
           }
         ]
@@ -53,7 +59,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/cow\"}"
           }
         ]
@@ -64,19 +72,10 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/donkey\"}"
-          }
-        ]
-      }
-    },
-    "fluid_cow": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/fluid_cow\"}"
           }
         ]
       }
@@ -86,7 +85,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/ghast_cow\"}"
           }
         ]
@@ -97,7 +98,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/horse\"}"
           }
         ]
@@ -108,7 +111,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/husk\"}"
           }
         ]
@@ -119,7 +124,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/mule\"}"
           }
         ]
@@ -130,7 +137,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/rabbit\"}"
           }
         ]
@@ -141,7 +150,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/tadpole\"}"
           }
         ]
@@ -152,7 +163,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/villager\"}"
           }
         ]
