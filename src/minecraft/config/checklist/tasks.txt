@@ -50,8 +50,8 @@ Use the Crafting Stick to make a Colorless Crafting Table
 Use a Barrel to create Dirt
 Eat Dirt!
 Use Colored Planks to craft any Color Crafting Table
-Use any Dye and a Stick to make a Color Torch
 Change the color of a Sapling by using Dye on it
+Use any Dye and a Stick to make a Color Torch
 Craft a Crafting Station to make recipes not available in the Color Crafting Tables
 Craft a Silent's Gear Sickle to break Leaves faster
 Craft a Silent's Gear Axe to break Wood faster
