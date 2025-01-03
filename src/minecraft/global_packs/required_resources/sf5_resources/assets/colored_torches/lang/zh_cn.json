@@ -1,0 +1,19 @@
+{
+  "block.colored_torches.black_torch": "黑色火把",
+  "block.colored_torches.blue_torch": "蓝色火把",
+  "block.colored_torches.brown_torch": "棕色火把",
+  "block.colored_torches.cyan_torch": "青色火把",
+  "block.colored_torches.gray_torch": "灰色火把",
+  "block.colored_torches.green_torch": "绿色火把",
+  "block.colored_torches.light_blue_torch": "淡蓝色火把",
+  "block.colored_torches.light_gray_torch": "淡灰色火把",
+  "block.colored_torches.lime_torch": "黄绿色火把",
+  "block.colored_torches.magenta_torch": "品红色火把",
+  "block.colored_torches.orange_torch": "橙色火把",
+  "block.colored_torches.pink_torch": "粉红色火把",
+  "block.colored_torches.purple_torch": "紫色火把",
+  "block.colored_torches.red_torch": "红色火把",
+  "block.colored_torches.white_torch": "白色火把",
+  "block.colored_torches.yellow_torch": "黄色火把",
+  "itemGroup.colored_torches": "Colored Torches"
+}

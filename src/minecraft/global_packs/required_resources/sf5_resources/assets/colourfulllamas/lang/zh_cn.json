@@ -1,0 +1,48 @@
+{
+  "itemGroup.colourfulllamas": "Colorful Llamas",
+
+  "entity.colourfulllamas.llama": "羊驼",
+
+  "entity.colourfulllamas.llama_white": "白色羊驼",
+  "entity.colourfulllamas.llama_orange": "橙色羊驼",
+  "entity.colourfulllamas.llama_magenta": "品红色羊驼",
+  "entity.colourfulllamas.llama_light_blue": "淡蓝色羊驼",
+  "entity.colourfulllamas.llama_yellow": "黄色羊驼",
+  "entity.colourfulllamas.llama_lime": "黄绿色羊驼",
+  "entity.colourfulllamas.llama_pink": "粉红色羊驼",
+  "entity.colourfulllamas.llama_gray": "灰色羊驼",
+  "entity.colourfulllamas.llama_light_gray": "淡灰色羊驼",
+  "entity.colourfulllamas.llama_cyan": "青色羊驼",
+  "entity.colourfulllamas.llama_blue": "蓝色羊驼",
+  "entity.colourfulllamas.llama_brown": "棕色羊驼",
+  "entity.colourfulllamas.llama_green": "绿色羊驼",
+  "entity.colourfulllamas.llama_red": "红色羊驼",
+  "entity.colourfulllamas.llama_black": "黑色羊驼",
+  "entity.colourfulllamas.llama_purple": "紫色羊驼",
+  "entity.colourfulllamas.llama_missing": "'丢失纹理'的羊驼",
+
+  "block.colourfulllamas.missing_wool": "'丢失纹理'的羊驼羊毛",
+  "block.colourfulllamas.missing_carpet": "'丢失纹理'的羊驼地毯",
+
+  "item.colourfulllamas.llama_steak": "羊驼排",
+  "item.colourfulllamas.llama_steak_cooked": "熟羊驼排",
+  "item.colourfulllamas.colourful_llama_spawn_egg": "染色羊驼刷怪蛋",
+
+  "colour.0": "白色",
+  "colour.1": "橙色",
+  "colour.2": "品红色",
+  "colour.3": "淡蓝色",
+  "colour.4": "黄色",
+  "colour.5": "黄绿色",
+  "colour.6": "粉红色",
+  "colour.7": "灰色",
+  "colour.8": "淡灰色",
+  "colour.9": "青色",
+  "colour.10": "紫色",
+  "colour.11": "蓝色",
+  "colour.12": "棕色",
+  "colour.13": "绿色",
+  "colour.14": "红色",
+  "colour.15": "黑色",
+  "colour.16": "'丢失纹理'"
+}

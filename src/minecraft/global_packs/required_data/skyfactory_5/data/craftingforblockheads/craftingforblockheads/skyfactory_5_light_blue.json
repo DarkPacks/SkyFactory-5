@@ -14,7 +14,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:light_blue_crafting_table": {
-      "name": "Light_Blue Recipes",
+      "name": "skyfactory_5.recipes.skyfactory_5_light_blue",
       "icon": {
         "item": "colouredstuff:crafting_table_light_blue"
       },
@@ -134,7 +134,9 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["light_blue_crafting_table_present"],
+      "hard_requirements": [
+        "light_blue_crafting_table_present"
+      ],
       "priority": 9992
     }
   }

@@ -14,7 +14,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:red_crafting_table": {
-      "name": "Red Recipes",
+      "name": "skyfactory_5.recipes.skyfactory_5_red",
       "icon": {
         "item": "colouredstuff:crafting_table_red"
       },
@@ -134,7 +134,9 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["red_crafting_table_present"],
+      "hard_requirements": [
+        "red_crafting_table_present"
+      ],
       "priority": 9985
     }
   }

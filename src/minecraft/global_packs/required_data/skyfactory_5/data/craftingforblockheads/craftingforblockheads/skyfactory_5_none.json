@@ -10,7 +10,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:colorless_crafting_table": {
-      "name": "Colorless Recipes",
+      "name": "skyfactory_5.recipes.skyfactory_5_none",
       "icon": {
         "item": "colouredstuff:crafting_table_none"
       },
@@ -130,7 +130,9 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["none_crafting_table_present"],
+      "hard_requirements": [
+        "none_crafting_table_present"
+      ],
       "priority": 100000
     }
   }

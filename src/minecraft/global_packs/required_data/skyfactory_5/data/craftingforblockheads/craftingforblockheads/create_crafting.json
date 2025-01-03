@@ -10,7 +10,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:create_crafting": {
-      "name": "Create Recipes",
+      "name": "skyfactory_5.recipes.create_crafting",
       "icon": {
         "item": "create:wrench"
       },
@@ -115,7 +115,9 @@
           "item": "create:empty_blaze_burner"
         }
       ],
-      "soft_requirements": ["andesite_casing_present"],
+      "soft_requirements": [
+        "andesite_casing_present"
+      ],
       "priority": 99995
     }
   }

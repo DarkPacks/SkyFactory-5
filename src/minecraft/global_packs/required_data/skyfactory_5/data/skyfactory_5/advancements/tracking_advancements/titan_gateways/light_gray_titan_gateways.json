@@ -4,7 +4,7 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:normal/light_gray_vein_creeper\"}"
     },
-    "title": "Light Gray Titan Gateways!",
+    "title": "巨型淡灰色传送门！",
     "description": {
       "text": " "
     },
@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/elder_guardian\"}"
           }
         ]
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/furnace_golem\"}"
           }
         ]
@@ -42,7 +46,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/guardian\"}"
           }
         ]
@@ -53,7 +59,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/iron_golem\"}"
           }
         ]
@@ -64,7 +72,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/light_gray_vein_creeper\"}"
           }
         ]
@@ -75,7 +85,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/stray\"}"
           }
         ]
@@ -86,7 +98,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/witch\"}"
           }
         ]
@@ -97,7 +111,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/wolf\"}"
           }
         ]

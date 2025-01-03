@@ -1,0 +1,7 @@
+{
+  "entity.ghastcow.ghast_cow": "恶魂牛",
+
+  "text.autoconfig.ghastcow.title": "General",
+  "text.autoconfig.ghastcow.option.general": "General",
+  "text.autoconfig.ghastcow.option.general.requireNamed": "Require Name"
+}

@@ -4,7 +4,7 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:normal/light_blue_vein_creeper\"}"
     },
-    "title": "Light Blue Titan Gateways!",
+    "title": "巨型淡蓝色传送门！",
     "description": {
       "text": " "
     },
@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/allay\"}"
           }
         ]
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/dolphin\"}"
           }
         ]
@@ -42,7 +46,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/fairy\"}"
           }
         ]
@@ -53,7 +59,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/light_blue_vein_creeper\"}"
           }
         ]
@@ -64,7 +72,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/tuna\"}"
           }
         ]
@@ -75,7 +85,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/vex\"}"
           }
         ]

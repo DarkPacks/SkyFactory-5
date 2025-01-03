@@ -4,7 +4,7 @@
       "item": "obtrophies:trophy",
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:white\"}}"
     },
-    "title": "White Trophies!",
+    "title": "白色奖杯！",
     "description": {
       "text": " "
     },
@@ -15,7 +15,7 @@
   },
   "parent": "skyfactory_5:tracking_advancements/trophies/root",
   "criteria": {
-    "Albino Cow": {
+    "albino_cow": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -26,7 +26,7 @@
         ]
       }
     },
-    "Baby Ghast": {
+    "baby_ghast": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -37,7 +37,7 @@
         ]
       }
     },
-    "Chicken": {
+    "chicken": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -48,7 +48,7 @@
         ]
       }
     },
-    "Energetic Sheep": {
+    "energetic_sheep": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -59,7 +59,7 @@
         ]
       }
     },
-    "Ghast": {
+    "ghast": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -70,7 +70,7 @@
         ]
       }
     },
-    "Goat": {
+    "goat": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -81,7 +81,7 @@
         ]
       }
     },
-    "Horned Sheep": {
+    "horned_sheep": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -92,7 +92,7 @@
         ]
       }
     },
-    "Llama": {
+    "llama": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -103,7 +103,7 @@
         ]
       }
     },
-    "Melon Golem": {
+    "melon_golem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -114,7 +114,7 @@
         ]
       }
     },
-    "Opalescent Eye": {
+    "opalescent_eye": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -125,7 +125,7 @@
         ]
       }
     },
-    "Panda": {
+    "panda": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -136,7 +136,7 @@
         ]
       }
     },
-    "Polar Bear": {
+    "polar_bear": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -147,7 +147,7 @@
         ]
       }
     },
-    "Sheep": {
+    "sheep": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -158,7 +158,7 @@
         ]
       }
     },
-    "Skeleton": {
+    "skeleton": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -169,7 +169,7 @@
         ]
       }
     },
-    "Skeleton Horse": {
+    "skeleton_horse": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -180,7 +180,7 @@
         ]
       }
     },
-    "Skeleton Wolf": {
+    "skeleton_wolf": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -191,7 +191,7 @@
         ]
       }
     },
-    "Snow Golem": {
+    "snow_golem": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
@@ -202,7 +202,7 @@
         ]
       }
     },
-    "White Vein Creeper": {
+    "white_vein_creeper": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

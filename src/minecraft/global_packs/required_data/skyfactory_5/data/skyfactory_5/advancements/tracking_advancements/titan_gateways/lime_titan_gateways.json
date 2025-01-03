@@ -4,7 +4,7 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:normal/lime_vein_creeper\"}"
     },
-    "title": "Lime Titan Gateways!",
+    "title": "巨型黄绿色传送门！",
     "description": {
       "text": " "
     },
@@ -20,7 +20,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/creeper\"}"
           }
         ]
@@ -31,7 +33,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/creeper_tot\"}"
           }
         ]
@@ -42,7 +46,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/lime_vein_creeper\"}"
           }
         ]
@@ -53,7 +59,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/slime\"}"
           }
         ]
@@ -64,7 +72,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/turtle\"}"
           }
         ]
@@ -75,7 +85,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["gateways:gate_pearl"],
+            "items": [
+              "gateways:gate_pearl"
+            ],
             "nbt": "{gateway:\"gateways:normal/whirlisprig\"}"
           }
         ]

@@ -14,7 +14,7 @@
   "groups": {},
   "filters": {
     "craftingforblockheads:orange_crafting_table": {
-      "name": "Orange Recipes",
+      "name": "skyfactory_5.recipes.skyfactory_5_orange",
       "icon": {
         "item": "colouredstuff:crafting_table_orange"
       },
@@ -134,7 +134,9 @@
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
         }
       ],
-      "hard_requirements": ["orange_crafting_table_present"],
+      "hard_requirements": [
+        "orange_crafting_table_present"
+      ],
       "priority": 9988
     }
   }

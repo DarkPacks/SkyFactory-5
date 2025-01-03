@@ -1,0 +1,49 @@
+{
+  "itemGroup.colourfulgoats": "Colorful Goats",
+
+  "entity.colourfulgoats.goat": "山羊",
+
+  "entity.colourfulgoats.goat_white": "白色山羊",
+  "entity.colourfulgoats.goat_orange": "橙色山羊",
+  "entity.colourfulgoats.goat_magenta": "品红色山羊",
+  "entity.colourfulgoats.goat_light_blue": "淡蓝色山羊",
+  "entity.colourfulgoats.goat_yellow": "黄色山羊",
+  "entity.colourfulgoats.goat_lime": "黄绿色山羊",
+  "entity.colourfulgoats.goat_pink": "粉红色山羊",
+  "entity.colourfulgoats.goat_gray": "灰色山羊",
+  "entity.colourfulgoats.goat_light_gray": "淡灰色山羊",
+  "entity.colourfulgoats.goat_cyan": "青色山羊",
+  "entity.colourfulgoats.goat_blue": "蓝色山羊",
+  "entity.colourfulgoats.goat_brown": "棕色山羊",
+  "entity.colourfulgoats.goat_green": "绿色山羊",
+  "entity.colourfulgoats.goat_red": "红色山羊",
+  "entity.colourfulgoats.goat_black": "黑色山羊",
+  "entity.colourfulgoats.goat_purple": "紫色山羊",
+  "entity.colourfulgoats.goat_missing": "'丢失纹理'的山羊",
+
+  "block.colourfulgoats.missing_wool": "'丢失纹理'的山羊羊毛",
+  "block.colourfulgoats.missing_carpet": "'丢失纹理'的山羊地毯",
+
+  "item.colourfulgoats.goat_steak": "山羊排",
+  "item.colourfulgoats.goat_steak_cooked": "熟山羊排",
+
+  "colour.0": "白色",
+  "colour.1": "橙色",
+  "colour.2": "品红色",
+  "colour.3": "淡蓝色",
+  "colour.4": "黄色",
+  "colour.5": "黄绿色",
+  "colour.6": "粉红色",
+  "colour.7": "灰色",
+  "colour.8": "淡灰色",
+  "colour.9": "青色",
+  "colour.10": "紫色",
+  "colour.11": "蓝色",
+  "colour.12": "棕色",
+  "colour.13": "绿色",
+  "colour.14": "红色",
+  "colour.15": "黑色",
+  "colour.16": "'丢失纹理'",
+
+  "subtitle.colourfulgoats.scream": "山羊：尖叫"
+}
