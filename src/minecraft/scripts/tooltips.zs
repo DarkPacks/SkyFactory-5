@@ -73,7 +73,7 @@ import crafttweaker.api.text.Component;
  <item:ae2:chest>.addTooltip(uses_channel);
 
 // Create
- var extruder = Component.literal("用于创造圆石、石头以及玄武岩。").setStyle(<constant:formatting:yellow>);
+ var extruder = Component.literal("用于制造圆石、石头以及玄武岩。").setStyle(<constant:formatting:yellow>);
  <item:create_mechanical_extruder:mechanical_extruder>.addTooltip(extruder);
 
  // Things I find funny
