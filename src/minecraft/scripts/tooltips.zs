@@ -88,6 +88,7 @@ import crafttweaker.api.text.Component;
 
 // Energetic Sheep
  var energetic_wool1 = Component.literal("手持羊毛点击兼容的机器为其供电").setStyle(<constant:formatting:yellow>);
+// var energetic_wool2 = Component.literal("compatible machines with the Wool in hand").setStyle(<constant:formatting:yellow>);
 
  <item:energeticsheep:white_energetic_wool>.addTooltip(energetic_wool1);
  <item:energeticsheep:orange_energetic_wool>.addTooltip(energetic_wool1);
@@ -126,17 +127,23 @@ import crafttweaker.api.text.Component;
 
 
   var energetic_shears1 = Component.literal("手持脉冲剪刀点击或放入兼容的机器中为其供电").setStyle(<constant:formatting:yellow>);
+//var energetic_shears2 = Component.literal("with the Shears in hand or inserting into a compatible machine").setStyle(<constant:formatting:yellow>);
   <item:energeticsheep:energetic_shears>.addTooltip(energetic_shears1);
+//<item:energeticsheep:energetic_shears>.addTooltip(energetic_shears2);
 
 // Crafting Station
-  var crafting_station1 = Component.literal("用于制作所有有序及无序配方。").setStyle(<constant:formatting:yellow>);
+  var crafting_station1 = Component.literal("用于制作任意有序或无序配方。").setStyle(<constant:formatting:yellow>);
+//var crafting_station2 = Component.literal("or shapeless recipes").setStyle(<constant:formatting:yellow>);
   <item:craftingstation:crafting_station>.addTooltip(crafting_station1);
+//<item:craftingstation:crafting_station>.addTooltip(crafting_station2);
 
 // Draconic Evolution Chaos Shards
   var chaos_shard1 = Component.literal("在击败混沌守卫后，生成在混沌之岛的中心。").setStyle(<constant:formatting:yellow>);
   var chaos_shard2 = Component.literal("混沌之岛以(0,0)为中心，在每个方向上每隔10000格生成一个。").setStyle(<constant:formatting:yellow>);
+//var chaos_shard3 = Component.literal("Chaos Guardian").setStyle(<constant:formatting:yellow>);
   <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard1);
   <item:draconicevolution:chaos_shard>.addTooltip(chaos_shard2);
+//<item:draconicevolution:chaos_shard>.addTooltip(chaos_shard3);
 
 // RFTools Dimensions
   var lost_knowledge1 = Component.literal("由末影人、末影幼崽、愤怒末影人掉落，或在RFTools维度的战利品箱中找到。").withStyle(style => style.withColor(0xf9ffff));

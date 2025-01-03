@@ -39,7 +39,7 @@ public class Color {
     return this.colorName;
   }
 
-  public getName(): string {
+  public getDisplayName(): string {
     return this.displayName;
   }
 

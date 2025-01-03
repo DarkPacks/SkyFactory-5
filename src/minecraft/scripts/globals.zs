@@ -6,26 +6,26 @@ import crafttweaker.api.entity.EntityType;
 public class Globals {
   public static val colors as Color[ColorName] = {
     // Commented colors are being kept for reference
-    ColorName.None: new Color(ColorName.None, "\u65E0\u8272", "none", 9539985), // #919191
-    ColorName.Red: new Color(ColorName.Red, "\u7EA2\u8272", "red", 11546150), // #b02e26
-    ColorName.Green: new Color(ColorName.Green, "\u7EFF\u8272", "green", 6192150), // #5d7c15
-    ColorName.Lime: new Color(ColorName.Lime, "\u9EC4\u7EFF\u8272", "lime", 8439583), // #80c71f
+    ColorName.None: new Color(ColorName.None, "失色", "none", 9539985), // #919191
+    ColorName.Red: new Color(ColorName.Red, "红色", "red", 11546150), // #b02e26
+    ColorName.Green: new Color(ColorName.Green, "绿色", "green", 6192150), // #5d7c15
+    ColorName.Lime: new Color(ColorName.Lime, "黄绿色", "lime", 8439583), // #80c71f
     // ColorName.Blue: new Color(ColorName.Blue, "Blue", "blue", 33023), // #0080ff
-    ColorName.Blue: new Color(ColorName.Blue, "\u84DD\u8272", "blue", 3949738), // #3c44a9
-    ColorName.LightBlue: new Color(ColorName.LightBlue, "\u6DE1\u84DD\u8272", "light_blue", 3847130), // #3ab3da
-    ColorName.Gray: new Color(ColorName.Gray, "\u7070\u8272", "gray", 4673362), // #474f52
-    ColorName.LightGray: new Color(ColorName.LightGray, "\u6DE1\u7070\u8272", "light_gray", 10329495), // #9c9d97
-    ColorName.Yellow: new Color(ColorName.Yellow, "\u9EC4\u8272", "yellow", 16701501), // #ffd83d
+    ColorName.Blue: new Color(ColorName.Blue, "蓝色", "blue", 3949738), // #3c44a9
+    ColorName.LightBlue: new Color(ColorName.LightBlue, "淡蓝色", "light_blue", 3847130), // #3ab3da
+    ColorName.Gray: new Color(ColorName.Gray, "灰色", "gray", 4673362), // #474f52
+    ColorName.LightGray: new Color(ColorName.LightGray, "淡灰色", "light_gray", 10329495), // #9c9d97
+    ColorName.Yellow: new Color(ColorName.Yellow, "黄色", "yellow", 16701501), // #ffd83d
     // ColorName.Purple: new Color(ColorName.Purple, "Purple", "purple", 8388736), // #800080
-    ColorName.Purple: new Color(ColorName.Purple, "\u7D2B\u8272", "purple", 8991416), // #8932b7
-    ColorName.Magenta: new Color(ColorName.Magenta, "\u54C1\u7EA2\u8272", "magenta", 13061821), // #c64fbd
-    ColorName.Pink: new Color(ColorName.Pink, "\u7C89\u7EA2\u8272", "pink", 15961002), // #f38caa
-    ColorName.White: new Color(ColorName.White, "\u767D\u8272", "white", 16383998), // #f9ffff
-    ColorName.Black: new Color(ColorName.Black, "\u9ED1\u8272", "black", 1908001), // #1d1c21
-    ColorName.Brown: new Color(ColorName.Brown, "\u68D5\u8272", "brown", 8606770), // #825432
-    ColorName.LightBrown: new Color(ColorName.LightBrown, "\u68D5\u8272", "brown", 9849600), // #964B00
-    ColorName.Cyan: new Color(ColorName.Cyan, "\u9752\u8272", "cyan", 1481884), // #169c9d
-    ColorName.Orange: new Color(ColorName.Orange, "\u6A59\u8272", "orange", 16351261), // #f9801d
+    ColorName.Purple: new Color(ColorName.Purple, "紫色", "purple", 8991416), // #8932b7
+    ColorName.Magenta: new Color(ColorName.Magenta, "品红色", "magenta", 13061821), // #c64fbd
+    ColorName.Pink: new Color(ColorName.Pink, "粉红色", "pink", 15961002), // #f38caa
+    ColorName.White: new Color(ColorName.White, "白色", "white", 16383998), // #f9ffff
+    ColorName.Black: new Color(ColorName.Black, "黑色", "black", 1908001), // #1d1c21
+    ColorName.Brown: new Color(ColorName.Brown, "棕色", "brown", 8606770), // #825432
+    ColorName.LightBrown: new Color(ColorName.LightBrown, "棕色", "brown", 9849600), // #964B00
+    ColorName.Cyan: new Color(ColorName.Cyan, "青色", "cyan", 1481884), // #169c9d
+    ColorName.Orange: new Color(ColorName.Orange, "橙色", "orange", 16351261), // #f9801d
     ColorName.RGB: new Color(ColorName.RGB, "RGB", "rgb", 16755200) // #FFAA00
   };
 
