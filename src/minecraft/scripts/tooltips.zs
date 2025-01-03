@@ -77,12 +77,12 @@ import crafttweaker.api.text.Component;
  <item:create_mechanical_extruder:mechanical_extruder>.addTooltip(extruder);
 
  // Things I find funny
-  var blooming_onion = Component.literal("字面意义上的上不同！").setStyle(<constant:formatting:white>);
+  var blooming_onion = Component.literal("法律意义上的不同！").setStyle(<constant:formatting:white>);
   blooming_onion.setStyle(<constant:minecraft:formatting:italic>);
   <item:sf5_things:block_of_blooming_onion>.addTooltip(blooming_onion);
 
 // OB Trophies
- var obtrophies = Component.literal("点击开关生成").setStyle(<constant:formatting:yellow>);
+ var obtrophies = Component.literal("右击切换生成开关").setStyle(<constant:formatting:yellow>);
  <item:obtrophies:trophy>.addTooltip(obtrophies);
 
 
