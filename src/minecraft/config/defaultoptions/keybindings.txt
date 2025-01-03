@@ -7,7 +7,7 @@ key_key.right:key.keyboard.d:NONE
 key_key.jump:key.keyboard.space:NONE
 key_key.sneak:key.keyboard.left.shift:NONE
 key_key.sprint:key.keyboard.left.control:NONE
-key_key.drop:key.keyboard.unknown:NONE
+key_key.drop:key.keyboard.q:NONE
 key_key.inventory:key.keyboard.e:NONE
 key_key.chat:key.keyboard.t:NONE
 key_key.playerlist:key.keyboard.tab:NONE
