@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:barrier"
+    },
+    "title": {
+      "translate": "§kWaste of Time This is Intentional"
+    },
+    "description": {
+      "translate": "Yes"
+    },
+    "frame": "challenge",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true,
+    "background": "minecraft:textures/block/purple_concrete.png"
+  },
+  "criteria": {
+    "always": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
