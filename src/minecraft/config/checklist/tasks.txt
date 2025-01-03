@@ -76,7 +76,6 @@ Click on a Color Leaves block with Dye to create Flowers
 Throw a Color Sapling into Water to change its color
 Throw a Color Sapling into Fire or Lava to change its color
 Use Dripstone to convert a Block of Sand into a Dye Block
-Breed 2 Cows in Color Water to get a Fluid Cow
 ===
 #§1--==§0Age of Automation§1==--
 Use a Stirling or Combustion Generator to make power
