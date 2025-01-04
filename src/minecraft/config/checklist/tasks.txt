@@ -1,299 +1,277 @@
-# Welcome to SkyFactory® 5
+# 欢迎来到 SkyFactory® 5
 #§1============================
-#You probably noticed there's no color! Don't worry, your computer isn't broken. Each of the 16 Minecraft Colors will have to be discovered in a variety of ways: Crafting, in-world actions, etc. If you get stuck, the Advancements should help you out.
+#你可能注意到周围没有颜色！别担心，这不是你电脑的问题。Minecraft 中的16种颜色都需要通过不同方式来发现：制作、世界互动等。如果你遇到困难，可以查看进度来获取提示。
 ===
-# How to Use This Book
-#Use the arrows at the bottom of the pages to navigate. You will see challenges separated into ages that represent the general path of progression, although you do not need to do them in order. Simply check the box next to each challenge on completion. Careful though, tasks become increasingly difficult as you progress! Also, don't forget to craft yourself a Task Table to store this book!
+# 如何使用本书
+#使用页面底部的箭头进行导航。你会看到按照发展阶段分类的挑战，代表了大致的发展路线，但你不必按顺序完成。只需在完成每个挑战后勾选对应的方框即可。请注意，随着你的进展，任务会变得越来越困难！另外，别忘了制作一个任务台来存放这本书！
 ===
-#§1--==§ Mob Spawning§1==--
+#§1--==§ 生物生成§1==--
 
-#In SkyFactory 5, mobs spawn differently than previous modpacks or vanilla. Mobs will not spawn naturally and require you to complete Gateways to obtain a Trophy. You can then place and activate the Trophy to spawn only that mob. Mobs will spawn on most blocks and don't require specific blocks like Grass or Water. You do not need to worry about Biomes, Dimensions, or Y levels as mob spawning is not dependent on these.
+#在 SkyFactory 5 中，生物的生成方式与之前的整合包或原版不同。生物不会自然生成，你需要完成传送门挑战来获得奖杯。然后放置并激活奖杯才能生成特定生物。生物可以在大多数方块上生成，不需要特定方块如草方块或水。你也不用担心生物群系、维度或Y轴高度，因为生物生成不受这些因素影响。
 
-#Light levels will matter when spawning mobs. Friendly mobs will spawn in light levels 8 to 15 while hostile mobs will need light levels 0 to 7. You can easily find the light level by pressing F7.
+#光照等级会影响生物生成。友好生物需要8-15的光照等级，而敌对生物需要0-7的光照等级。你可以按F7键轻松查看光照等级。
 
-#Mobs will spawn from Spawners found in the world. You can then collect the Spawners, upgrade them, and use a Trophy on the Spawner to change what mob it will spawn.
+#生物也会从世界中发现的刷怪笼中生成。你可以收集这些刷怪笼，升级它们，并使用奖杯来改变它们生成的生物类型。
 ===
-#Special Thank You to:
-#BlayTheNinth, Darkhax, Dutchs, FirstNecron, GoryMoon, Jaredlll08, KingLemming, Lothrazar, MarioLuigi7896, MrBysco, Muddr, Shadows_of_Fire, Twitch Chat
-#To everyone who has supported the development process
-#And finally, big thanks to the modding community for making this happen!
+#特别感谢：
+#BlayTheNinth、Darkhax、Dutchs、FirstNecron、GoryMoon、Jaredlll08、KingLemming、Lothrazar、MarioLuigi7896、MrBysco、Muddr、Shadows_of_Fire、Twitch直播间的观众们
+#感谢所有支持开发过程的人
+#最后，衷心感谢模组社区让这一切成为可能！
 ===
-# From the Developer
+# 开发者的话
 
-# Hi! My name is Darkosto and I am the developer of SkyFactory 5
+# 你好！我是 Darkosto，SkyFactory 5 的开发者
 
- If you have any questions head on over to §9§n[Twitch](https://twitch.tv/darkosto)§r or the official §9§n[Discord Community](https://discord.gg/darkosto)§r
+ 如果你有任何问题，欢迎访问 §9§n[Twitch](https://twitch.tv/darkosto)§r 或官方 §9§n[Discord社区](https://discord.gg/darkosto)§r
 
-# Thanks for playing the modpack
-
-===
-Discover §0==§0Black§0==
-Discover §1==§0Blue§1==
-Discover §6==§0Brown§6==
-Discover §3==§0Cyan§3==
-Discover §8==§0Gray§8==
-Discover §2==§0Green§2==
-Discover §b==§0Light Blue§b==
-Discover §7==§0Light Gray§7==
-Discover §a==§0Lime§a==
-Discover §5==§0Magenta§5==
-Discover §6==§0Orange§6==
-Discover §d==§0Pink§d==
-Discover §5==§0Purple§5==
-Discover §c==§0Red§c==
-Discover §f==§0White§f==
-Discover §e==§0Yellow§e==
+# 感谢游玩本整合包
 
 ===
-# §1--==§0Age of Discovery§1==--
-Use the Crafting Stick to make a Colorless Crafting Table
-Use a Barrel to create Dirt
-Eat Dirt!
-Use Colored Planks to craft any Color Crafting Table
-Use any Dye and a Stick to make a Color Torch
-Change the color of a Sapling by using Dye on it
-Craft a Crafting Station to make recipes not available in the Color Crafting Tables
-Craft a Silent's Gear Sickle to break Leaves faster
-Craft a Silent's Gear Axe to break Wood faster
-Right Click with an Axe on a Log to get a Template Board
-Use a Crucible to melt Leaves or Saplings to get Water (or collect via rain)
-Infest Leaves with a Silkworm to obtain String
-Use a Campfire to obtain Ash and use it to craft Cobblestone
-Use a Hammer from Ex Nihilo or a Millstone to create Sand
-Use Sand on a Barrel filled with Water to make Clay
-Craft an Eccentric Tome to get all Guide Books
+发现 §0==§0黑色§0==
+发现 §1==§0蓝色§1==
+发现 §6==§0棕色§6==
+发现 §3==§0青色§3==
+发现 §8==§0灰色§8==
+发现 §2==§0绿色§2==
+发现 §b==§0淡蓝色§b==
+发现 §7==§0淡灰色§7==
+发现 §a==§0黄绿色§a==
+发现 §5==§0品红色§5==
+发现 §6==§0橙色§6==
+发现 §d==§0粉红色§d==
+发现 §5==§0紫色§5==
+发现 §c==§0红色§c==
+发现 §f==§0白色§f==
+发现 §e==§0黄色§e==
+
 ===
-#§1--==§0Stone Age§1==--
-Make Lava in a Fired Crucible
-Obtain Obsidian
-Automate your Cobblestone generation
-Upgrade your Silent's Gear tools with a Stone Material (Cobblestone, Andesite, Diorite, Granite)
+# §1--==§0发现时代§1==--
+使用合成棒制作一个无色工作台
+使用木桶制作泥土
+吃下泥土！
+使用彩色木板制作任意颜色的工作台
+使用任意染料和木棒制作彩色火把
+用染料改变树苗的颜色
+制作工作站来解锁彩色工作台无法制作的配方
+制作寂静装备镰刀来更快地收获树叶
+制作寂静装备斧头来更快地砍伐木材
+用斧头右键原木获得模板板
+使用坩埚熔化树叶或树苗来获得水（也可以收集雨水）
+用蚕丝感染树叶以获得线
+使用营火获得灰烬，并用它制作圆石
+使用虚无传说的锤子或磨石制作沙子
+在装满水的木桶中加入沙子制作粘土
+制作怪异典籍以获得所有指导手册
 ===
-#§1--==§0Chromatic Age§1==--
-Throw Dye into Water to change its color
-Use Color Dyed Water to convert Sand into a Dye Block
-Click on a Color Leaves block with Dye to create Flowers
-Throw a Color Sapling into Water to change its color
-Throw a Color Sapling into Fire or Lava to change its color
-Use Dripstone to convert a Block of Sand into a Dye Block
-Breed 2 Cows in Color Water to get a Fluid Cow
+#§1--==§0石器时代§1==--
+在烧制坩埚中制作熔岩
+获得黑曜石
+自动化圆石生产
+用石质材料（圆石、安山岩、闪长岩、花岗岩）升级你的寂静装备工具
+
 ===
-#§1--==§0Age of Automation§1==--
-Use a Stirling or Combustion Generator to make power
-Craft RGB Dye
-Craft a Blender to Mix Dyes together
-Craft a Printer to automate resource collection
-Obtain an EnderIO Grain of Infinity
-Use a Pulverizer as a Catalyst in a Pulverizer
-Speed up your machines by capturing the Warden with the Industrial Foregoing Souls mod
+#§1--==§0色彩时代§1==--
+将染料扔进水中改变水的颜色
+使用染色的水将沙子转化为染料方块
+用染料点击彩色树叶方块来创造花朵
+将彩色树苗扔进水中改变其颜色
+将彩色树苗扔进火或熔岩中改变其颜色
+使用滴水石将沙块转化为染料方块
+在彩色水中繁殖两头牛以获得流体牛
+
 ===
-#§1--==§0Age of Power§1==--
-Create a Passively cooled reactor from the Bigger Reactors Mod
-Create an Actively cooled reactor from the Bigger Reactors Mod
-Create the maximum size reactor (32x48x32)
-Create a Turbine from the Bigger Reactors Mod
-Produce 1,000 RF/t
-Produce 10,000 RF/t
-Produce 100k RF/t
-Produce 1 million RF/t
-Craft Energetic Shears and use them to shear Energetic Sheep to collect energy
-Use Energetic Shears or Energetic Wool to add power to a machine by discharging the shears or right-clicking the Wool in supported machines/batteries
-Collect all 16 colors of Energetic Sheep
+#§1--==§0自动化时代§1==--
+使用斯特林发电机或燃烧发电机产生能量
+制作RGB染料
+制作调色机来混合染料
+制作打印机来自动化资源收集
+获得末影接口的无尽颗粒
+在磨粉机中使用磨粉机作为催化剂
+通过工业先锋的灵魂模组捕获监守者来加速你的机器
+
 ===
-#§1--==§0Age of Life§1==--
-Herd all 16 Colorful Villagers (Villager Trades will automatically cycle after a short duration of time)
-Obtain all 146 Trophies
-Find and pickup a Mob Spawner
-Change a Mob Spawner by right-clicking on it with a Trophy
-Use a Mega Torch to block creature spawns
-Build a Modular Golem
-Build a Modular Wolf
-Build a Modular Humanoid
-Gear up a Modular Golem with Netherite
-Fully upgrade a Modular Golem
+#§1--==§0能源时代§1==--
+从更大反应堆模组中建造一个被动冷却反应堆
+从更大反应堆模组中建造一个主动冷却反应堆
+建造最大尺寸的反应堆(32x48x32)
+从更大反应堆模组中建造一个涡轮机
+产生1,000 RF/t的能量
+产生10,000 RF/t的能量
+产生100k RF/t的能量
+产生1百万RF/t的能量
+制作充能剪刀并用它剪充能羊以收集能量
+通过放电剪刀或在支持的机器/电池上右键点击羊毛来为机器供能
+收集全部16种颜色的充能羊
 ===
-#§1--==§0Normal Gateways§1==--
-Obtain a Normal Gateway Pearl
-Complete a Gateway and receive a mob Trophy
-Right-click on a Trophy to activate it (and again to deactivate)
-Complete all 146 Normal Gateways (not Titan)
-Complete the Normal Ender Dragon Gateway
+#§1--==§0生命时代§1==--
+收集全部16种彩色村民（村民交易会在一段时间后自动循环）
+获得全部146个奖杯
+找到并拾取一个刷怪笼
+用奖杯右键点击刷怪笼来改变其生成的生物
+使用巨型火把来阻止生物生成
+建造一个模块化傀儡
+建造一个模块化狼
+建造一个模块化人形生物
+为模块化傀儡装备下界合金装备
+完全升级一个模块化傀儡
 ===
-#§1--==§0Titan Gateways§1==--
-Obtain a Titan Gateway Pearl
-Complete wave 50 of any Titan Gateway
-Complete wave 100 of any Titan Gateway
-Complete wave 150 of any Titan Gateway
+#§1--==§0普通传送门§1==--
+获得一颗普通传送门珍珠
+完成一个传送门并获得生物奖杯
+右键点击奖杯来激活它（再次点击可停用）
+完成全部146个普通传送门（不包括泰坦）
+完成普通末影龙传送门
 ===
-#§1--==§0Challenge Gateways§1==--
-Complete all 16 Challenge Gateways
+#§1--==§0泰坦传送门§1==--
+获得一颗泰坦传送门珍珠
+完成任意泰坦传送门的第50波
+完成任意泰坦传送门的第100波
+完成任意泰坦传送门的第150波
 ===
-#§1--==§0Age of Farming§1==--
-Obtain an Inferium Seed
-Capture a Cow in a Jar
-Grow Sugar Cane from the bottom of the world to max height (y=448)
-Obtain all 16 color Mystical Agriculture Seeds
-Obtain an RGB Essence Seed
+#§1--==§0挑战传送门§1==--
+完成全部16个挑战传送门
 ===
-#§1--==§0Age of Travel§1==--
-Fly
-Craft a Wayback Stone to easily teleport to your spawn location from anywhere
-Use a Bubble Blower to place a block in the air
-Travel to the Nether
-Travel to the End
+#§1--==§0农业时代§1==--
+获得一个下级精华种子
+将一头牛捕捉到罐子里
+种植从世界底部到最大高度的甘蔗(y=448)
+获得全部16种颜色的神秘农业种子
+获得一个RGB精华种子
 ===
-#§1--==§0Age of Miscellaneous§1==--
-Craft a Create Sabers Saber
-Craft a Hammock to sleep to night time
-Fall through the void into a pool of water
-Grow your head to 150% by crafting 2 of the same heads together
-Grow your head to 250% by crafting 2 of the same heads together
-Collect all 6 Limbs of any one mob (Head, Torso, Arms, Legs)
-Use an Organic Matter Compressor to transform matter into Loot Bags
+#§1--==§0旅行时代§1==--
+飞行
+制作一个回城石以便从任何地方传送回出生点
+使用泡泡制造器在空中放置方块
+前往下界
+前往末地
 ===
-#§1--==§0Age of Magic§1==--
-#§1-=§0Ars Nouveau§1=-
-Make a Source Gem
-Make a Spellbook
-Make a Scribe's Table
-Generate Source for machines
-Make an Enchanting Apparatus
-Make a Ritual Brazier
-Use a Crush Spell to automate Sand and Gravel
-Use a Ritual of Summon Wilden and defeat them
-Use a Ritual of Flight to fly around!
-Summon a Weald Walker by performing an Awakening ritual near an Archwood Tree
-Use Starbuncles to automate item retrieval
-Use Wixies to automate Potion Brewing
-Automate a farm with a Harvest Ritual
-Make an island using a Conjure Island ritual (either plains or desert)
-Summon and defeat the Wilden Chimera
-Automate a farm with Spell Turrets
-Farm mob drops with Drygmies
-Summon a Decoy of yourself
-Capture every boss in a Containment Jar
-Generate Source using every type of Sourcelink
-Fully upgrade a set of Ars Nouveau armor (Tier 3 fill all thread slots)
-Summon a Familiar
-Use a Scryer's Oculus to remotely access a block
-Teleport with a Warp Scroll/Portal
-Use a Flask Cannon
+#§1--==§0杂项时代§1==--
+制作一把机械动力光剑
+制作一个吊床来睡到夜晚
+从虚空坠落到一池水中
+通过合成两个相同的头颅使你的头部增大到150%
+通过合成两个相同的头颅使你的头部增大到250%
+收集任何一只生物的6个部位（头、躯干、手臂、腿）
+使用有机物质压缩机将物质转化为战利品袋
 ===
-#§1-=§0Occultism§1=-
-Eat Demon's Dream Fruit to get the 3rd Eye Effect
-Make a Spiritfire
-Obtain White Chalk
-Summon a Crusher Spirit to help automate resources
-Summon a Possessed Endermite and kill it for Endstone
-Use an Ars Nouveau Containment Jar to capture an Occultism Spirit, letting them work without decaying
-Capture one of each Trader Spirit in an Ars Nouveau Containment Jar
-Create a Dimensional Matrix for mass item storage
-Summon a Djinni Machine Operator to automate crafting with the Dimensional Matrix
-Use a Dimensional Mineshaft to automate resources
-Have a Dimensional Matrix with max slots (12416, with one tier 4 on all sides including above and below)
-Summon an Afrit
-Summon the Wild Hunt and defeat it
-Use a Transporter Spirit to automate item transport
-Use a Janitor Spirit to automate collecting items
-Summon a Familiar and capture it in a Familiar Ring
-Summon a Demonic Wife/Husband
+#§1--==§0魔法时代§1==--
+#§1-=§0新生魔艺§1=-
+制作一个魔源宝石
+制作一本法术书
+制作一个抄写台
+为机器生产魔源
+制作一个附魔装置
+制作一个仪式火盆
+使用粉碎法术来自动化生产沙子和砂砾
+使用召唤野化者仪式并击败它们
+使用飞行仪式来四处飞行！
+在魔木树旁进行觉醒仪式召唤荒野行者
+使用星宝来自动化物品收集
+使用小精灵来自动化酿造药水
+使用收获仪式来自动化农场
+使用召唤岛屿仪式创建一个岛屿（平原或沙漠）
+召唤并击败野化奇美拉
+使用法术炮塔来自动化农场
+使用矮人来收集生物掉落物
+召唤你自己的替身
+用容器罐捕获所有Boss
+使用每种魔源链接来生产魔源
+完全升级一套新生魔艺盔甲（三级并填满所有符文槽）
+召唤一个魔宠
+使用占卜之眼远程访问方块
+使用传送卷轴/传送门进行传送
+使用药剂炮
 ===
-#§1-=§0Age of the Botanist§1=-
-Craft a Petal Apothecary
-Create 64 Livingwood and 64 Livingrock with a Pure Daisy
-Craft a tiny potato and name it Direwolf20
-Craft a Mana Pool and a Mana Spreader
-Craft a Wand of the Forest
-Create a portal to Alfheim
-Use the portal to Alfheim to trade for Dye or resources
-Create an automated flower farm with a Jaded Amaranthus
+#§1-=§0神秘学§1=-
+食用恶魔之梦果实获得第三只眼效果
+制作灵魂之火
+获得白色粉笔
+召唤粉碎灵魂来帮助自动化资源生产
+召唤被附身的末影螨并击杀它以获得末地石
+使用新生魔艺的容器罐捕获神秘学灵魂，让它们可以永久工作
+在新生魔艺的容器罐中捕获每种商人灵魂
+创建一个用于大量物品存储的维度矩阵
+召唤灯神机器操作员来使用维度矩阵自动化合成
+使用维度矿井来自动化资源生产
+拥有一个最大容量的维度矩阵（12416格，每个面包括上下都是四级）
+召唤伊夫利特
+召唤并击败狂野狩猎
+使用运输灵魂来自动化物品运输
+使用清洁工灵魂来自动化收集物品
+召唤一个魔宠并将其捕获在魔宠戒指中
+召唤一个恶魔妻子/丈夫
 ===
-#§1-=§0Mastery§1=-
-Automate a Pure Daisy with only Botania and vanilla mechanics
-Craft and fill a Terrasteel Mana Ring
-Complete the Ritual of Gaia
-Complete the Ritual of Gaia II
+#§1-=§0植物学时代§1=-
+制作花瓣药剂台
+使用白雏菊制作64个活木和64个活石
+制作一个小土豆并将其命名为Direwolf20
+制作魔力池和魔力发射器
+制作森林法杖
+创建通往精灵界的传送门
+使用精灵界传送门交易染料或资源
+使用翠玉彼岸花建造一个自动化花卉农场
 ===
-#§1--==§0Age of Legends§1==--
-Defeat the Warden
-Defeat the Ender Dragon
-Defeat the Wither
-Defeat the Gaia Guardian
-Defeat the Ghast Cow
+#§1-=§0掌握时代§1=-
+仅使用植物魔法和原版机制自动化白雏菊
+制作并填充泰拉钢魔力指环
+完成盖亚仪式
+完成盖亚仪式II
 ===
-#§1--==§0Age of Hoarding§1==--
-Create a 9x9x9 Colossal Chest
-Obtain a Netherite Backpack from Sophisticated Backpacks
-Craft and use the Inception Upgrade in a Sophisticated Backpack to add more backpacks to your backpacks
-Craft and use the Everlasting Upgrade in a Sophisticated Backpack to keep your stuff safe from the void
-Connect your Applied Energistics Storage System across dimensions using the Quantum Link Chamber
+#§1--==§0传说时代§1==--
+击败监守者
+击败末影龙
+击败凋灵
+击败盖亚守护者
+击败恶魂牛
 ===
-#§1--==§0Age of Worlds§1==--
-Acquire and research a Lost Knowledge Pattern
-Create and travel to an RFTools Dimension
-Create a dimension full of Potatoes
-Infuse your Infuser Machine to 100%
-Destroy a created dimension by sending a Block of TNT to a dimension with the Dimension Editor
-Create a dimension of RGB Blocks
+#§1--==§0囤积时代§1==--
+创建一个9x9x9的巨型箱子
+从精妙背包获得一个下界合金背包
+制作并使用精妙背包的盗梦升级来在背包中放置更多背包
+制作并使用精妙背包的永恒升级来保护你的物品免受虚空伤害
+使用量子链接仓将你的应用能源存储系统连接到不同维度
 ===
-#§1--==§0Age of Dragons§1==--
-Craft the Draconic Chestpiece
-Draconic Pickaxe
-Draconic Axe
-Draconic Shovel
-Draconic Hoe
-Draconic Staff of Power
+#§1--==§0世界时代§1==--
+获取并研究一个失落知识图案
+创建并前往一个RF工具维度
+创建一个充满马铃薯的维度
+将你的注入机注入到100%
+使用维度编辑器向维度发送一个TNT方块来摧毁创建的维度
+创建一个RGB方块的维度
 ===
-Automate Wither killing
-Defeat the Chaos Dragon
-Build a tier 6 Energy Core or Higher (Max is 8)
-Make a Charm of Dislocation
-Fill a tier 6 Draconic Energy Core
-Make a Draconic Chest
+#§1--==§0龙之时代§1==--
+制作龙之胸甲
+龙之镐
+龙之斧
+龙之锹
+龙之锄
+龙之力量权杖
 ===
-#§1--==§0Age of Simulation§1==--
-Obtain a Hostile Neural Network Faulty Data Model for any mob
-Upgrade a Hostile Neural Network Data Model to Self Aware
-Use the Wither Prediction in the Loot Fabricator to create Nether Stars
-Upgrade the Ender Dragon Data Model to Self Aware
-Upgrade the Chaos Guardian Data Model to Self Aware
+自动化击杀凋灵
+击败混沌龙
+建造6级或更高等级的能量核心（最高8级）
+制作错位护符
+填充6级龙之能量核心
+制作龙之箱子
 ===
-#§1--==§0Age of Craziness§1==--
-Collect all 238 Hats
-Obtain 90 total hearts of health
-Craft an Infinity Wand
-Create a Perfect Sushi Roll
-Create a Culinary Construct Sandwich full of different types of Perfect Sushi
-Fill an entire chunk with Colorless Dye Blocks (16x448x16)
+#§1--==§0模拟时代§1==--
+获得任意生物的敌对神经网络故障数据模型
+将敌对神经网络数据模型升级至自我意识
+在战利品制造机中使用凋灵预测来制作下界之星
+将末影龙数据模型升级至自我意识
+将混沌守卫数据模型升级至自我意识
 ===
-#§1--==§0Age of Excess§1==--
-#§1--==§0AKA Nobody Is Crazy Enough to Actually Do This§1==--
-Fill the Tier 8 Draconic Energy Core to max 9,223,000,000,000,000,000op
-Fill an Infinity Tool to max charge
+#§1--==§0疯狂时代§1==--
+收集全部238个帽子
+获得总计90颗心的生命值
+制作无尽魔杖
+制作一个完美寿司卷
+制作一个装满不同种类完美寿司的美食构建三明治
+用无色染料方块填满一个完整区块(16x448x16)
 ===
-===
-===
-===
-===
-===
-===
-===
-===
-===
-===
-#There's nothing else back here!
-===
-===
-===
-===
-===
-===
-===
-===
-===
-===
-===
-#What do you want? Stop it!
+#§1--==§0极限时代§1==--
+将8级龙之能量核心充满至最大值9,223,000,000,000,000,000op
+将无尽工具充满至最大能量
 ===
 ===
 ===
@@ -301,11 +279,31 @@ Fill an Infinity Tool to max charge
 ===
 ===
 ===
+#这后面什么都没有！
 ===
 ===
 ===
 ===
-#Quit it!
+===
+===
+===
+===
+===
+===
+===
+#你想要什么？别翻了！
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+===
+#够了！
 ===
 ===
 ===
@@ -338,4 +336,4 @@ Fill an Infinity Tool to max charge
 ===
 ===
 ===
-Discover the SCP 1689 Dimension
+发现SCP 1689维度
