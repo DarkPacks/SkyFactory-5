@@ -31,19 +31,19 @@ azure = 64
 # Setting to zero would make the repair kit unusable.
 [item.repairKits.efficiency]
 # Range: 0.0 ~ 10.0
-very_crude = 0.30000001192092896
+very_crude = 0
 # Range: 0.0 ~ 10.0
-crude = 0.3499999940395355
+crude = 0
 # Range: 0.0 ~ 10.0
-sturdy = 0.4000000059604645
+sturdy = 0
 # Range: 0.0 ~ 10.0
-crimson = 0.44999998807907104
+crimson = 0
 # Range: 0.0 ~ 10.0
-azure = 0.5
+azure = 0
 # Repair efficiency with loose materials if no repair kit is used.
 # Setting a value greater than zero makes repair kits optional.
 # Range: 0.0 ~ 10.0
-missing = 0.0
+missing = 10
 
 [item.netherwood_charcoal]
 # Burn time of netherwood charcoal, in ticks. Vanilla charcoal is 1600.
