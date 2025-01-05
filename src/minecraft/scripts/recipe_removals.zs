@@ -479,7 +479,10 @@ val items as IItemStack[] = [
   <item:occultism:raw_silver_block>,
 
   // Vein Creepers
-  <item:veincreeper:trap>
+  <item:veincreeper:trap>,
+
+  // Forbidden Smoothies
+  <item:forbiddensmoothies:ugly_steel_plating>
 
 ];
 
