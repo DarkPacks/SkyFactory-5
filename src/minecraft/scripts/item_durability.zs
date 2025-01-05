@@ -377,6 +377,7 @@ val itemsForUnbreakable = [
   <resource:minecraft:turtle_helmet>,
   <resource:minecraft:bow>,
   <resource:minecraft:crossbow>,
+  <resource:minecraft:elytra>,
 
   // Silent's Gear
   <resource:silentgear:sword>,
