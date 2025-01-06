@@ -1,0 +1,22 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "create:veridium"
+  },
+  "result": [
+    {
+      "item": "create:crushed_raw_copper",
+      "chance": 0.8
+    },
+    {
+      "item": "thermal:copper_nugget",
+      "chance": 0.8
+    }
+  ],
+  "conditions": [
+    {
+      "type": "thermal:flag",
+      "flag": "mod_create"
+    }
+  ]
+}
