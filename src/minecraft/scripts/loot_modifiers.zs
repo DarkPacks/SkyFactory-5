@@ -26,7 +26,7 @@ public class BonusBlockDrops {
     val ignoreShears = this.ignoreShears;
 
     this.block.addLootModifier(this.name, (drops, ctx) => {
-      if ignoreShears && ctx.tool == <item:minecraft:shears> {
+      if ignoreShears && <tag:items:forge:shears>.contains(ctx.tool.registryName) {
         return drops;
       }
 
