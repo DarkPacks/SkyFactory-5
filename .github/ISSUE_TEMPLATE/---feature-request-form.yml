@@ -1,6 +1,6 @@
 name: "Feature Request"
 description: "Suggest a mod or a change to the config or scripts"
-labels: ["Feature Request"]
+labels: ["enhancement"]
 assignees:
   - Darkosto
 body:
