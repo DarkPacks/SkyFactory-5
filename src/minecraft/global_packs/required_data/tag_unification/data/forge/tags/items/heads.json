@@ -61,7 +61,17 @@
     "#forge:heads/wolf",
     "#forge:heads/zoglin",
     "#forge:heads/zombie_villager",
-    "#forge:heads/zombified_piglin"
+    "#forge:heads/zombified_piglin",
+    "limbs:drowned_head",
+    "limbs:enderman_head",
+    "limbs:husk_head",
+    "limbs:piglin_brute_head",
+    "limbs:piglin_head",
+    "limbs:skeleton_head",
+    "limbs:stray_head",
+    "limbs:wither_skeleton_head",
+    "limbs:zombie_head",
+    "limbs:zombified_piglin_head"
   ],
   "replace": true
 }
