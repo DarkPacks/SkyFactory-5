@@ -1,0 +1,18 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:ender_pearls"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 1,
+        "item": "thermal:ender_pearl_dust"
+      },
+      "optional": false
+    }
+  ]
+}
