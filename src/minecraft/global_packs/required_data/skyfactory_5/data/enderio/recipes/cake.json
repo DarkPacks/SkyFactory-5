@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "C": {
+      "item": "createaddition:cake_base_baked"
+    },
+    "M": {
+      "item": "minecraft:milk_bucket"
+    },
+    "S": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "pattern": ["MMM", "SCS"],
+  "result": {
+    "item": "minecraft:cake"
+  },
+  "show_notification": true
+}
