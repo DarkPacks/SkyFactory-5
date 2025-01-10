@@ -1,0 +1,189 @@
+name: "Server Bug Report"
+description: "Report a bug/issue for a SkyFactory 5 Server"
+labels: ["bug", "server"]
+assignees:
+  - Darkosto
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for submitting an issue for the relevant topic. Please provide
+        as much information as possible.
+  - type: textarea
+    id: description
+    attributes:
+      label: Bug Description
+      description: Please provide a clear and concise description of the problem.
+    validations:
+      required: true
+  - type: dropdown
+    id: workPreviously
+    attributes:
+      label: Did this behavior used to work in the previous version?
+      options:
+        - "Unknown"
+        - "Yes"
+        - "No"
+      default: 0
+    validations:
+      required: true
+  - type: input
+    id: workPreviouslyVersion
+    attributes:
+      label: If you answered Yes above...
+      description: Which version was this behavior working as intended?
+      placeholder: i.e. v5.0.0
+  - type: textarea
+    id: stepsToReproduce
+    attributes:
+      placeholder: |-
+        1.
+        2.
+        3.
+      label: Steps to Reproduce (for bugs)
+      description: Lists the steps to reproduce the issue or link to video showcasing issue.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >-
+        ## Logs
+
+        CurseForge logs can be found in the installation directory for the
+        CurseForge App. Or click the ... button on SkyFactory 5 and hit "Open
+        Folder"<br/>
+
+        ATLauncher logs can be found in the installation directory. Or you can
+        "Open Folder" from the launcher to view the instance.<br/><br/>
+
+        Then upload the latest/crash logs to [gist](https://gist.github.com/) or [pastebin](https://pastebin.com/).<br/>
+
+        **DON'T upload them to GitHub**
+  - type: input
+    id: clientLogs
+    attributes:
+      label: "Client/Server Log:"
+      description: Paste URL to the client/server log.
+  - type: input
+    id: crashLogs
+    attributes:
+      label: "Crash Log:"
+      description: Paste URL to the crash log.
+  - type: markdown
+    attributes:
+      value: "## World Information"
+  - type: input
+    id: worldPreset
+    attributes:
+      label: "Preset used to world:"
+      placeholder: i.e. minecraft:normal
+    validations:
+      required: true
+  - type: input
+    id: versionCreated
+    attributes:
+      label: "Modpack Version world was created in:"
+      placeholder: i.e. v5.0.0
+    validations:
+      required: true
+  - type: input
+    id: additionalContent
+    attributes:
+      label: Additional Content Installed?
+      description: List any extra mods you've installed into the pack.
+  - type: markdown
+    attributes:
+      value: "## Client Information"
+  - type: input
+    id: modpackVersion
+    attributes:
+      label: "Modpack Version:"
+      description: What version of SF5 are you experiences this issue on?
+      placeholder: i.e. v5.0.0
+    validations:
+      required: true
+  - type: input
+    id: javaVersion
+    attributes:
+      label: "Java Version:"
+      description: What version of java are you running the pack on?
+      placeholder: i.e. v17.0.0
+    validations:
+      required: true
+  - type: input
+    id: launcherUsed
+    attributes:
+      label: "Launcher Used:"
+      description: Which launcher are you using to launch the pack?
+      placeholder: i.e. CurseForge, GD Launcher, Prism, etc.
+    validations:
+      required: true
+  - type: input
+    id: memoryAllocated
+    attributes:
+      label: "Memory Allocated:"
+      description: How much RAM do you have allocated to the pack?
+      placeholder: i.e. 9192 MB
+    validations:
+      required: true
+  - type: dropdown
+    id: gametype
+    attributes:
+      label: "Single Player/LAN/Server:"
+      description: What mode do you experience this issue on?
+      options:
+        - "Singleplayer"
+        - "LAN"
+        - "Server"
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: optifineInstalled
+    attributes:
+      label: "Optifine Installed:"
+      description: Do you have Optifine installed?
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: shadersEnabled
+    attributes:
+      label: "Shaders Enabled:"
+      description: Do you have shaders enabled?
+      options:
+        - "No"
+        - "Yes"
+      default: 0
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: "## Server Information"
+  - type: input
+    id: input-1
+    attributes:
+      label: "Java Version:"
+      description: Java version the server is using.
+      placeholder: i.e. v17.0.0
+    validations:
+      required: true
+  - type: input
+    id: input-2
+    attributes:
+      label: "Operating System:"
+      description: Operating system the server is using.
+      placeholder: i.ei Win 10, Win 11, Ubuntu, Arch, CentOS
+    validations:
+      required: true
+  - type: input
+    id: input-3
+    attributes:
+      label: "Hoster/Hosting Solution:"
+      description: Name of your server provider.
+      placeholder: i.e. NodeCraft, etc.
+    validations:
+      required: true

@@ -5,12 +5,16 @@
     "vanilla_composter_present": {
       "type": "workshop_has",
       "block": "minecraft:composter"
+    },
+    "colored_crafting_table_present": {
+      "type": "workshop_core",
+      "tag": "skyfactory_5:colored_crafting_tables"
     }
   },
   "groups": {},
   "filters": {
     "craftingforblockheads:plants_and_seed_resources": {
-      "name": "skyfactory_5.recipes.plants_and_seed_resources",
+      "name": "Farming Items",
       "icon": {
         "item": "exnihilosequentia:grass_seeds"
       },
@@ -36,34 +40,17 @@
         {
           "item": "exnihilosequentia:warped_nylium_spores"
         },
-        {
-          "item": "sushigocrafting:cucumber_seeds"
-        },
-        {
-          "item": "thermal:corn_seeds"
-        },
-        {
-          "item": "immersiveengineering:seed"
-        },
-        {
-          "item": "thermal:onion_seeds"
-        },
-        {
-          "item": "thermal:bell_pepper_seeds"
-        },
-        {
-          "item": "thermal:eggplant_seeds"
-        },
-        {
-          "item": "thermal:tomato_seeds"
-        },
-        {
-          "item": "thermal:flax_seeds"
-        }
+        { "item": "sushigocrafting:cucumber_seeds" },
+        { "item": "thermal:corn_seeds" },
+        { "item": "immersiveengineering:seed" },
+        { "item": "thermal:onion_seeds" },
+        { "item": "thermal:bell_pepper_seeds" },
+        { "item": "thermal:eggplant_seeds" },
+        { "item": "thermal:tomato_seeds" },
+        { "item": "thermal:flax_seeds" }
       ],
-      "soft_requirements": [
-        "vanilla_composter_present"
-      ],
+      "soft_requirements": ["vanilla_composter_present"],
+      "hard_requirements": ["colored_crafting_table_present"],
       "priority": 99996
     }
   }

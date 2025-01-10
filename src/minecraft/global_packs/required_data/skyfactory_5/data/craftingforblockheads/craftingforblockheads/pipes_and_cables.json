@@ -5,62 +5,37 @@
     "vanilla_hopper_present": {
       "type": "workshop_has",
       "block": "minecraft:hopper"
+    },
+    "colored_crafting_table_present": {
+      "type": "workshop_core",
+      "tag": "skyfactory_5:colored_crafting_tables"
     }
   },
   "groups": {},
   "filters": {
     "craftingforblockheads:pipes_and_cables": {
-      "name": "skyfactory_5.recipes.pipes_and_cables",
+      "name": "Pipes and Cables",
       "icon": {
         "item": "thermal:fluid_duct"
       },
       "includes": [
-        {
-          "item": "industrialforegoingsouls:soul_network_pipe"
-        },
-        {
-          "item": "create:fluid_pipe"
-        },
-        {
-          "item": "create:smart_fluid_pipe"
-        },
-        {
-          "item": "cyclic:energy_pipe"
-        },
-        {
-          "item": "cyclic:item_pipe"
-        },
-        {
-          "item": "cyclic:fluid_pipe"
-        },
-        {
-          "item": "immersiveengineering:fluid_pipe"
-        },
-        {
-          "item": "thermal:energy_duct"
-        },
-        {
-          "item": "thermal:fluid_duct"
-        },
-        {
-          "item": "thermal:fluid_duct_windowed"
-        },
-        {
-          "item": "pipe_connector:pipe_connector"
-        },
-        {
-          "item": "industrialforegoing:item_transporter_type"
-        },
-        {
-          "item": "industrialforegoing:fluid_transporter_type"
-        },
-        {
-          "item": "industrialforegoing:world_transporter_type"
-        }
+        { "item": "industrialforegoingsouls:soul_network_pipe" },
+        { "item": "create:fluid_pipe" },
+        { "item": "create:smart_fluid_pipe" },
+        { "item": "cyclic:energy_pipe" },
+        { "item": "cyclic:item_pipe" },
+        { "item": "cyclic:fluid_pipe" },
+        { "item": "immersiveengineering:fluid_pipe" },
+        { "item": "thermal:energy_duct" },
+        { "item": "thermal:fluid_duct" },
+        { "item": "thermal:fluid_duct_windowed" },
+        { "item": "pipe_connector:pipe_connector" },
+        { "item": "industrialforegoing:item_transporter_type" },
+        { "item": "industrialforegoing:fluid_transporter_type" },
+        { "item": "industrialforegoing:world_transporter_type" }
       ],
-      "soft_requirements": [
-        "vanilla_hopper_present"
-      ],
+      "soft_requirements": ["vanilla_hopper_present"],
+      "hard_requirements": ["colored_crafting_table_present"],
       "priority": 99995
     }
   }

@@ -25,7 +25,7 @@ craftingTable.addShapeless(
 craftingTable.addShapeless(
   "sand_from_dye",
   <item:minecraft:sand>,
-  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/orange>]
+  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/orange>, <tag:items:forge:dyes/orange>]
 );
 
 // Obsidian

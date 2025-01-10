@@ -1,0 +1,31 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:ores/quartz"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "count": 2,
+        "item": "minecraft:quartz"
+      },
+      "optional": false
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "item": "thermal:quartz_dust"
+      },
+      "optional": false
+    },
+    {
+      "chance": 0.15,
+      "item": {
+        "item": "minecraft:netherrack"
+      },
+      "optional": false
+    }
+  ]
+}

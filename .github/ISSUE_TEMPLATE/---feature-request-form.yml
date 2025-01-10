@@ -1,0 +1,23 @@
+name: "Feature Request"
+description: "Suggest a mod or a change to the config or scripts"
+labels: ["Feature Request"]
+assignees:
+  - Darkosto
+body:
+  - type: markdown
+    attributes:
+      value: >-
+        Thank you for submitting a feature request. Please provide
+        as much information as possible.
+  - type: textarea
+    id: requestContext
+    attributes:
+      label: Request Context
+      description: Please provide a clear and concise description of the your request.
+    validations:
+      required: true
+  - type: textarea
+    id: configScriptDetails
+    attributes:
+      label: Config/Script Details (if desired)
+      description: Include any config/script details to go with your request.

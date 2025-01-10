@@ -3,8 +3,8 @@ import { mkdir } from "fs/promises";
 import { Client, ILauncherOptions, IUser } from "minecraft-launcher-core";
 import { Auth, Minecraft } from "msmc";
 import { MinecraftPackage } from "schemas/mc-package";
+import { ForgeManager } from "scripts/utils/forge";
 import { readMinecraftPackage } from "scripts/utils/mc-package";
-import { ForgeManager } from "./forge";
 import "dotenv/config";
 
 const mcDirectory = "./minecraft";

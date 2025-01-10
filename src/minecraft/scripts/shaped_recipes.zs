@@ -1381,3 +1381,23 @@ craftingTable.addShaped(
     [<item:minecraft:red_dye>, <item:minecraft:spruce_sapling>, <item:minecraft:nether_wart>]
   ]
 );
+
+// Ars Wood to Chest Recipes
+  craftingTable.addShaped(
+  "archwood_logs_to_chest",
+  <item:minecraft:chest> * 4,
+  [
+    [<tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>],
+    [<tag:items:forge:logs/archwood>, <item:minecraft:air>, <tag:items:forge:logs/archwood>],
+    [<tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>]
+  ]
+);
+  craftingTable.addShaped(
+  "archwood_planks_to_chest",
+  <item:minecraft:chest> * 1,
+  [
+    [<tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>],
+    [<tag:items:forge:planks/archwood>, <item:minecraft:air>, <tag:items:forge:planks/archwood>],
+    [<tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>]
+  ]
+);

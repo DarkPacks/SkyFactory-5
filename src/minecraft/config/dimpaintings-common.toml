@@ -11,4 +11,4 @@ netherMaxY = 72
 # Range: > 0
 teleportCooldown = 4
 # Disable nether portal creation (Default: false)
-disableNetherPortal = false
+disableNetherPortal = true

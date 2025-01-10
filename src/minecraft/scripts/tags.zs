@@ -258,8 +258,13 @@ val itemsToRemove as IItemStack[] = [
   <item:silentgear:crimson_iron_ore>,
   <item:silentgear:blackstone_crimson_iron_ore>,
   <item:silentgear:azure_silver_ore>,
-
-
+  <item:silentgear:arrow_blueprint>,
+  <item:silentgear:fletching_blueprint>,
+  <item:silentgear:arrow_template>,
+  <item:silentgear:fletching_template>,
+  <item:silentgear:arrow>,
+  <item:silentgear:arrow_heads>,
+  <item:silentgear:fletching>,
 
   // Immersive Engineering
   <item:immersiveengineering:storage_electrum>,
@@ -442,7 +447,8 @@ var colors = [
 // Tag additions
 <tag:items:forge:dusts/ender>.addId(<resource:thermal:ender_pearl_dust>);
 <tag:items:minecraft:pressure_plates>.addId(<resource:minecraft:stone_pressure_plate>);
-
+<tag:items:balm:wooden_chests>.addId(<resource:sophisticatedstorage:chest>);
+<tag:items:forge:wooden_chests>.addId(<resource:sophisticatedstorage:chest>);
 // Adds Crafting Tables to forge:workbench tag
 <tag:items:forge:workbench>.addId(<resource:enderio:painted_crafting_table>);
 <tag:items:forge:workbench>.addId(<resource:colouredstuff:crafting_table_none>);

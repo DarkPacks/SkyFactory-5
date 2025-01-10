@@ -110,7 +110,7 @@ maxSludgeTankSize = 8000
 # Max progress of the machine
 maxProgress = 100
 # How much weight of an item the catalyst will increase
-catalystModifier = 8
+catalystModifier = 69420
 
 [MachineResourceProductionConfig.DyeMixerConfig]
 # Amount of Power Consumed per Tick - Default: [400FE]

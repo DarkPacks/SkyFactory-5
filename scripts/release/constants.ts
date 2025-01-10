@@ -15,7 +15,7 @@ export const sharedReleaseIgnorePath = path.join(
 );
 
 const buildDirPath = path.join(process.cwd(), "src", "minecraft");
-const minecraftDirPath = path.join(process.cwd(), "minecraft");
+export const minecraftDirPath = path.join(process.cwd(), "minecraft");
 
 export const directories = new Map([
   ["config", buildDirPath],

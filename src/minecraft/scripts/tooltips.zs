@@ -1,7 +1,7 @@
 import crafttweaker.api.text.Component;
 
 // Script for setting up custom tooltips
-
+// var tool_belt_tip = Component.translatable("some.lang.key").setStyle(<constant:formatting:gold>);
 
 /*
  var amazon = Component.literal("Amazon").setStyle(<constant:formatting:gold>);
@@ -160,3 +160,36 @@ import crafttweaker.api.text.Component;
 // Mystical Agriculture
   var inferium_essence = Component.literal("由黄绿色树叶掉落").setStyle(<constant:formatting:yellow>);
   <item:mysticalagriculture:inferium_essence>.addTooltip(inferium_essence);
+
+// Gateways
+// Ghast Cow and Wither
+var exploding_boss_gateway = Component.literal("Warning! Summons an Exploding Boss Mob").setStyle(<constant:formatting:red>);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/ghast_cow"}).addTooltip(exploding_boss_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/ghast_cow"}).addTooltip(exploding_boss_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/wither"}).addTooltip(exploding_boss_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/wither"}).addTooltip(exploding_boss_gateway);
+
+// General Bosses
+var boss_mob_gateway = Component.literal("Warning! Summons a Boss Mob").setStyle(<constant:formatting:red>);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/ender_dragon"}).addTooltip(boss_mob_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/ender_dragon"}).addTooltip(boss_mob_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/warden"}).addTooltip(boss_mob_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/warden"}).addTooltip(boss_mob_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/mother_lava_squid"}).addTooltip(boss_mob_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/mother_lava_squid"}).addTooltip(boss_mob_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/elder_guardian"}).addTooltip(boss_mob_gateway);
+<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/elder_guardian"}).addTooltip(boss_mob_gateway);
+
+// Ugly Steel Plating
+var ugly_steel_plating = Component.literal("Covers Blenders & Printers to save FPS").setStyle(<constant:formatting:yellow>);
+  <item:forbiddensmoothies:ugly_steel_plating>.addTooltip(ugly_steel_plating);
+
+// Dimensional Painting
+var overworld_painting = Component.literal("Teleports you to the Overworld Dimension").setStyle(<constant:formatting:yellow>);
+<item:dimpaintings:overworld_painting>.addTooltip(overworld_painting);
+
+var nether_painting = Component.literal("Teleports you to the Nether Dimension").setStyle(<constant:formatting:yellow>);
+<item:dimpaintings:nether_painting>.addTooltip(nether_painting);
+
+var end_painting = Component.literal("Teleports you to the End Dimension").setStyle(<constant:formatting:yellow>);
+<item:dimpaintings:end_painting>.addTooltip(end_painting);

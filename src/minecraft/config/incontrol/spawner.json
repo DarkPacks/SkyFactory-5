@@ -489,6 +489,27 @@
     }
   },
   {
+    "mob": ["minecraft:cow"],
+    "persecond": 20,
+    "attempts": 5,
+    "amount": {
+      "minimum": 4,
+      "maximum": 4
+    },
+    "conditions": {
+      "dimension": [
+        "minecraft:overworld",
+        "minecraft:the_nether",
+        "minecraft:the_end"
+      ],
+      "inwater": false,
+      "mindist": 24,
+      "maxdist": 96,
+      "validspawn": true,
+      "sturdy": true
+    }
+  },
+  {
     "mob": ["minecraft:goat", "colourfulgoats:goat"],
     "persecond": 10,
     "attempts": 50,

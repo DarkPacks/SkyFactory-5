@@ -35,6 +35,14 @@ Once installed, run `nvm install 20.5.1` then `nvm use 20.5.1` once the installa
 4. Run `npm run start` to start Minecraft.
 5. Work on the project.
 
+### Updating Minecraft or Forge version
+
+The versions used are tracked in the [mc-package.json](./mc-package.json) file. To update:
+
+1. Change the versions in the [mc-package.json](./mc-package.json) file.
+2. Update the [settings.bat](./src/server/settings.bat) file.
+3. Update the [settings.sh](./src/server/settings.sh) file.
+
 ### Additional Scripts
 
 These are additional scripts that are provided for easing development processes.

@@ -236,6 +236,10 @@ val items as IItemStack[] = [
 <item:silentgear:azure_repair_kit>,
 <item:silentgear:bort>,
 <item:silentgear:bort_block>,
+<item:silentgear:arrow_blueprint>,
+<item:silentgear:fletching_blueprint>,
+<item:silentgear:arrow_template>,
+<item:silentgear:fletching_template>,
 
 // Cyclic
 <item:cyclic:crystal_boots>,

@@ -1,0 +1,10 @@
+{
+  "type": "industrialforegoing:fluid_extractor",
+  "breakChance": 0.01,
+  "defaultRecipe": true,
+  "input": {
+    "tag": "skyfactory_5:all_logs_but_pink"
+  },
+  "output": "{Amount:1,FluidName:\"industrialforegoing:latex\"}",
+  "result": "minecraft:air"
+}

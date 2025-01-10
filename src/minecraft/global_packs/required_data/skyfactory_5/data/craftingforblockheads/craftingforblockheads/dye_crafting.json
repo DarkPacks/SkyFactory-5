@@ -64,37 +64,37 @@
       ],
       "excludes": [
         {
-          "recipe": "recipestages:light_gray_dye_combo"
+          "recipe": "recipestages:light_gray_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:light_gray_dye_combo2"
+          "recipe": "recipestages:light_gray_dye_combo2_manual_only"
         },
         {
-          "recipe": "recipestages:gray_dye_combo"
+          "recipe": "recipestages:gray_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:orange_dye_combo"
+          "recipe": "recipestages:orange_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:purple_dye_combo"
+          "recipe": "recipestages:purple_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:magenta_dye_combo"
+          "recipe": "recipestages:magenta_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:lime_dye_combo"
+          "recipe": "recipestages:lime_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:pink_dye_combo"
+          "recipe": "recipestages:pink_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:cyan_dye_combo"
+          "recipe": "recipestages:cyan_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:light_blue_dye_combo"
+          "recipe": "recipestages:light_blue_dye_combo_manual_only"
         },
         {
-          "recipe": "recipestages:green_dye_combo"
+          "recipe": "recipestages:green_dye_combo_manual_only"
         }
       ],
       "priority": 99998
