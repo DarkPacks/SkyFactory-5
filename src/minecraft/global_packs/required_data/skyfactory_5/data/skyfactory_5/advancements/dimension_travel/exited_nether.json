@@ -4,7 +4,7 @@
       "item": "minecraft:flint_and_steel"
     },
     "title": {
-      "translate": "Exited Nether"
+      "translate": "skyfactory_5.advancement.title.exited_nether"
     },
     "description": {
       "translate": "need_to_do.do_this"

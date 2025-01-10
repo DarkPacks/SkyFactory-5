@@ -4,7 +4,7 @@
       "item": "minecraft:flint_and_steel"
     },
     "title": {
-      "translate": "Exited End"
+      "translate": "skyfactory_5.advancement.title.exited_end"
     },
     "description": {
       "translate": "need_to_do.do_this"

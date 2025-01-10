@@ -7,7 +7,7 @@
   ],
   "infos": [
     {
-      "text": "在击败混沌守卫后，它生成在混沌之岛的中心。混沌之岛以(0,0)为中心，在每个方向上每隔10000格生成一个。"
+      "translate": "skyfactory_5.info.chaos_shard"
     }
   ]
 }

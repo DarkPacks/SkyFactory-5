@@ -2,7 +2,7 @@
   "items": ["minecraft:bone_meal"],
   "infos": [
     {
-      "text": "Obtained from composting biological material in a composter"
+      "translate": "skyfactory_5.info.bone_meal"
     }
   ]
 }

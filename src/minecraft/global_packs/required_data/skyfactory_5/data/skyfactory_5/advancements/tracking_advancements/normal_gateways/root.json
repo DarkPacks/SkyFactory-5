@@ -5,10 +5,10 @@
       "nbt": "{gateway:\"gateways:normal/mooshroom\"}"
     },
     "title": {
-      "translate": "skyfactory_5.normal_gateway_root"
+      "translate": "gateways.normal/root_title"
     },
     "description": {
-      "translate": "skyfactory_5.normal_gateway_root_description"
+      "translate": "gateways.normal/root_description"
     },
     "frame": "task",
     "show_toast": false,

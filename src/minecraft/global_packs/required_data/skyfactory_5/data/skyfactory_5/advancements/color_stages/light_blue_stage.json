@@ -3,7 +3,9 @@
     "icon": {
       "item": "minecraft:light_blue_concrete_powder"
     },
-    "title": "淡蓝色阶段",
+    "title": {
+      "translate": "skyfactory_5.advancement.title.light_blue.stage"
+    },
     "description": {
       "translate": "skyfactory_5.advancement.light_blue.stage"
     },

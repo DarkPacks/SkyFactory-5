@@ -3,7 +3,9 @@
     "icon": {
       "item": "minecraft:white_concrete_powder"
     },
-    "title": "白色阶段",
+    "title": {
+      "translate": "skyfactory_5.advancement.title.white.stage"
+    },
     "description": {
       "translate": "skyfactory_5.advancement.white.stage"
     },

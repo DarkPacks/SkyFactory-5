@@ -4,7 +4,9 @@
       "item": "obtrophies:trophy",
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:purple\"}}"
     },
-    "title": "紫色奖杯！",
+    "title": {
+      "translate": "gateways.trophies/trophies_purple"
+    },
     "description": {
       "text": " "
     },

@@ -4,7 +4,9 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:normal/purple_vein_creeper\"}"
     },
-    "title": "巨型紫色传送门！",
+    "title": {
+      "translate": "gateways.titan/titan_purple"
+    },
     "description": {
       "text": " "
     },

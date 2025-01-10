@@ -3,7 +3,9 @@
     "icon": {
       "item": "minecraft:purple_concrete_powder"
     },
-    "title": "紫色阶段",
+    "title": {
+      "translate": "skyfactory_5.advancement.title.purple.stage"
+    },
     "description": {
       "translate": "skyfactory_5.advancement.purple.stage"
     },

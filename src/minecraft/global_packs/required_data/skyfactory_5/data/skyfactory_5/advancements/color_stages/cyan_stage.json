@@ -3,7 +3,9 @@
     "icon": {
       "item": "minecraft:cyan_concrete_powder"
     },
-    "title": "青色阶段",
+    "title": {
+      "translate": "skyfactory_5.advancement.title.cyan.stage"
+    },
     "description": {
       "translate": "skyfactory_5.advancement.cyan.stage"
     },

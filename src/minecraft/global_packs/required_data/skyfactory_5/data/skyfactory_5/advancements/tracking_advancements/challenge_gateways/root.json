@@ -5,10 +5,10 @@
       "nbt": "{gateway:\"gateways:challenge/challenge_yellow\"}"
     },
     "title": {
-      "translate": "skyfactory_5.challenge_gateway_root"
+      "translate": "gateways.challenge/root_title"
     },
     "description": {
-      "translate": "skyfactory_5.challenge_gateway_root_description"
+      "translate": "gateways.challenge/root_description"
     },
     "frame": "task",
     "show_toast": false,

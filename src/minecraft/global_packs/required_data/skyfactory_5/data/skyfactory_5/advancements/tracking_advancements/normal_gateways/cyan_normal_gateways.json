@@ -4,7 +4,9 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:normal/cyan_vein_creeper\"}"
     },
-    "title": "青色普通传送门！",
+    "title": {
+      "translate": "gateways.normal/normal_cyan"
+    },
     "description": {
       "text": " "
     },

@@ -5,10 +5,10 @@
       "nbt": "{gateway:\"gateways:titan/dolphin\"}"
     },
     "title": {
-      "translate": "skyfactory_5.titan_gateway_root"
+      "translate": "gateways.titan/root_title"
     },
     "description": {
-      "translate": "skyfactory_5.titan_gateway_root_description"
+      "translate": "gateways.titan/root_description"
     },
     "frame": "task",
     "show_toast": false,

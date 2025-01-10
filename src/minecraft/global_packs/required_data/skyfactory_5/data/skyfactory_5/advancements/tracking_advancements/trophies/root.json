@@ -5,10 +5,10 @@
       "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:zombie\"}}"
     },
     "title": {
-      "translate": "skyfactory_5.trophy_root"
+      "translate": "gateways.trophies/root_title"
     },
     "description": {
-      "translate": "skyfactory_5.trophy_root_description"
+      "translate": "gateways.trophies/root_title"
     },
     "frame": "task",
     "show_toast": false,

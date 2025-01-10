@@ -3,7 +3,9 @@
     "icon": {
       "item": "minecraft:black_concrete_powder"
     },
-    "title": "黑色阶段",
+    "title": {
+      "translate": "skyfactory_5.advancement.title.black.stage"
+    },
     "description": {
       "translate": "skyfactory_5.advancement.black.stage"
     },

@@ -4,7 +4,9 @@
       "item": "gateways:gate_pearl",
       "nbt": "{gateway:\"gateways:challenge/challenge_cyan\"}"
     },
-    "title": "青色挑战传送门",
+    "title": {
+      "translate": "gateways.challenge/challenge_cyan"
+    },
     "description": {
       "text": " "
     },
