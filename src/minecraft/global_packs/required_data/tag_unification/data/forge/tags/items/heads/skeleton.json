@@ -1,4 +1,7 @@
 {
-  "values": ["minecraft:skeleton_skull"],
+  "values": [
+    "minecraft:skeleton_skull",
+    "limbs:skeleton_head"
+  ],
   "replace": true
 }

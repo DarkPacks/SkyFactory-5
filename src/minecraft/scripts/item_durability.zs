@@ -33,7 +33,6 @@ for durability, items in itemsForDurability{
   }
 }
 
-
   // //
   // Sets up items to use the Unbreakable tag as this is a much cleaner
   // method for many items rather than setting durability
@@ -377,6 +376,7 @@ val itemsForUnbreakable = [
   <resource:minecraft:turtle_helmet>,
   <resource:minecraft:bow>,
   <resource:minecraft:crossbow>,
+  <resource:minecraft:elytra>,
 
   // Silent's Gear
   <resource:silentgear:sword>,

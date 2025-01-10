@@ -52,7 +52,7 @@
     {
       "when": { "moisture": "7" },
       "apply": {
-        "model": "colouredstuff:block/tmpl_farmland_moist",
+        "model": "colouredstuff:block/tmpl_farmland_moist_green",
         "uvlock": true
       }
     },

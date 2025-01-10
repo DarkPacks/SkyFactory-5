@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    { "item": "immersiveengineering:ethanol_bucket" },
+    { "item": "minecraft:rotten_flesh" },
+    { "item": "minecraft:rotten_flesh" },
+    { "item": "minecraft:rotten_flesh" },
+    { "tag": "forge:dusts/lead" }
+  ],
+  "result": { "count": 16, "item": "minecraft:white_dye" }
+}

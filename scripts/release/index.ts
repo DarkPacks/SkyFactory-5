@@ -7,9 +7,12 @@ import { globifyGitIgnore } from "globify-gitignore";
 import path from "path";
 import mcPackage from "mc-package.json";
 import { createDirectories, emptyDirectory } from "scripts/utils/file";
+import { ForgeManager } from "scripts/utils/forge";
+import { readMinecraftPackage } from "scripts/utils/mc-package";
 import {
   clientReleaseIgnorePath,
   directories,
+  minecraftDirPath,
   releaseDirPath,
   serverReleaseIgnorePath,
   sharedReleaseIgnorePath,
@@ -35,32 +38,52 @@ async function main() {
 
   const { clientIgnore, serverIgnore } = await loadIgnoreFiles();
 
+  // Client
   await createZip(
     directories,
     path.join(releaseDirPath, `${clientFileName}.zip`),
-    "client",
     clientIgnore,
   );
+
+  //  Server
+  const forgeManager = new ForgeManager(
+    await readMinecraftPackage(),
+    minecraftDirPath,
+  );
+  const minecraftInstallerFilePath = await forgeManager.ensureDownloaded();
 
   await createZip(
     directories,
     path.join(releaseDirPath, `${serverFileName}.zip`),
-    "server",
     serverIgnore,
+    [
+      {
+        isFile: true,
+        basePath: path.relative(process.cwd(), minecraftInstallerFilePath),
+        zipFilePath: (filePath) => path.basename(filePath),
+      },
+      {
+        basePath: path.join(process.cwd(), "src", "server"),
+        zipFilePath: (filePath) => path.basename(filePath),
+      },
+    ],
   );
 }
 
 interface SourceFilePath {
   zipPath: string;
   cwdRelativePath: string;
-  zipBasePath: string;
 }
 
 async function createZip(
   sources: Map<string, string>,
   target: string,
-  type: "client" | "server",
   denylist: string[] = [],
+  additionalPaths: {
+    isFile?: boolean;
+    basePath: string;
+    zipFilePath: (filePath: string) => string;
+  }[] = [],
 ): Promise<void> {
   const sourceFiles = (
     await Promise.all(
@@ -87,6 +110,38 @@ async function createZip(
       }),
     )
   ).flat();
+
+  const additionalResolvedPaths = (
+    await Promise.all(
+      additionalPaths.map(async (additionalEntry) => {
+        const basePath = additionalEntry.basePath.replace(/\\/g, "/");
+
+        if (additionalEntry.isFile) {
+          return {
+            zipPath: additionalEntry.zipFilePath(basePath),
+            cwdRelativePath: basePath,
+          };
+        }
+
+        const result = await glob(
+          `${path.relative(process.cwd(), basePath)}/**/*`,
+          {
+            cwd: process.cwd(),
+            ignore: denylist,
+            nocase: true,
+          },
+        );
+
+        return result.map<SourceFilePath>((file) => ({
+          zipPath: additionalEntry.zipFilePath(file),
+          cwdRelativePath: file,
+          zipBasePath: basePath,
+        }));
+      }),
+    )
+  ).flat();
+
+  sourceFiles.push(...additionalResolvedPaths);
 
   return new Promise((resolve, reject) => {
     const output = fs.createWriteStream(target);

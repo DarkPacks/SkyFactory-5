@@ -1,4 +1,4 @@
 # Set to false to disable FOV adjustment when charging for a power drop
-adjust_fov = true
+adjust_fov = false
 # Set to true to emit a message in chat (only visible to you) indicating that full power has been achieved
 emit_max_power_msg = false

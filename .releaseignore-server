@@ -2,15 +2,41 @@
 # Ignore entries for server releases.
 ###############################################
 
+/src/minecraft/packmenu
+
 # Mods
+/minecraft/mods/betteradvancements*
+/minecraft/mods/betteranimationscollection*
+/minecraft/mods/betterthanbunnies*
+/minecraft/mods/betterthanllamas*
 /minecraft/mods/bridgingmod*
+/minecraft/mods/colorfulhearts*
+/minecraft/mods/controllable*
+/minecraft/mods/controlling*
+/minecraft/mods/crop-marker*
+/minecraft/mods/defaultoptions*
+/minecraft/mods/embeddium*
+/minecraft/mods/embeddiumplus*
+/minecraft/mods/enchantmentdescriptions*
+/minecraft/mods/extremesoundmuffler*
 /minecraft/mods/itemborders*
 /minecraft/mods/jade*
+/minecraft/mods/light-overlay*
 /minecraft/mods/loadingbackgrounds*
 /minecraft/mods/lootbeams*
 /minecraft/mods/modernui*
+/minecraft/mods/modnametooltip*
+/minecraft/mods/mousetweaks*
+/minecraft/mods/obscure-tooltips*
+/minecraft/mods/packmenu*
+/minecraft/mods/paperdoll*
 /minecraft/mods/reicustomcommand*
 /minecraft/mods/reiplugincompatibilities*
 /minecraft/mods/rrls*
 /minecraft/mods/seamless-loading-screen*
+/minecraft/mods/smoothboot*
+/minecraft/mods/tips-forge*
+/minecraft/mods/tipthescales*
+/minecraft/mods/toastcontrol*
+/minecraft/mods/yeetusexperimentus*
 /minecraft/mods/zume*

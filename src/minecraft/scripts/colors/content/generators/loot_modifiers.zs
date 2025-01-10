@@ -18,7 +18,7 @@ ContentBuilder.factory
     }
 
     leaves.addLootModifier(baseName + args.color.getResourceName(), (drops, ctx) => {
-      if ctx.tool == <item:minecraft:shears> {
+      if <tag:items:forge:shears>.contains(ctx.tool.registryName) {
         return drops;
       }
 
@@ -67,7 +67,7 @@ ContentBuilder.factory
     }
 
     leaves.addLootModifier(args.color.getResourceName() + baseName, (drops, ctx) => {
-      if ctx.tool == <item:minecraft:shears> {
+      if <tag:items:forge:shears>.contains(ctx.tool.registryName) {
         return drops;
       }
 
@@ -96,7 +96,7 @@ ContentBuilder.factory
     }
 
     leaves.addLootModifier(args.color.getResourceName() + baseName, (drops, ctx) => {
-      if ctx.tool == <item:minecraft:shears> {
+      if <tag:items:forge:shears>.contains(ctx.tool.registryName) {
         return drops;
       }
 

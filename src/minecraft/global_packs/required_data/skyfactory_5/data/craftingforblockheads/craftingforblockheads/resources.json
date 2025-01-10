@@ -143,6 +143,9 @@
         },
         {
           "recipe": "forcecraft:transmutation/stick_from_stone_axe"
+        },
+        {
+          "recipe": "immersiveengineering:crafting/lead_white"
         }
       ],
       "priority": 99999

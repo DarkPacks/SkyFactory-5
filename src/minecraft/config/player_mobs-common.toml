@@ -29,7 +29,11 @@
 # The id of the dimensions to block spawning in.
 # The player mobs spawn where Zombies spawn, so no need to block dimensions that doesn't contain Zombies.
 # Example id: "minecraft:overworld"
-"Dimension Blocklist" = []
+"Dimension Blocklist" = [
+  "minecraft:overworld",
+  "minecraft:the_nether",
+  "minecraft:the_end"
+]
 # Force the mobs to spawn holding items.
 "Force Items Spawn" = false
 # A list of items that the player mobs can spawn with.

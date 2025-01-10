@@ -1,0 +1,16 @@
+{
+  "type": "silentgear:compound_part",
+  "gear_type": "arrow",
+  "part_type": "silentgear:main",
+  "crafting_item": {
+    "item": "silentgear:arrow_heads"
+  },
+  "availability": {
+    "visible": false,
+    "gear_blacklist": ["all"]
+  },
+  "name": {
+    "translate": "part.silentgear.arrow_heads"
+  },
+  "stats": {}
+}

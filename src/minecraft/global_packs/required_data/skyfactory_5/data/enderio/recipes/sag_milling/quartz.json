@@ -1,0 +1,24 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "chance_only",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gems/quartz"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "item": "thermal:quartz_dust"
+      },
+      "optional": false
+    },
+    {
+      "chance": 0.1,
+      "item": {
+        "item": "thermal:quartz_dust"
+      },
+      "optional": false
+    }
+  ]
+}

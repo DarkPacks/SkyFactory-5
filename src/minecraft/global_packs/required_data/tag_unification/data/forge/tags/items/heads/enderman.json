@@ -1,4 +1,8 @@
 {
-  "values": ["heads:enderman_head"],
+  "values": [
+    "heads:enderman_head",
+    "limbs:enderman_head",
+    "enderio:enderman_head"
+  ],
   "replace": true
 }

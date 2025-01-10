@@ -1,0 +1,18 @@
+{
+  "type": "thermal:sawmill",
+  "ingredient": {
+    "item": "colouredstuff:wood_stripped_purple"
+  },
+  "result": [
+    {
+      "item": "colouredstuff:planks_purple",
+      "count": 6
+    },
+    {
+      "item": "thermal:sawdust",
+      "chance": 1.25
+    }
+  ],
+  "energy": 1000,
+  "experience": 0.15
+}

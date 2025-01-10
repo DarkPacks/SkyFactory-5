@@ -3,7 +3,7 @@
   "keepHeldItem": true,
   "ingredients": [
     {
-      "item": "thermal:cheese_wedge"
+      "item": "thermal:cheese_wheel"
     },
     {
       "tag": "forge:tools/knives"
@@ -11,7 +11,7 @@
   ],
   "results": [
     {
-      "item": "thermal:cheese_wheel",
+      "item": "thermal:cheese_wedge",
       "count": 4
     }
   ]

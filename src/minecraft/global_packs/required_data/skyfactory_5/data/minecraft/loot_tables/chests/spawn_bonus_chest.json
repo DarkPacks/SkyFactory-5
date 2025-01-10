@@ -47,7 +47,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:apple",
+          "name": "sf5_things:none_apple",
           "weight": 5
         },
         {
@@ -79,7 +79,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "minecraft:salmon",
+          "name": "minecraft:cod",
           "weight": 3
         }
       ],

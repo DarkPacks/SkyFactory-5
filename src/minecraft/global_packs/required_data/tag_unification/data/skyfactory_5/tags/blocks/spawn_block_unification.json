@@ -11,6 +11,7 @@
     "minecraft:obsidian",
     "minecraft:end_stone",
     "minecraft:stone",
-    "mob_grinding_utils:entity_conveyor"
+    "mob_grinding_utils:entity_conveyor",
+    "#skyfactory_5:color_stone"
   ]
 }

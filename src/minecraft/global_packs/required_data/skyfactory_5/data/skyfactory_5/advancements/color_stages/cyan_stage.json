@@ -277,6 +277,17 @@
           }
         ]
       }
+    },
+    "apatite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["thermal:apatite"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -304,7 +315,8 @@
       "prismarine_brick_slab",
       "prismarine_shard",
       "prismarine_crystals",
-      "sadiroot"
+      "sadiroot",
+      "apatite"
     ]
   ],
   "rewards": {

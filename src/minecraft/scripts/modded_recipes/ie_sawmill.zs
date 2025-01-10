@@ -8,3 +8,311 @@
   <item:thermal:sawdust>,
   []
 );
+
+// Adds ColouredStuff Sawmill recipes for all colors
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_black_to_planks_ie",
+  <item:colouredstuff:log_black>,
+  1000,
+  <item:colouredstuff:log_stripped_black>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_black> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_blue_to_planks_ie",
+  <item:colouredstuff:log_blue>,
+  1000,
+  <item:colouredstuff:log_stripped_blue>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_blue> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_brown_to_planks_ie",
+  <item:colouredstuff:log_brown>,
+  1000,
+  <item:colouredstuff:log_stripped_brown>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_brown> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_cyan_to_planks_ie",
+  <item:colouredstuff:log_cyan>,
+  1000,
+  <item:colouredstuff:log_stripped_cyan>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_cyan> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_gray_to_planks_ie",
+  <item:colouredstuff:log_gray>,
+  1000,
+  <item:colouredstuff:log_stripped_gray>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_gray> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_green_to_planks_ie",
+  <item:colouredstuff:log_green>,
+  1000,
+  <item:colouredstuff:log_stripped_green>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_green> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_light_blue_to_planks_ie",
+  <item:colouredstuff:log_light_blue>,
+  1000,
+  <item:colouredstuff:log_stripped_light_blue>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_light_blue> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_light_gray_to_planks_ie",
+  <item:colouredstuff:log_light_gray>,
+  1000,
+  <item:colouredstuff:log_stripped_light_gray>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_light_gray> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_lime_to_planks_ie",
+  <item:colouredstuff:log_lime>,
+  1000,
+  <item:colouredstuff:log_stripped_lime>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_lime> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_magenta_to_planks_ie",
+  <item:colouredstuff:log_magenta>,
+  1000,
+  <item:colouredstuff:log_stripped_magenta>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_magenta> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_none_to_planks_ie",
+  <item:colouredstuff:log_none>,
+  1000,
+  <item:colouredstuff:log_stripped_none>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_none> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_orange_to_planks_ie",
+  <item:colouredstuff:log_orange>,
+  1000,
+  <item:colouredstuff:log_stripped_orange>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_orange> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_pink_to_planks_ie",
+  <item:colouredstuff:log_pink>,
+  1000,
+  <item:colouredstuff:log_stripped_pink>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_pink> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_purple_to_planks_ie",
+  <item:colouredstuff:log_purple>,
+  1000,
+  <item:colouredstuff:log_stripped_purple>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_purple> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_red_to_planks_ie",
+  <item:colouredstuff:log_red>,
+  1000,
+  <item:colouredstuff:log_stripped_red>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_red> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_white_to_planks_ie",
+  <item:colouredstuff:log_white>,
+  1000,
+  <item:colouredstuff:log_stripped_white>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_white> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_yellow_to_planks_ie",
+  <item:colouredstuff:log_yellow>,
+  1000,
+  <item:colouredstuff:log_stripped_yellow>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_yellow> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_black_wood_to_planks_ie",
+  <item:colouredstuff:wood_black>,
+  1000,
+  <item:colouredstuff:wood_stripped_black>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_black> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_blue_wood_to_planks_ie",
+  <item:colouredstuff:wood_blue>,
+  1000,
+  <item:colouredstuff:wood_stripped_blue>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_blue> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_brown_wood_to_planks_ie",
+  <item:colouredstuff:wood_brown>,
+  1000,
+  <item:colouredstuff:wood_stripped_brown>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_brown> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_cyan_wood_to_planks_ie",
+  <item:colouredstuff:wood_cyan>,
+  1000,
+  <item:colouredstuff:wood_stripped_cyan>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_cyan> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_gray_wood_to_planks_ie",
+  <item:colouredstuff:wood_gray>,
+  1000,
+  <item:colouredstuff:wood_stripped_gray>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_gray> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_green_wood_to_planks_ie",
+  <item:colouredstuff:wood_green>,
+  1000,
+  <item:colouredstuff:wood_stripped_green>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_green> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_light_blue_wood_to_planks_ie",
+  <item:colouredstuff:wood_light_blue>,
+  1000,
+  <item:colouredstuff:wood_stripped_light_blue>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_light_blue> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_light_gray_wood_to_planks_ie",
+  <item:colouredstuff:wood_light_gray>,
+  1000,
+  <item:colouredstuff:wood_stripped_light_gray>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_light_gray> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_lime_wood_to_planks_ie",
+  <item:colouredstuff:wood_lime>,
+  1000,
+  <item:colouredstuff:wood_stripped_lime>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_lime> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_magenta_wood_to_planks_ie",
+  <item:colouredstuff:wood_magenta>,
+  1000,
+  <item:colouredstuff:wood_stripped_magenta>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_magenta> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_none_wood_to_planks_ie",
+  <item:colouredstuff:wood_none>,
+  1000,
+  <item:colouredstuff:wood_stripped_none>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_none> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_orange_wood_to_planks_ie",
+  <item:colouredstuff:wood_orange>,
+  1000,
+  <item:colouredstuff:wood_stripped_orange>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_orange> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_pink_wood_to_planks_ie",
+  <item:colouredstuff:wood_pink>,
+  1000,
+  <item:colouredstuff:wood_stripped_pink>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_pink> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_purple_wood_to_planks_ie",
+  <item:colouredstuff:wood_purple>,
+  1000,
+  <item:colouredstuff:wood_stripped_purple>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_purple> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_red_wood_to_planks_ie",
+  <item:colouredstuff:wood_red>,
+  1000,
+  <item:colouredstuff:wood_stripped_red>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_red> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_white_wood_to_planks_ie",
+  <item:colouredstuff:wood_white>,
+  1000,
+  <item:colouredstuff:wood_stripped_white>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_white> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_yellow_wood_to_planks_ie",
+  <item:colouredstuff:wood_yellow>,
+  1000,
+  <item:colouredstuff:wood_stripped_yellow>,
+  [<item:thermal:sawdust>],
+  <item:colouredstuff:planks_yellow> * 6,
+  [<item:thermal:sawdust>]
+);

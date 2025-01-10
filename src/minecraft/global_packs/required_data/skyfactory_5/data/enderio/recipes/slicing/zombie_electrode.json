@@ -1,0 +1,27 @@
+{
+  "type": "enderio:slicing",
+  "energy": 20000,
+  "inputs": [
+    {
+      "tag": "forge:ingots/energetic_alloy"
+    },
+    {
+      "tag": "forge:heads/zombie"
+    },
+    {
+      "tag": "forge:ingots/energetic_alloy"
+    },
+    {
+      "tag": "forge:silicon"
+    },
+    {
+      "item": "enderio:basic_capacitor"
+    },
+    {
+      "tag": "forge:silicon"
+    }
+  ],
+  "output": {
+    "item": "enderio:zombie_electrode"
+  }
+}

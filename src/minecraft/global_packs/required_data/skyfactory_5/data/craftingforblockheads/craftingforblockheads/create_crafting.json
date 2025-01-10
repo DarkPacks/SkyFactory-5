@@ -5,12 +5,16 @@
     "andesite_casing_present": {
       "type": "workshop_has",
       "block": "create:andesite_casing"
+    },
+    "colored_crafting_table_present": {
+      "type": "workshop_core",
+      "tag": "skyfactory_5:colored_crafting_tables"
     }
   },
   "groups": {},
   "filters": {
     "craftingforblockheads:create_crafting": {
-      "name": "skyfactory_5.recipes.create_crafting",
+      "name": "Create Recipes",
       "icon": {
         "item": "create:wrench"
       },
@@ -115,9 +119,8 @@
           "item": "create:empty_blaze_burner"
         }
       ],
-      "soft_requirements": [
-        "andesite_casing_present"
-      ],
+      "soft_requirements": ["andesite_casing_present"],
+      "hard_requirements": ["colored_crafting_table_present"],
       "priority": 99995
     }
   }

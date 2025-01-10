@@ -5,95 +5,48 @@
     "ex_nihilo_barrel_present": {
       "type": "workshop_has",
       "tag": "skyfactory_5:color_barrels"
+    },
+    "colored_crafting_table_present": {
+      "type": "workshop_core",
+      "tag": "skyfactory_5:colored_crafting_tables"
     }
   },
   "groups": {},
   "filters": {
     "craftingforblockheads:ex_nihilo_recipes": {
-      "name": "skyfactory_5.recipes.ex_nihilo_crafting",
+      "name": "Ex Nihilo Recipes",
       "icon": {
         "item": "exnihilosequentia:unfired_crucible"
       },
       "includes": [
-        {
-          "item": "exnihilosequentia:beehive_frame"
-        },
-        {
-          "item": "exnihilosequentia:porcelain_clay"
-        },
-        {
-          "item": "exnihilosequentia:unfired_crucible"
-        },
-        {
-          "item": "exnihilosequentia:andesite_hammer"
-        },
-        {
-          "item": "exnihilosequentia:bamboo_hammer"
-        },
-        {
-          "item": "exnihilosequentia:basalt_hammer"
-        },
-        {
-          "item": "exnihilosequentia:blackstone_hammer"
-        },
-        {
-          "item": "exnihilosequentia:bone_hammer"
-        },
-        {
-          "item": "exnihilosequentia:calcite_hammer"
-        },
-        {
-          "item": "exnihilosequentia:cherry_hammer"
-        },
-        {
-          "item": "exnihilosequentia:copper_hammer"
-        },
-        {
-          "item": "exnihilosequentia:deepslate_hammer"
-        },
-        {
-          "item": "exnihilosequentia:diamond_hammer"
-        },
-        {
-          "item": "exnihilosequentia:diorite_hammer"
-        },
-        {
-          "item": "exnihilosequentia:dripstone_hammer"
-        },
-        {
-          "item": "exnihilosequentia:golden_hammer"
-        },
-        {
-          "item": "exnihilosequentia:granite_hammer"
-        },
-        {
-          "item": "exnihilosequentia:iron_hammer"
-        },
-        {
-          "item": "exnihilosequentia:nether_brick_hammer"
-        },
-        {
-          "item": "exnihilosequentia:netherite_hammer"
-        },
-        {
-          "item": "exnihilosequentia:red_nether_brick_hammer"
-        },
-        {
-          "item": "exnihilosequentia:stone_hammer"
-        },
-        {
-          "item": "exnihilosequentia:terracotta_hammer"
-        },
-        {
-          "item": "exnihilosequentia:tuff_hammer"
-        },
-        {
-          "item": "exnihilosequentia:wooden_hammer"
-        }
+        { "item": "exnihilosequentia:beehive_frame" },
+        { "item": "exnihilosequentia:porcelain_clay" },
+        { "item": "exnihilosequentia:unfired_crucible" },
+        { "item": "exnihilosequentia:andesite_hammer" },
+        { "item": "exnihilosequentia:bamboo_hammer" },
+        { "item": "exnihilosequentia:basalt_hammer" },
+        { "item": "exnihilosequentia:blackstone_hammer" },
+        { "item": "exnihilosequentia:bone_hammer" },
+        { "item": "exnihilosequentia:calcite_hammer" },
+        { "item": "exnihilosequentia:cherry_hammer" },
+        { "item": "exnihilosequentia:copper_hammer" },
+        { "item": "exnihilosequentia:deepslate_hammer" },
+        { "item": "exnihilosequentia:diamond_hammer" },
+        { "item": "exnihilosequentia:diorite_hammer" },
+        { "item": "exnihilosequentia:dripstone_hammer" },
+        { "item": "exnihilosequentia:golden_hammer" },
+        { "item": "exnihilosequentia:granite_hammer" },
+        { "item": "exnihilosequentia:iron_hammer" },
+        { "item": "exnihilosequentia:nether_brick_hammer" },
+        { "item": "exnihilosequentia:netherite_hammer" },
+        { "item": "exnihilosequentia:red_nether_brick_hammer" },
+        { "item": "exnihilosequentia:stone_hammer" },
+        { "item": "exnihilosequentia:terracotta_hammer" },
+        { "item": "exnihilosequentia:tuff_hammer" },
+        { "item": "exnihilosequentia:wooden_hammer" }
       ],
-      "soft_requirements": [
-        "ex_nihilo_barrel_present"
-      ],
+      "soft_requirements": ["ex_nihilo_barrel_present"],
+      "hard_requirements": ["colored_crafting_table_present"],
       "priority": 99994
     }
   }

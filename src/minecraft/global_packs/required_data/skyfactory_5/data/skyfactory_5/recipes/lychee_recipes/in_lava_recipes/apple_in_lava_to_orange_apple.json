@@ -1,0 +1,25 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "tag": "skyfactory_5:color_apples"
+  },
+  "block_in": {
+    "blocks": ["minecraft:lava"]
+  },
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "sf5_things:orange_apple"
+    },
+    {
+      "type": "execute",
+      "command": "particle minecraft:explosion ~ ~ ~",
+      "hide": true
+    },
+    {
+      "type": "execute",
+      "command": "playsound ars_nouveau:fire_family block @e[type=player,distance=..5] ~ ~ ~ 0.5",
+      "hide": true
+    }
+  ]
+}
