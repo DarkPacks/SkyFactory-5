@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/cluck_shroom\"}"
           }
         ]
@@ -35,9 +33,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/mooshroom\"}"
           }
         ]
@@ -48,9 +44,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/parrot\"}"
           }
         ]
@@ -61,9 +55,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/red_vein_creeper\"}"
           }
         ]
@@ -74,9 +66,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/red_chu_chu\"}"
           }
         ]
@@ -87,9 +77,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/salmon\"}"
           }
         ]
@@ -100,9 +88,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/strider\"}"
           }
         ]
@@ -113,9 +99,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/wandering_winemaker\"}"
           }
         ]

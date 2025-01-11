@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/blaze\"}"
           }
         ]
@@ -35,9 +33,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/fox\"}"
           }
         ]
@@ -48,9 +44,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/hyper_rabbit\"}"
           }
         ]
@@ -61,9 +55,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/lava_monster\"}"
           }
         ]
@@ -74,9 +66,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/lava_squid\"}"
           }
         ]
@@ -87,9 +77,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/magma_cow\"}"
           }
         ]
@@ -100,9 +88,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/magma_cube\"}"
           }
         ]
@@ -113,9 +99,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/mother_lava_squid\"}"
           }
         ]
@@ -126,9 +110,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/orange_vein_creeper\"}"
           }
         ]
@@ -139,9 +121,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/pufferfish\"}"
           }
         ]
@@ -152,9 +132,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/tropical_fish\"}"
           }
         ]
@@ -165,9 +143,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/wooly_cow\"}"
           }
         ]

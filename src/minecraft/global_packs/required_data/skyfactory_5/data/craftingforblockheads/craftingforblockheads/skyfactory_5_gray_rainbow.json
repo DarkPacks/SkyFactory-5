@@ -137,9 +137,7 @@
           "recipe": "immersiveengineering:crafting/lead_white"
         }
       ],
-      "hard_requirements": [
-        "rainbow_crafting_table_present"
-      ],
+      "hard_requirements": ["rainbow_crafting_table_present"],
       "priority": 9994
     }
   }

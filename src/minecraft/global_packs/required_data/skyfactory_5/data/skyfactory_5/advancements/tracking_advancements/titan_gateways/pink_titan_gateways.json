@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/axolotl\"}"
           }
         ]
@@ -35,9 +33,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/hoglin\"}"
           }
         ]
@@ -48,9 +44,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/jumbo_rabbit\"}"
           }
         ]
@@ -61,9 +55,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/moolip\"}"
           }
         ]
@@ -74,9 +66,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/pig\"}"
           }
         ]
@@ -87,9 +77,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/piglin\"}"
           }
         ]
@@ -100,9 +88,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/piglin_brute\"}"
           }
         ]
@@ -113,9 +99,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/pink_vein_creeper\"}"
           }
         ]
@@ -126,9 +110,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/shrimp\"}"
           }
         ]
@@ -139,9 +121,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/teacup_pig\"}"
           }
         ]
@@ -152,9 +132,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/zoglin\"}"
           }
         ]
@@ -165,9 +143,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/zombified_pig\"}"
           }
         ]
@@ -178,9 +154,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/zombified_piglin\"}"
           }
         ]

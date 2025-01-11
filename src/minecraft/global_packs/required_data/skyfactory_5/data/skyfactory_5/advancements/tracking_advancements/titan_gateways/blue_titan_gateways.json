@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/blue_vein_creeper\"}"
           }
         ]
@@ -35,9 +33,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/blue_chu_chu\"}"
           }
         ]
@@ -48,9 +44,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/bouldering_drowned\"}"
           }
         ]
@@ -61,9 +55,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/drowned\"}"
           }
         ]
@@ -74,9 +66,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/lobber_drowned\"}"
           }
         ]
@@ -87,9 +77,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/phantom\"}"
           }
         ]
@@ -100,9 +88,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/squid\"}"
           }
         ]
@@ -113,9 +99,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/trader_llama\"}"
           }
         ]
@@ -126,9 +110,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/viler_witch\"}"
           }
         ]
@@ -139,9 +121,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/wandering_trader\"}"
           }
         ]

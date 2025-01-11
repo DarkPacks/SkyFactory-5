@@ -22,9 +22,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/bee\"}"
           }
         ]
@@ -35,9 +33,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/camel\"}"
           }
         ]
@@ -48,9 +44,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/cream_cow\"}"
           }
         ]
@@ -61,9 +55,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/gold_chu_chu\"}"
           }
         ]
@@ -74,9 +66,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/moobloom\"}"
           }
         ]
@@ -87,9 +77,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/ocelot\"}"
           }
         ]
@@ -100,9 +88,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "gateways:gate_pearl"
-            ],
+            "items": ["gateways:gate_pearl"],
             "nbt": "{gateway:\"gateways:normal/yellow_vein_creeper\"}"
           }
         ]

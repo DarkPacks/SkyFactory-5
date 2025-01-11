@@ -109,9 +109,7 @@
           "item": "silentgear:bracelet"
         }
       ],
-      "hard_requirements": [
-        "colored_crafting_table_present"
-      ],
+      "hard_requirements": ["colored_crafting_table_present"],
       "priority": 100
     },
     "craftingforblockheads:silents_tool_parts": {
@@ -241,9 +239,7 @@
           "item": "silentgear:machete"
         }
       ],
-      "hard_requirements": [
-        "colored_crafting_table_present"
-      ],
+      "hard_requirements": ["colored_crafting_table_present"],
       "priority": 101
     },
     "craftingforblockheads:silents_templates": {
@@ -370,9 +366,7 @@
           "item": "silentgear:bracelet_template"
         }
       ],
-      "hard_requirements": [
-        "colored_crafting_table_present"
-      ],
+      "hard_requirements": ["colored_crafting_table_present"],
       "priority": 102
     }
   }

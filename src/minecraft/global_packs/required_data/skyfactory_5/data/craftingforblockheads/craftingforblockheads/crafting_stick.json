@@ -96,9 +96,7 @@
           "recipe": "immersiveengineering:crafting/lead_white"
         }
       ],
-      "hard_requirements": [
-        "crafting_stick_present"
-      ],
+      "hard_requirements": ["crafting_stick_present"],
       "priority": 100000
     }
   }

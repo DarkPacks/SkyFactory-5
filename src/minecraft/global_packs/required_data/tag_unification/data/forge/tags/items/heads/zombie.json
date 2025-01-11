@@ -1,7 +1,4 @@
 {
-  "values": [
-    "minecraft:zombie_head",
-    "limbs:zombie_head"
-  ],
+  "values": ["minecraft:zombie_head", "limbs:zombie_head"],
   "replace": true
 }

@@ -1,17 +1,17 @@
 {
   "block.forbiddensmoothies.blender": "搅拌机",
   "block.forbiddensmoothies.printer": "印刷机",
-  "item.forbiddensmoothies.ugly_steel_plating": "丑陋的钢板",
+  "config.forbiddensmoothies": "Forbidden Smoothies",
   "container.forbiddensmoothies.blender": "搅拌机",
   "container.forbiddensmoothies.printer": "印刷机",
-  "itemGroup.forbiddensmoothies.forbiddensmoothies": "Forbidden Smoothies",
   "gui.forbiddensmoothies.lockButton": "切换输入锁",
-  "tooltip.forbiddensmoothies.lockInputs": "锁定输入槽",
-  "tooltip.forbiddensmoothies.unlockInputs": "解锁输入槽",
-  "tooltip.forbiddensmoothies.energyStored": "%dFE",
-  "tooltip.forbiddensmoothies.energyConsumed": "消耗%dFE/t",
-  "tooltip.forbiddensmoothies.ugly_steel_plating": "使用搅拌机或印刷机将其变丑。",
-  "jei.forbiddensmoothies.printer": "印刷机",
+  "item.forbiddensmoothies.ugly_steel_plating": "丑陋的钢板",
+  "itemGroup.forbiddensmoothies.forbiddensmoothies": "Forbidden Smoothies",
   "jei.forbiddensmoothies.blender": "搅拌机",
-  "config.forbiddensmoothies": "Forbidden Smoothies"
+  "jei.forbiddensmoothies.printer": "印刷机",
+  "tooltip.forbiddensmoothies.energyConsumed": "消耗%dFE/t",
+  "tooltip.forbiddensmoothies.energyStored": "%dFE",
+  "tooltip.forbiddensmoothies.lockInputs": "锁定输入槽",
+  "tooltip.forbiddensmoothies.ugly_steel_plating": "使用搅拌机或印刷机将其变丑。",
+  "tooltip.forbiddensmoothies.unlockInputs": "解锁输入槽"
 }
