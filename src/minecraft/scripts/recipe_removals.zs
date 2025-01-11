@@ -272,6 +272,7 @@ val items as IItemStack[] = [
 
 // Industrial Foregoing
 <item:industrialforegoing:dryrubber>,
+<item:industrialforegoing:mob_duplicator>,
 
 // RFTools
 <item:rftoolsbase:machine_frame>,
@@ -483,7 +484,10 @@ val items as IItemStack[] = [
   <item:occultism:raw_silver_block>,
 
   // Vein Creepers
-  <item:veincreeper:trap>
+  <item:veincreeper:trap>,
+
+  // EnderIO
+  <item:enderio:powered_spawner>
 
 ];
 
