@@ -126,8 +126,72 @@ craftingTable.addShapeless(
   [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/green>]
 );
 
+// Sadiroot Seeds
+craftingTable.addShapeless(
+  "sadiroot_seeds_from_dye",
+  <item:thermal:sadiroot_seeds>,
+  [<tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/light_blue>]
+);
 
+// Pumpkin Seeds
+craftingTable.addShapeless(
+  "pumpkin_seeds_from_dye",
+  <item:minecraft:pumpkin_seeds>,
+  [<tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/orange>]
+);
 
+// Amaranth Seeds
+craftingTable.addShapeless(
+  "amaranth_seeds_from_dye",
+  <item:thermal:amaranth_seeds>,
+  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/red>]
+);
 
+// Strawberry Seeds
+craftingTable.addShapeless(
+  "strawberry_seeds_from_dye",
+  <item:thermal:strawberry_seeds>,
+  [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/green>]
+);
 
+// Barley Seeds
+craftingTable.addShapeless(
+  "barley_seeds_from_dye",
+  <item:thermal:barley_seeds>,
+  [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/yellow>]
+);
 
+// Radish Seeds
+craftingTable.addShapeless(
+  "radish_seeds_from_dye",
+  <item:thermal:radish_seeds>,
+  [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/lime>, <tag:items:forge:dyes/brown>]
+);
+
+// Rice Seeds
+craftingTable.addShapeless(
+  "rice_seeds_from_dye",
+  <item:thermal:rice_seeds>,
+  [<tag:items:forge:dyes/white>, <tag:items:forge:dyes/white>, <tag:items:forge:dyes/yellow>]
+);
+
+// Spinach Seeds
+craftingTable.addShapeless(
+  "spinach_seeds_from_dye",
+  <item:thermal:spinach_seeds>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/gray>]
+);
+
+// Green Bean Seeds
+craftingTable.addShapeless(
+  "green_bean_seeds_from_dye",
+  <item:thermal:green_bean_seeds>,
+  [<tag:items:forge:dyes/green>, <tag:items:forge:dyes/green>, <tag:items:forge:dyes/light_gray>]
+);
+
+// Peanut Seeds
+craftingTable.addShapeless(
+  "peanut_seeds_from_dye",
+  <item:thermal:peanut_seeds>,
+  [<tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/red>]
+);
