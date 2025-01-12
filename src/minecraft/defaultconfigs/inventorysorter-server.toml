@@ -3,4 +3,7 @@
 # Container blacklist
 containerBlacklist = []
 # Slot type blacklist
-slotBlacklist = []
+slotBlacklist = [
+  "top.theillusivec4.curios.common.inventory.CurioSlot",
+  "tfar.craftingstation.slot.BigSlot"
+]

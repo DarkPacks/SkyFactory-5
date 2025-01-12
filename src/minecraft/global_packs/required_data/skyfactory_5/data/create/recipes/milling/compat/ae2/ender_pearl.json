@@ -1,0 +1,14 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "tag": "forge:ender_pearls"
+    }
+  ],
+  "processingTime": 100,
+  "results": [
+    {
+      "item": "thermal:ender_pearl_dust"
+    }
+  ]
+}
