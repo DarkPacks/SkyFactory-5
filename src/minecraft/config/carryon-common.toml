@@ -353,6 +353,11 @@ forbiddenTiles = [
   "biggerreactors:*",
   "magic_mirror:*",
   "sophisticatedstorage:chest",
+  "sophisticatedstorage:copper_chest",
+  "sophisticatedstorage:iron_chest",
+  "sophisticatedstorage:gold_chest",
+  "sophisticatedstorage:diamond_chest",
+  "sophisticatedstorage:netherite_chest",
   "enderio:energy_conduit",
   "enderio:fluid_conduit",
   "enderio:pressurized_fluid_conduit",
@@ -360,7 +365,8 @@ forbiddenTiles = [
   "enderio:redstone_conduit",
   "enderio:item_conduit",
   "enderio:dense_me_conduit",
-  "enderio:me_conduit"
+  "enderio:me_conduit",
+  "refurbished_furniture:*"
 ]
 # Entities that cannot be picked up
 forbiddenEntities = [
@@ -387,7 +393,8 @@ forbiddenEntities = [
   "taterzens:npc",
   "easy_npc:*",
   "bodiesbodies:dead_body",
-  "luggage:*"
+  "luggage:*",
+  "littlelogistics:*"
 ]
 # Entities that cannot have other entities stacked on top of them
 forbiddenStacking = ["minecraft:horse"]

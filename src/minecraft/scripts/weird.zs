@@ -4,14 +4,6 @@ import mods.createtweaker.ProcessingOutput;
 import crafttweaker.api.item.IItemStack;
 import crafttweaker.api.ingredient.IIngredient;
 
-
-// <entitytype:minecraft:drowned>.addLootModifier("clear_drowned", CommonLootModifiers.clearLoot());
-<entitytype:minecraft:drowned>.addLootModifier("drowned_drops_heart_of_the_sea", CommonLootModifiers.add(<item:minecraft:heart_of_the_sea>));
-
-
-
-
-
 function addSushiRecipe(name as string, input as IItemStack, output as IItemStack, range as int..int) as void {
 
     <recipetype:create:deploying>.registerRecipe(name, (rb) as void => {

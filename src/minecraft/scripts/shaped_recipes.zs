@@ -1387,17 +1387,26 @@ craftingTable.addShaped(
   "archwood_logs_to_chest",
   <item:minecraft:chest> * 4,
   [
-    [<tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>],
-    [<tag:items:forge:logs/archwood>, <item:minecraft:air>, <tag:items:forge:logs/archwood>],
-    [<tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>, <tag:items:forge:logs/archwood>]
+    [<tag:items:skyfactory_5:ars_default_logs>, <tag:items:skyfactory_5:ars_default_logs>, <tag:items:skyfactory_5:ars_default_logs>],
+    [<tag:items:skyfactory_5:ars_default_logs>, <item:minecraft:air>, <tag:items:skyfactory_5:ars_default_logs>],
+    [<tag:items:skyfactory_5:ars_default_logs>, <tag:items:skyfactory_5:ars_default_logs>, <tag:items:skyfactory_5:ars_default_logs>]
   ]
 );
   craftingTable.addShaped(
   "archwood_planks_to_chest",
   <item:minecraft:chest> * 1,
   [
-    [<tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>],
-    [<tag:items:forge:planks/archwood>, <item:minecraft:air>, <tag:items:forge:planks/archwood>],
-    [<tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>, <tag:items:forge:planks/archwood>]
+    [<tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>],
+    [<tag:items:skyfactory_5:ars_default_planks>, <item:minecraft:air>, <tag:items:skyfactory_5:ars_default_planks>],
+    [<tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>]
   ]
 );
+
+craftingTable.addShaped(
+  "archwood_to_crafting_table",
+  <item:minecraft:crafting_table>,
+  [
+    [<tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>],
+    [<tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>]
+  ]
+  );

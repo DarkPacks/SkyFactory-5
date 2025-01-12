@@ -977,7 +977,6 @@ val items as ResourceLocation[] = [
   <resource:heads:cat_persian_head>,
   <resource:heads:ocelot_head>,
   <resource:heads:yellow_sheep_head>,
-  <resource:hostilenetworks:end_prediction>,
   <resource:immersiveengineering:armor_piercing>,
   <resource:immersiveengineering:bannerpattern_bevels>,
   <resource:immersiveengineering:bannerpattern_hammer>,

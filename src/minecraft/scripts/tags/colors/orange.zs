@@ -902,7 +902,6 @@ val items as ResourceLocation[] = [
   <resource:heads:fox_head>,
   <resource:heads:magma_cube_head>,
   <resource:heads:orange_sheep_head>,
-  <resource:hostilenetworks:nether_prediction>,
   <resource:immersiveengineering:coil_lv>,
   <resource:immersiveengineering:deepslate_ore_aluminum>,
   <resource:immersiveengineering:dragons_breath>,

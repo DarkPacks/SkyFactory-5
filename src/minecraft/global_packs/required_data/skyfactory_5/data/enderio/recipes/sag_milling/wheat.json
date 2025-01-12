@@ -1,0 +1,24 @@
+{
+  "type": "enderio:sag_milling",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:crops/wheat"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "tag": "forge:flour/wheat"
+      },
+      "optional": false
+    },
+    {
+      "chance": 0.2,
+      "item": {
+        "count": 1,
+        "tag": "forge:seeds/wheat"
+      },
+      "optional": true
+    }
+  ]
+}

@@ -540,7 +540,6 @@ val items as ResourceLocation[] = [
   <resource:heads:green_sheep_head>,
   <resource:heads:horse_undead_head>,
   <resource:heads:zombie_villager_head>,
-  <resource:hostilenetworks:overworld_prediction>,
   <resource:immersiveengineering:circuit_board>,
   <resource:immersiveengineering:connector_hv_relay>,
   <resource:immersiveengineering:deepslate_ore_uranium>,
