@@ -516,3 +516,34 @@ for block in game.blocks {
 <tag:blocks:skyfactory_5:coloured_stuff/pressure_plate_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:pressure_plate_planks_${color}>));
 <tag:blocks:skyfactory_5:coloured_stuff/trapdoor_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:trapdoor_planks_${color}>));
 <tag:blocks:skyfactory_5:coloured_stuff/door_planks>.addId(colors.map<ResourceLocation>(color => <resource:colouredstuff:door_planks_${color}>));
+
+// Add necessary tags to Mystical Customization crops, since there seems to be no real way to do it
+
+var cropColors = [
+    "black",
+    "blue",
+    "brown",
+    "cyan",
+    "gray",
+    "green",
+    "light_blue",
+    "light_gray",
+    "lime",
+    "magenta",
+    "orange",
+    "pink",
+    "purple",
+    "red",
+    "white",
+    "yellow",
+    "none",
+    "rgb"
+];
+
+<tag:blocks:forge:mineable/sickle>.addId(cropColors.map<ResourceLocation>(color => <resource:mysticalagriculture:${color}_crop_crop>));
+<tag:blocks:cucumber:mineable/sickle>.addId(cropColors.map<ResourceLocation>(color => <resource:mysticalagriculture:${color}_crop_crop>));
+<tag:blocks:minecraft:sword_efficient>.addId(cropColors.map<ResourceLocation>(color => <resource:mysticalagriculture:${color}_crop_crop>));
+<tag:blocks:minecraft:crops>.addId(cropColors.map<ResourceLocation>(color => <resource:mysticalagriculture:${color}_crop_crop>));
+<tag:blocks:mysticalagriculture:crops>.addId(cropColors.map<ResourceLocation>(color => <resource:mysticalagriculture:${color}_crop_crop>));
+<tag:blocks:minecraft:bee_growables>.addId(cropColors.map<ResourceLocation>(color => <resource:mysticalagriculture:${color}_crop_crop>));
+<tag:blocks:ae2:growth_acceleratable>.addId(cropColors.map<ResourceLocation>(color => <resource:mysticalagriculture:${color}_crop_crop>));

@@ -153,7 +153,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:zombified_piglin\"}}"
+            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:zombified_piglin\"}}"
           }
         ]
       }

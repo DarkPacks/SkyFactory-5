@@ -26,6 +26,14 @@
     {
       "item": "minecraft:leather",
       "count": 44
+    },
+    {
+      "item": "minecraft:brown_mushroom",
+      "count": 8
+    },
+    {
+      "item": "minecraft:red_mushroom",
+      "count": 8
     }
   ],
   "tier_data": [12, 60, 360, 1260],
