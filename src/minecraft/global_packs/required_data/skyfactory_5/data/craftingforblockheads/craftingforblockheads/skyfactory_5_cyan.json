@@ -3,8 +3,17 @@
   "preset": "skyfactory_5",
   "predicates": {
     "cyan_crafting_table_present": {
-      "type": "workshop_has",
-      "block": "colouredstuff:crafting_table_cyan"
+      "type": "any_of",
+      "conditions": [
+        {
+          "type": "workshop_has",
+          "block": "colouredstuff:crafting_table_cyan"
+        },
+        {
+          "type": "workshop_has",
+          "block": "colouredstuff:crafting_table_rainbow"
+        }
+      ]
     },
     "cyan_stage": {
       "type": "has_gamestage",

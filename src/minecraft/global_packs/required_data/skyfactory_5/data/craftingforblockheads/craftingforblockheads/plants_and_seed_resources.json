@@ -7,8 +7,17 @@
       "block": "minecraft:composter"
     },
     "colored_crafting_table_present": {
-      "type": "workshop_core",
-      "tag": "skyfactory_5:colored_crafting_tables"
+      "type": "any_of",
+      "conditions": [
+        {
+          "type": "workshop_core",
+          "tag": "skyfactory_5:colored_crafting_tables"
+        },
+        {
+          "type": "workshop_core",
+          "block": "colouredstuff:crafting_table_rainbow"
+        }
+      ]
     }
   },
   "groups": {},
