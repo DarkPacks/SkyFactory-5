@@ -6,27 +6,27 @@ import crafttweaker.api.entity.EntityType;
 public class Globals {
   public static val colors as Color[ColorName] = {
     // Commented colors are being kept for reference
-    ColorName.None: new Color(ColorName.None, "失色", "none", 9539985), // #919191
-    ColorName.Red: new Color(ColorName.Red, "红色", "red", 11546150), // #b02e26
-    ColorName.Green: new Color(ColorName.Green, "绿色", "green", 6192150), // #5d7c15
-    ColorName.Lime: new Color(ColorName.Lime, "黄绿色", "lime", 8439583), // #80c71f
+    ColorName.None: new Color(ColorName.None, "skyfactory_5.color.none", "none", 9539985), // #919191
+    ColorName.Red: new Color(ColorName.Red, "skyfactory_5.color.red", "red", 11546150), // #b02e26
+    ColorName.Green: new Color(ColorName.Green, "skyfactory_5.color.green", "green", 6192150), // #5d7c15
+    ColorName.Lime: new Color(ColorName.Lime, "skyfactory_5.color.lime", "lime", 8439583), // #80c71f
     // ColorName.Blue: new Color(ColorName.Blue, "Blue", "blue", 33023), // #0080ff
-    ColorName.Blue: new Color(ColorName.Blue, "蓝色", "blue", 3949738), // #3c44a9
-    ColorName.LightBlue: new Color(ColorName.LightBlue, "淡蓝色", "light_blue", 3847130), // #3ab3da
-    ColorName.Gray: new Color(ColorName.Gray, "灰色", "gray", 4673362), // #474f52
-    ColorName.LightGray: new Color(ColorName.LightGray, "淡灰色", "light_gray", 10329495), // #9c9d97
-    ColorName.Yellow: new Color(ColorName.Yellow, "黄色", "yellow", 16701501), // #ffd83d
+    ColorName.Blue: new Color(ColorName.Blue, "skyfactory_5.color.blue", "blue", 3949738), // #3c44a9
+    ColorName.LightBlue: new Color(ColorName.LightBlue, "skyfactory_5.color.light_blue", "light_blue", 3847130), // #3ab3da
+    ColorName.Gray: new Color(ColorName.Gray, "skyfactory_5.color.gray", "gray", 4673362), // #474f52
+    ColorName.LightGray: new Color(ColorName.LightGray, "skyfactory_5.color.light_gray", "light_gray", 10329495), // #9c9d97
+    ColorName.Yellow: new Color(ColorName.Yellow, "skyfactory_5.color.yellow", "yellow", 16701501), // #ffd83d
     // ColorName.Purple: new Color(ColorName.Purple, "Purple", "purple", 8388736), // #800080
-    ColorName.Purple: new Color(ColorName.Purple, "紫色", "purple", 8991416), // #8932b7
-    ColorName.Magenta: new Color(ColorName.Magenta, "品红色", "magenta", 13061821), // #c64fbd
-    ColorName.Pink: new Color(ColorName.Pink, "粉红色", "pink", 15961002), // #f38caa
-    ColorName.White: new Color(ColorName.White, "白色", "white", 16383998), // #f9ffff
-    ColorName.Black: new Color(ColorName.Black, "黑色", "black", 1908001), // #1d1c21
-    ColorName.Brown: new Color(ColorName.Brown, "棕色", "brown", 8606770), // #825432
-    ColorName.LightBrown: new Color(ColorName.LightBrown, "棕色", "brown", 9849600), // #964B00
-    ColorName.Cyan: new Color(ColorName.Cyan, "青色", "cyan", 1481884), // #169c9d
-    ColorName.Orange: new Color(ColorName.Orange, "橙色", "orange", 16351261), // #f9801d
-    ColorName.RGB: new Color(ColorName.RGB, "RGB", "rgb", 16755200) // #FFAA00
+    ColorName.Purple: new Color(ColorName.Purple, "skyfactory_5.color.purple", "purple", 8991416), // #8932b7
+    ColorName.Magenta: new Color(ColorName.Magenta, "skyfactory_5.color.magenta", "magenta", 13061821), // #c64fbd
+    ColorName.Pink: new Color(ColorName.Pink, "skyfactory_5.color.pink", "pink", 15961002), // #f38caa
+    ColorName.White: new Color(ColorName.White, "skyfactory_5.color.white", "white", 16383998), // #f9ffff
+    ColorName.Black: new Color(ColorName.Black, "skyfactory_5.color.black", "black", 1908001), // #1d1c21
+    ColorName.Brown: new Color(ColorName.Brown, "skyfactory_5.color.brown", "brown", 8606770), // #825432
+    ColorName.LightBrown: new Color(ColorName.LightBrown, "skyfactory_5.color.brown", "brown", 9849600), // #964B00
+    ColorName.Cyan: new Color(ColorName.Cyan, "skyfactory_5.color.cyan", "cyan", 1481884), // #169c9d
+    ColorName.Orange: new Color(ColorName.Orange, "skyfactory_5.color.orange", "orange", 16351261), // #f9801d
+    ColorName.RGB: new Color(ColorName.RGB, "skyfactory_5.color.rgb", "rgb", 16755200) // #FFAA00
   };
 
   public static val stagedMobs as StagedMob[EntityType<Entity>] = {

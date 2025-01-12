@@ -3,7 +3,7 @@ import crafttweaker.api.text.Component;
 
 val color = Globals.colors[ColorName.White];
 val textColor = 0x000000;
-val component = Component.literal(color.getDisplayName()).withStyle(style => style.withColor(textColor));
+val component = Component.translatable(color.getDisplayName()).withStyle(style => style.withColor(textColor));
 
 val items as IItemStack[] = [
 ];
