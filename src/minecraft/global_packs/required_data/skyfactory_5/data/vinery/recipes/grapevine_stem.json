@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "grapevine_stem",
+  "pattern": ["#", "#"],
+  "key": {
+    "#": {
+      "tag": "forge:rods/wooden"
+    }
+  },
+  "result": {
+    "item": "vinery:grapevine_stem",
+    "count": 1
+  }
+}

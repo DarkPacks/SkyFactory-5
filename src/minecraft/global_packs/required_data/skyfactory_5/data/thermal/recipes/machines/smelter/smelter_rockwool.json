@@ -1,0 +1,16 @@
+{
+  "type": "thermal:smelter",
+  "ingredients": [
+    {
+      "tag": "forge:slag",
+      "count": 1
+    }
+  ],
+  "result": [
+    {
+      "item": "thermal:white_rockwool",
+      "count": 1
+    }
+  ],
+  "energy": 4800
+}

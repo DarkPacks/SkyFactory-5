@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "keepHeldItem": true,
+  "ingredients": [
+    {
+      "item": "ars_nouveau:blue_archwood_log"
+    },
+    {
+      "tag": "skyfactory_5:tool_axes"
+    }
+  ],
+  "results": [
+    { "item": "ars_nouveau:stripped_blue_archwood_log" },
+    { "item": "silentgear:template_board", "count": 4 }
+  ]
+}
