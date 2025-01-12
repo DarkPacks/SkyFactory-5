@@ -44,7 +44,7 @@ public class StagedMob {
       player.sendMessage(
         Component.empty()
           .append(this.entityType.getDescription())
-          .append(Component.literal(" will now spawn!"))
+          .append(Component.translatable("skyfactory_5.mob_spawn.enable"))
           .withStyle(style => style.withColor(<constant:minecraft:formatting:green>))
       );
     } else {
@@ -52,7 +52,7 @@ public class StagedMob {
       player.sendMessage(
         Component.empty()
           .append(this.entityType.getDescription())
-          .append(Component.literal(" will no longer spawn!"))
+          .append(Component.translatable("skyfactory_5.mob_spawn.disable"))
           .withStyle(style => style.withColor(<constant:minecraft:formatting:red>))
       );
     }
