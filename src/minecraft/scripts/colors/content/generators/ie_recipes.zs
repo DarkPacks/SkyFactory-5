@@ -31,21 +31,22 @@ ContentBuilder.factory
       dye % 15
     );
   })
+
   .addRecipeGenerator("_dye_ie_mixer", (baseName, args) => {
-    val dye = args.getItem(ColoredItem.Dye);
-    val coloredProcessingItemTag = args.getItemTag(ColoredItemTag.ColoredProcessingItem);
-    val water = args.getWater();
+  val dye = args.getItem(ColoredItem.Dye);
+  val coloredProcessingItemTag = args.getItemTag(ColoredItemTag.ColoredProcessingItem);
+  val water = args.getWater();
 
-    if dye == null || coloredProcessingItemTag == null || water == null {
-      return;
-    }
+  if dye == null || coloredProcessingItemTag == null || water == null {
+    return;
+  }
 
-    <recipetype:immersiveengineering:mixer>.addRecipe(
-      args.color.getResourceName() + baseName,
-      <tag:fluids:skyfactory_5:water>,
-      [coloredProcessingItemTag.asIIngredient()],
-      500,
-      water,
-      1000
-    );
-  });
+  <recipetype:immersiveengineering:mixer>.addRecipe(
+    args.color.getResourceName() + baseName,
+    <tag:fluids:skyfactory_5:water>,
+    [coloredProcessingItemTag.asIIngredient()],
+    1001,
+    water,
+    1000
+  );
+ });

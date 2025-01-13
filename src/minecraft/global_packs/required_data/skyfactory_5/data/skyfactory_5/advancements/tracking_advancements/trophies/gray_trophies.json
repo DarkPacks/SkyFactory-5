@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"monsterplus:abyssologer\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:abyssologer\"}}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:bouldering_zombie\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:bouldering_zombie\"}}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:cat\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:cat\"}}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:evoker\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:evoker\"}}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:gray\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:gray\"}}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:illusioner\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:illusioner\"}}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:pillager\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:pillager\"}}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:ravager\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:ravager\"}}"
           }
         ]
       }
@@ -111,7 +111,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:silverfish\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:silverfish\"}}"
           }
         ]
       }
@@ -122,7 +122,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:vindicator\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:vindicator\"}}"
           }
         ]
       }

@@ -9,7 +9,8 @@
         "type": "gateways:standard",
         "count": 4,
         "entity": "colourfulllamas:llama",
-        "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:reach\":{scale:0.05f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
+        "nbt": "{Attributes:[{Name:\"generic.movementSpeed\",Base:0.0}],\"pehkui:scale_data_types\":{\"pehkui:reach\":{scale:0.05f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+        "finalize_spawn": false
       }
     ],
     "rewards": [
@@ -72,7 +73,8 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "colourfulllamas:llama",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{Attributes:[{Name:\"generic.movementSpeed\",Base:0.0}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false,
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -92,7 +94,8 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "colourfulllamas:llama",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{Attributes:[{Name:\"generic.movementSpeed\",Base:0.0}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false,
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -112,7 +115,8 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "colourfulllamas:llama",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{Attributes:[{Name:\"generic.movementSpeed\",Base:0.0}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false,
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -132,7 +136,8 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "colourfulllamas:llama",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.75f},\"pehkui:width\":{scale:2.5f},\"pehkui:height\":{scale:2.5f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{Attributes:[{Name:\"generic.movementSpeed\",Base:0.0}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.75f},\"pehkui:width\":{scale:2.5f},\"pehkui:height\":{scale:2.5f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false,
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -152,7 +157,8 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "colourfulllamas:llama",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.72f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{Attributes:[{Name:\"generic.movementSpeed\",Base:0.0}],\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.72f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "finalize_spawn": false,
           "modifiers": [
             {
               "type": "gateways:gear_set",

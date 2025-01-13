@@ -162,7 +162,7 @@
     },
     {
       "type": "gateways:command",
-      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:bouldering_zombie\"}}}}",
+      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:bouldering_zombie\"}}}}",
       "desc": "gateways.rewards.trophy.bouldering_zombie"
     },
     {

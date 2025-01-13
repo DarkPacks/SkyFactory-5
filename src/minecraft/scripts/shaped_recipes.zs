@@ -1392,6 +1392,7 @@ craftingTable.addShaped(
     [<tag:items:skyfactory_5:ars_default_logs>, <tag:items:skyfactory_5:ars_default_logs>, <tag:items:skyfactory_5:ars_default_logs>]
   ]
 );
+
   craftingTable.addShaped(
   "archwood_planks_to_chest",
   <item:minecraft:chest> * 1,

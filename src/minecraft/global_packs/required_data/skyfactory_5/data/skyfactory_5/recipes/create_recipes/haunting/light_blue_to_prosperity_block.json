@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "sf5_things:block_of_light_blue_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "mysticalagriculture:prosperity_block"
+    }
+  ]
+}

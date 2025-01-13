@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:frog\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:frog\"}}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:green\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:green\"}}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"forcecraft:green_chu_chu\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:green_chu_chu\"}}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:lobber_zombie\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:lobber_zombie\"}}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"monsterplus:overgrown_skeleton\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:overgrown_skeleton\"}}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:sniffer\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:sniffer\"}}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"monsterplus:swamp_zombie\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:swamp_zombie\"}}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:zombie\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombie\"}}"
           }
         ]
       }
@@ -111,7 +111,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:zombie_horse\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombie_horse\"}}"
           }
         ]
       }
@@ -122,7 +122,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:zombie_villager\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:zombie_villager\"}}"
           }
         ]
       }

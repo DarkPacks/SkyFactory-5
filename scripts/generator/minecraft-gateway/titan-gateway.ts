@@ -31,6 +31,7 @@ export function createStandardTitanGateway(
     entity: baseEntity.entity,
     nbt: baseEntity.nbt,
     desc: baseEntity.desc,
+    finalize_spawn: baseEntity.finalize_spawn,
   });
 
   if (waveEntity.nbt) {

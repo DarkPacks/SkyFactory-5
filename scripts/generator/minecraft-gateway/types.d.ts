@@ -7,4 +7,8 @@ export interface GatewayOverrides {
   leashRange?: number;
   /** Prevents the generator from applying scaling modifiers on the entity */
   preventScaling?: boolean;
+  /** Prevents the generator from applying speed modifiers on the entity */
+  preventSpeedModifiers?: boolean;
+  /** Determines if the entity should be allowed to have additional attributes added */
+  finalizeGatewayEntitySpawn?: boolean;
 }

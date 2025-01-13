@@ -59,6 +59,7 @@ export function generateGatewayGenerator<T extends CreateGatewayFn>(
                 defaultEntityNBT,
               ),
             ),
+            finalize_spawn: entry.gatewayOverrides?.finalizeGatewayEntitySpawn,
           },
           colorHex,
           dye,

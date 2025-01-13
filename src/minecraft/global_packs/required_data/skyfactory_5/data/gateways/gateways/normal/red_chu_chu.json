@@ -162,7 +162,7 @@
     },
     {
       "type": "gateways:command",
-      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"forcecraft:red_chu_chu\"}}}}",
+      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{VariantID:0,entity:\"forcecraft:red_chu_chu\"}}}}",
       "desc": "gateways.rewards.trophy.red_chu_chu"
     },
     {

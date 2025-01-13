@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:allay\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:allay\"}}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:dolphin\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:dolphin\"}}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"forcecraft:fairy\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:fairy\"}}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:light_blue\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:light_blue\"}}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"sushigocrafting:tuna\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"sushigocrafting:tuna\"}}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:vex\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:vex\"}}"
           }
         ]
       }

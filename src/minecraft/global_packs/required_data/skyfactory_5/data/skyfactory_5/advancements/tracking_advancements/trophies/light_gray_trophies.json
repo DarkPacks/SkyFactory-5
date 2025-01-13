@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:elder_guardian\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:elder_guardian\"}}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:furnace_golem\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:furnace_golem\"}}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:guardian\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:guardian\"}}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:iron_golem\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:iron_golem\"}}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:light_gray\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:light_gray\"}}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:stray\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:stray\"}}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:witch\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:witch\"}}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:wolf\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:wolf\"}}"
           }
         ]
       }

@@ -3,6 +3,7 @@ import { parse as parseNBT, stringify, TagObject } from "nbt-ts";
 import path from "path";
 import {
   GatewayWaveEntity,
+  GatewayWaveModifier,
   NormalGateway,
 } from "schemas/minecraft/gateways/gateways-v2";
 import { GatewayType } from "./constants";
@@ -30,6 +31,7 @@ export function createStandardNormalGateway(
     entity: baseEntity.entity,
     nbt: baseEntity.nbt,
     desc: baseEntity.desc,
+    finalize_spawn: baseEntity.finalize_spawn,
   });
 
   if (waveEntity.nbt) {
@@ -123,7 +125,15 @@ export function createStandardNormalGateway(
             operation: "multiply_total",
             value: 0.05,
           },
-        ],
+        ].filter((m) => {
+          if (
+            m.attribute === "generic.movement_speed" &&
+            overrides.preventSpeedModifiers
+          ) {
+            return false;
+          }
+          return true;
+        }) as GatewayWaveModifier[],
         rewards: [
           {
             type: "gateways:experience",
@@ -173,7 +183,15 @@ export function createStandardNormalGateway(
             operation: "multiply_total",
             value: 0.1,
           },
-        ],
+        ].filter((m) => {
+          if (
+            m.attribute === "generic.movement_speed" &&
+            overrides.preventSpeedModifiers
+          ) {
+            return false;
+          }
+          return true;
+        }) as GatewayWaveModifier[],
         rewards: [
           {
             type: "gateways:experience",
@@ -198,7 +216,7 @@ export function createStandardNormalGateway(
       },
       {
         type: "gateways:command",
-        command: `summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:"obtrophies:trophy",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:"${waveEntity.entity}"}}}}`,
+        command: `summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:"obtrophies:trophy",Count:1b,tag:{BlockEntityTag:{VariantID:0,entity:"${waveEntity.entity}"}}}}`,
         desc: `gateways.rewards.trophy.${gatewayID}`,
       },
       {

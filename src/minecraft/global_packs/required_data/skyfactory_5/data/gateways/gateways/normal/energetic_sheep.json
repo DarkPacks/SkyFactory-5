@@ -162,7 +162,7 @@
     },
     {
       "type": "gateways:command",
-      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"energeticsheep:energetic_sheep\"}}}}",
+      "command": "summon item ~ ~1 ~ {NoGravity:1b,Glowing:1b,Invulnerable:1b,Item:{id:\"obtrophies:trophy\",Count:1b,tag:{BlockEntityTag:{VariantID:0,entity:\"energeticsheep:energetic_sheep\"}}}}",
       "desc": "gateways.rewards.trophy.energetic_sheep"
     },
     {

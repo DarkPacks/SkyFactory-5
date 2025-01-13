@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:cyan\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:cyan\"}}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"ars_nouveau:drygmy\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"ars_nouveau:drygmy\"}}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:fancy_chicken\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:fancy_chicken\"}}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"monsterplus:glow_skeleton\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"monsterplus:glow_skeleton\"}}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:glow_squid\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:glow_squid\"}}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:stray_bone_spider\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:stray_bone_spider\"}}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:tropical_slime\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:tropical_slime\"}}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:warden\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:warden\"}}"
           }
         ]
       }

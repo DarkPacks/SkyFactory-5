@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"veincreeper:blue\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"veincreeper:blue\"}}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"forcecraft:blue_chu_chu\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"forcecraft:blue_chu_chu\"}}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:bouldering_drowned\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:bouldering_drowned\"}}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:drowned\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:drowned\"}}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:lobber_drowned\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:lobber_drowned\"}}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:phantom\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:phantom\"}}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:squid\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:squid\"}}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:trader_llama\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:trader_llama\"}}"
           }
         ]
       }
@@ -111,7 +111,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"earthmobsmod:viler_witch\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"earthmobsmod:viler_witch\"}}"
           }
         ]
       }
@@ -122,7 +122,7 @@
         "items": [
           {
             "items": ["obtrophies:trophy"],
-            "nbt": "{BlockEntityTag:{SpecialCycleVariant:0b,VariantID:0b,entity:\"minecraft:wandering_trader\"}}"
+            "nbt": "{BlockEntityTag:{VariantID:0,entity:\"minecraft:wandering_trader\"}}"
           }
         ]
       }

@@ -3,8 +3,17 @@
   "preset": "skyfactory_5",
   "predicates": {
     "red_crafting_table_present": {
-      "type": "workshop_has",
-      "block": "colouredstuff:crafting_table_red"
+      "type": "any_of",
+      "conditions": [
+        {
+          "type": "workshop_has",
+          "block": "colouredstuff:crafting_table_red"
+        },
+        {
+          "type": "workshop_has",
+          "block": "colouredstuff:crafting_table_rainbow"
+        }
+      ]
     },
     "red_stage": {
       "type": "has_gamestage",
@@ -67,6 +76,22 @@
         },
         {
           "item": "minecraft:red_bed"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_1",
+          "nbt": "{accentColor:6710886,mainColor:11546150}"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_2",
+          "nbt": "{accentColor:6710886,mainColor:11546150}"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_3",
+          "nbt": "{accentColor:6710886,mainColor:11546150}"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_4",
+          "nbt": "{accentColor:6710886,mainColor:11546150}"
         }
       ],
       "excludes": [

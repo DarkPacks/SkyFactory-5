@@ -3,8 +3,17 @@
   "preset": "skyfactory_5",
   "predicates": {
     "brown_crafting_table_present": {
-      "type": "workshop_has",
-      "block": "colouredstuff:crafting_table_brown"
+      "type": "any_of",
+      "conditions": [
+        {
+          "type": "workshop_has",
+          "block": "colouredstuff:crafting_table_brown"
+        },
+        {
+          "type": "workshop_has",
+          "block": "colouredstuff:crafting_table_rainbow"
+        }
+      ]
     },
     "brown_stage": {
       "type": "has_gamestage",
@@ -67,6 +76,22 @@
         },
         {
           "item": "minecraft:brown_bed"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_1",
+          "nbt": "{accentColor:6710886,mainColor:8606770}"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_2",
+          "nbt": "{accentColor:6710886,mainColor:8606770}"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_3",
+          "nbt": "{accentColor:6710886,mainColor:8606770}"
+        },
+        {
+          "item": "sophisticatedstorage:limited_barrel_4",
+          "nbt": "{accentColor:6710886,mainColor:8606770}"
         }
       ],
       "excludes": [

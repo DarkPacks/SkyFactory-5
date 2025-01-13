@@ -1,0 +1,15 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "item": "sf5_things:block_of_light_blue_dye"
+  },
+  "block_in": {
+    "blocks": ["minecraft:soul_fire"]
+  },
+  "post": [
+    {
+      "type": "drop_item",
+      "item": "mysticalagriculture:prosperity_block"
+    }
+  ]
+}

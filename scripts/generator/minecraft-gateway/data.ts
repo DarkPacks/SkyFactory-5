@@ -866,11 +866,16 @@ export const mobData: MobData[] = [
     color: ColorName.White,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     additionalGatewayMobNBT: {
+      Attributes: [{ Name: "generic.movementSpeed", Base: 0.0 }],
       "pehkui:scale_data_types": {
         "pehkui:reach": {
           scale: new Float(0.05),
         },
       },
+    },
+    gatewayOverrides: {
+      finalizeGatewayEntitySpawn: false,
+      preventSpeedModifiers: true,
     },
     minLightLevel: 8,
     maxLightLevel: 15,
