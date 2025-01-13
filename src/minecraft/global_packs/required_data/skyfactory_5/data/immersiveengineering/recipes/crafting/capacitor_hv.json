@@ -4,7 +4,7 @@
   "key": {
     "a": { "tag": "forge:plates/aluminum" },
     "c": { "tag": "forge:ingots/hop_graphite" },
-    "e": { "item": "immersiveengineering:redstone_acid" },
+    "e": { "item": "immersiveengineering:redstone_acid_bucket" },
     "f": { "tag": "forge:ingots/steel" },
     "w": { "tag": "forge:treated_wood" }
   },
