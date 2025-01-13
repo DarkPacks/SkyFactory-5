@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": { "item": "immersiveengineering:armor_steel_boots" },
+  "result": "thermal:steel_nugget"
+}
