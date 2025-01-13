@@ -6,6 +6,8 @@
     "sf5_things:dirt_and_worms",
     "minecraft:diamond",
     "mysticalagriculture:prosperity_shard",
-    "minecraft:light_blue_dye"
+    "minecraft:light_blue_dye",
+    "sf5_things:block_of_light_blue_dye",
+    "mysticalagriculture:prosperity_block"
   ]
 }
