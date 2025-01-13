@@ -155,3 +155,82 @@ craftingTable.addShapeless(
   <item:sf5_things:rgb_dye> * 4,
   [<item:minecraft:cyan_dye>, <item:minecraft:magenta_dye>, <item:minecraft:yellow_dye>, <item:minecraft:black_dye>]
 );
+
+// Recipes for combining Blocks of Dye
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Light_Gray,
+  "light_gray_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_light_gray_dye> * 2,
+  [<item:sf5_things:block_of_gray_dye>, <item:sf5_things:block_of_white_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Light_Gray,
+  "light_gray_dye_block_combo2_manual_only",
+  <item:sf5_things:block_of_light_gray_dye> * 3,
+  [<item:sf5_things:block_of_black_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_white_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Gray,
+  "gray_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_gray_dye> * 2,
+  [<item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_black_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Orange,
+  "orange_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_orange_dye> * 2,
+  [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_yellow_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Purple,
+  "purple_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_purple_dye> * 2,
+  [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_blue_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Magenta,
+  "magenta_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_magenta_dye> * 2,
+  [<item:sf5_things:block_of_purple_dye>, <item:sf5_things:block_of_pink_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Lime,
+  "lime_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_lime_dye> * 2,
+  [<item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_white_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Pink,
+  "pink_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_pink_dye> * 2,
+  [<item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_red_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Cyan,
+  "cyan_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_cyan_dye> * 2,
+  [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_green_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Light_Blue,
+  "light_blue_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_light_blue_dye> * 2,
+  [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_white_dye>]
+);
+
+mods.recipestages.Recipes.addShapeless(
+  Stage.Green,
+  "green_dye_block_combo_manual_only",
+  <item:sf5_things:block_of_green_dye> * 2,
+  [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_yellow_dye>]
+);
