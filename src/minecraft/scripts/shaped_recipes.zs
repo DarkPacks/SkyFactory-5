@@ -1410,4 +1410,55 @@ craftingTable.addShaped(
     [<tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>],
     [<tag:items:skyfactory_5:ars_default_planks>, <tag:items:skyfactory_5:ars_default_planks>]
   ]
-  );
+);
+
+// Dead Coral Blocks
+  craftingTable.addShaped(
+  "ash_to_dead_tube_coral_block",
+  <item:minecraft:dead_tube_coral_block> * 8,
+  [
+    [<tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>],
+    [<item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>],
+    [<tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>]
+  ]
+);
+
+  craftingTable.addShaped(
+  "ash_to_dead_brain_coral_block",
+  <item:minecraft:dead_brain_coral_block> * 8,
+  [
+    [<item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>],
+    [<tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>],
+    [<item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>]
+  ]
+);
+
+  craftingTable.addShaped(
+  "ash_to_dead_bubble_coral_block",
+  <item:minecraft:dead_bubble_coral_block> * 8,
+  [
+    [<tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>],
+    [<item:supplementaries:ash_brick>, <item:supplementaries:ash_brick>, <item:supplementaries:ash_brick>],
+    [<tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>]
+  ]
+);
+
+  craftingTable.addShaped(
+  "ash_to_dead_fire_coral_block",
+  <item:minecraft:dead_fire_coral_block> * 8,
+  [
+    [<item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>],
+    [<tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>, <tag:items:forge:dyes/gray>],
+    [<item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>]
+  ]
+);
+
+  craftingTable.addShaped(
+  "ash_to_dead_horn_coral_block",
+  <item:minecraft:dead_horn_coral_block> * 8,
+  [
+    [<item:supplementaries:ash_brick>, <item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>],
+    [<item:supplementaries:ash_brick>, <tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>],
+    [<tag:items:forge:dyes/gray>, <item:supplementaries:ash_brick>, <item:supplementaries:ash_brick>]
+  ]
+);
