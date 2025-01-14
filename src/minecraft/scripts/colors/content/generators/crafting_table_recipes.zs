@@ -304,23 +304,6 @@ ContentBuilder.factory
       ]
     );
   })
-  .addRecipeGenerator("_slabs_to_plank", (baseName, args) => {
-    val plankItem = args.getItem(ColoredItem.Plank);
-    val slabItem = args.getItem(ColoredItem.PlankSlab);
-
-    if plankItem == null || slabItem == null {
-      return;
-    }
-
-    craftingTable.addShaped(
-      args.color.getResourceName() + baseName,
-      plankItem,
-      [
-        [slabItem],
-        [slabItem]
-      ]
-    );
-  })
   .addRecipeGenerator("_torch", (baseName, args) => {
     val dye = args.getItem(ColoredItem.Dye);
     val torchItem = args.getItem(ColoredItem.Torch);

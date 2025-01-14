@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": { "item": "immersiveengineering:axe_steel" },
+  "result": "thermal:steel_nugget"
+}

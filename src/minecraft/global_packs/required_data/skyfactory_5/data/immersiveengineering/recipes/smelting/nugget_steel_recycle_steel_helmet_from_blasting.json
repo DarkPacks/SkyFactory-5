@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": { "item": "immersiveengineering:armor_steel_helmet" },
+  "result": "thermal:steel_nugget"
+}

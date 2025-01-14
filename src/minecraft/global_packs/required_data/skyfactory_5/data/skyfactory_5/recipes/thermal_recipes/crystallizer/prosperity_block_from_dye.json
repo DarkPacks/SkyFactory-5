@@ -1,0 +1,18 @@
+{
+  "type": "thermal:crystallizer",
+  "ingredients": [
+    {
+      "fluid": "minecraft:water",
+      "amount": 4500
+    },
+    {
+      "item": "sf5_things:block_of_light_blue_dye"
+    }
+  ],
+  "result": [
+    {
+      "item": "mysticalagriculture:prosperity_block"
+    }
+  ],
+  "energy": 3150
+}

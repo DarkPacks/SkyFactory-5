@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.1,
+  "ingredient": { "item": "immersiveengineering:pickaxe_steel" },
+  "result": "thermal:steel_nugget"
+}

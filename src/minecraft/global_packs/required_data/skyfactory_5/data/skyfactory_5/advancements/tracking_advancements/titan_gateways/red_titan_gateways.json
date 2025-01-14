@@ -21,7 +21,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/cluck_shroom\"}"
+            "nbt": "{gateway:\"gateways:normal/cluckshroom\"}"
           }
         ]
       }

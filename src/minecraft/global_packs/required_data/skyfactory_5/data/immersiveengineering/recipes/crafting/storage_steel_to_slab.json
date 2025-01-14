@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": { "s": { "item": "thermal:steel_block" } },
+  "pattern": ["sss"],
+  "result": { "count": 6, "item": "immersiveengineering:slab_storage_steel" },
+  "show_notification": true
+}
