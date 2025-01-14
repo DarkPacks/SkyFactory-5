@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "gateways:gate_pearl",
-      "nbt": "{gateway:\"gateways:normal/black_vein_creeper\"}"
+      "nbt": "{gateway:\"gateways:titan/black_vein_creeper\"}"
     },
     "title": {
       "translate": "gateways.titan/titan_black"
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/adelie_penguin\"}"
+            "nbt": "{gateway:\"gateways:titan/adelie_penguin\"}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/black_vein_creeper\"}"
+            "nbt": "{gateway:\"gateways:titan/black_vein_creeper\"}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/cave_spider\"}"
+            "nbt": "{gateway:\"gateways:titan/cave_spider\"}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/ender_dragon\"}"
+            "nbt": "{gateway:\"gateways:titan/ender_dragon\"}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/ender_tot\"}"
+            "nbt": "{gateway:\"gateways:titan/ender_tot\"}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/enderman\"}"
+            "nbt": "{gateway:\"gateways:titan/enderman\"}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/spider\"}"
+            "nbt": "{gateway:\"gateways:titan/spider\"}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/umbra_cow\"}"
+            "nbt": "{gateway:\"gateways:titan/umbra_cow\"}"
           }
         ]
       }
@@ -111,7 +111,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/wither\"}"
+            "nbt": "{gateway:\"gateways:titan/wither\"}"
           }
         ]
       }
@@ -122,7 +122,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/wither_skeleton\"}"
+            "nbt": "{gateway:\"gateways:titan/wither_skeleton\"}"
           }
         ]
       }
@@ -133,7 +133,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/wither_skeleton_wolf\"}"
+            "nbt": "{gateway:\"gateways:titan/wither_skeleton_wolf\"}"
           }
         ]
       }

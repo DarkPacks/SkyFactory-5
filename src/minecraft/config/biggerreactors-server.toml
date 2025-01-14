@@ -14,17 +14,17 @@ mode = "MODERN"
 # Valid range: [3,)
 # Default: 128
 #
-MaxLength = 32
+MaxLength = 128
 #
 # Valid range: [3,)
 # Default: 128
 #
-MaxWidth = 32
+MaxWidth = 128
 #
 # Valid range: [3,)
 # Default: 192
 #
-MaxHeight = 48
+MaxHeight = 192
 #
 # Valid range: (0,)
 # Default: 1.0
@@ -50,6 +50,7 @@ ActiveOutputMultiplier = 1.0
 # Default: 1000
 #
 FuelMBPerIngot = 1000
+FuelOutputItem = "immersiveengineering:ingot_uranium"
 #
 # Default: false
 #

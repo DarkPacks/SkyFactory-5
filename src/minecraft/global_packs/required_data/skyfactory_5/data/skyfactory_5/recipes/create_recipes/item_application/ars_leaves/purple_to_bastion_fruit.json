@@ -1,0 +1,13 @@
+{
+  "type": "create:item_application",
+  "keepHeldItem": false,
+  "ingredients": [
+    {
+      "item": "ars_nouveau:purple_archwood_leaves"
+    },
+    {
+      "item": "ars_nouveau:source_gem"
+    }
+  ],
+  "results": [{ "item": "ars_nouveau:bastion_pod" }]
+}

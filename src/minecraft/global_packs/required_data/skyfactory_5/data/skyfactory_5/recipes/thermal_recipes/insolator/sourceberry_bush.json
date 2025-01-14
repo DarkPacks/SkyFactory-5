@@ -1,0 +1,13 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "ars_nouveau:sourceberry_bush"
+  },
+  "result": [
+    {
+      "item": "ars_nouveau:sourceberry_bush",
+      "count": 2
+    }
+  ],
+  "energy": 100000
+}

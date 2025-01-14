@@ -1373,6 +1373,7 @@ val items as ResourceLocation[] = [
   <resource:occultism:familiar_ring>,
   <resource:occultism:gold_dust>,
   <resource:occultism:miner_afrit_deeps>,
+  <resource:occultism:miner_marid_master>,
   <resource:occultism:miner_djinni_ores>,
   <resource:occultism:miner_foliot_unspecialized>,
   <resource:openstairs:open_bamboo_stairs>,

@@ -214,7 +214,7 @@ export const mobData: MobData[] = [
     color: ColorName.Orange,
     gatewayTypes: [GatewayType.Normal, GatewayType.Titan],
     minLightLevel: 0,
-    maxLightLevel: 15,
+    maxLightLevel: 7,
     spawnOverrides: {
       block: {
         tag: "skyfactory_5:this_is_where_nether_mobs_need_to_spawn_and_it_probably_works",

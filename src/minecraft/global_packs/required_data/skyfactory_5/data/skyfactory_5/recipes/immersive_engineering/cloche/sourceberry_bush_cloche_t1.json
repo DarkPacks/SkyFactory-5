@@ -1,0 +1,8 @@
+{
+  "type": "immersiveengineering:cloche",
+  "input": { "item": "ars_nouveau:sourceberry_bush" },
+  "render": { "type": "crop", "block": "ars_nouveau:sourceberry_bush" },
+  "results": [{ "count": 2, "item": "ars_nouveau:sourceberry_bush" }],
+  "soil": { "item": "mysticalagriculture:inferium_farmland" },
+  "time": 560
+}

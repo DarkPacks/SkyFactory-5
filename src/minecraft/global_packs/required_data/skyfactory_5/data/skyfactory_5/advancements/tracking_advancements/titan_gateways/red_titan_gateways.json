@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "gateways:gate_pearl",
-      "nbt": "{gateway:\"gateways:normal/red_vein_creeper\"}"
+      "nbt": "{gateway:\"gateways:titan/red_vein_creeper\"}"
     },
     "title": {
       "translate": "gateways.titan/titan_red"
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/cluckshroom\"}"
+            "nbt": "{gateway:\"gateways:titan/cluckshroom\"}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/mooshroom\"}"
+            "nbt": "{gateway:\"gateways:titan/mooshroom\"}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/parrot\"}"
+            "nbt": "{gateway:\"gateways:titan/parrot\"}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/red_vein_creeper\"}"
+            "nbt": "{gateway:\"gateways:titan/red_vein_creeper\"}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/red_chu_chu\"}"
+            "nbt": "{gateway:\"gateways:titan/red_chu_chu\"}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/salmon\"}"
+            "nbt": "{gateway:\"gateways:titan/salmon\"}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/strider\"}"
+            "nbt": "{gateway:\"gateways:titan/strider\"}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/wandering_winemaker\"}"
+            "nbt": "{gateway:\"gateways:titan/wandering_winemaker\"}"
           }
         ]
       }

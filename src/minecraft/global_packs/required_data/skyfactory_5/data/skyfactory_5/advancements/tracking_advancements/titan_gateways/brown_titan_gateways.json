@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "gateways:gate_pearl",
-      "nbt": "{gateway:\"gateways:normal/brown_vein_creeper\"}"
+      "nbt": "{gateway:\"gateways:titan/brown_vein_creeper\"}"
     },
     "title": {
       "translate": "gateways.titan/titan_brown"
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/bat\"}"
+            "nbt": "{gateway:\"gateways:titan/bat\"}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/brown_vein_creeper\"}"
+            "nbt": "{gateway:\"gateways:titan/brown_vein_creeper\"}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/cod\"}"
+            "nbt": "{gateway:\"gateways:titan/cod\"}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/cow\"}"
+            "nbt": "{gateway:\"gateways:titan/cow\"}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/donkey\"}"
+            "nbt": "{gateway:\"gateways:titan/donkey\"}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/ghast_cow\"}"
+            "nbt": "{gateway:\"gateways:titan/ghast_cow\"}"
           }
         ]
       }
@@ -89,7 +89,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/horse\"}"
+            "nbt": "{gateway:\"gateways:titan/horse\"}"
           }
         ]
       }
@@ -100,7 +100,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/husk\"}"
+            "nbt": "{gateway:\"gateways:titan/husk\"}"
           }
         ]
       }
@@ -111,7 +111,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/mule\"}"
+            "nbt": "{gateway:\"gateways:titan/mule\"}"
           }
         ]
       }
@@ -122,7 +122,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/rabbit\"}"
+            "nbt": "{gateway:\"gateways:titan/rabbit\"}"
           }
         ]
       }
@@ -133,7 +133,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/tadpole\"}"
+            "nbt": "{gateway:\"gateways:titan/tadpole\"}"
           }
         ]
       }
@@ -144,7 +144,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/villager\"}"
+            "nbt": "{gateway:\"gateways:titan/villager\"}"
           }
         ]
       }

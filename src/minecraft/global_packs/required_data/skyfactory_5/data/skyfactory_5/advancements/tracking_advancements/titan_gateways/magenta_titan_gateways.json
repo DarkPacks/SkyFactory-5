@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "gateways:gate_pearl",
-      "nbt": "{gateway:\"gateways:normal/magenta_vein_creeper\"}"
+      "nbt": "{gateway:\"gateways:titan/magenta_vein_creeper\"}"
     },
     "title": {
       "translate": "gateways.titan/titan_magenta"
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/crystal_zombie\"}"
+            "nbt": "{gateway:\"gateways:titan/crystal_zombie\"}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/magenta_vein_creeper\"}"
+            "nbt": "{gateway:\"gateways:titan/magenta_vein_creeper\"}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/starbuncle\"}"
+            "nbt": "{gateway:\"gateways:titan/starbuncle\"}"
           }
         ]
       }

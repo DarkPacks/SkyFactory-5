@@ -440,9 +440,19 @@ craftingTable.addShapeless(
   [<item:minecraft:gray_dye>, <item:minecraft:white_dye>, <item:minecraft:light_gray_dye>]
 );
 craftingTable.addShapeless(
+  "light_gray_dye_block_for_automation",
+  <item:sf5_things:block_of_light_gray_dye> * 3,
+  [<item:sf5_things:block_of_gray_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_light_gray_dye>]
+);
+craftingTable.addShapeless(
   "light_gray_dye_for_automation2",
   <item:minecraft:light_gray_dye> * 4,
   [<item:minecraft:black_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:light_gray_dye>]
+);
+craftingTable.addShapeless(
+  "light_gray_dye_block_for_automation2",
+  <item:sf5_things:block_of_light_gray_dye> * 4,
+  [<item:sf5_things:block_of_black_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_light_gray_dye>]
 );
 craftingTable.addShapeless(
   "gray_dye_for_automation",
@@ -450,9 +460,19 @@ craftingTable.addShapeless(
   [<item:minecraft:white_dye>, <item:minecraft:black_dye>, <item:minecraft:gray_dye>]
 );
 craftingTable.addShapeless(
+  "gray_dye_block_for_automation",
+  <item:sf5_things:block_of_gray_dye> * 3,
+  [<item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_black_dye>, <item:sf5_things:block_of_gray_dye>]
+);
+craftingTable.addShapeless(
   "orange_dye_for_automation",
   <item:minecraft:orange_dye> * 3,
   [<item:minecraft:red_dye>, <item:minecraft:yellow_dye>, <item:minecraft:orange_dye>]
+);
+craftingTable.addShapeless(
+  "orange_dye_block_for_automation",
+  <item:sf5_things:block_of_orange_dye> * 3,
+  [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_orange_dye>]
 );
 craftingTable.addShapeless(
   "purple_dye_for_automation",
@@ -460,9 +480,19 @@ craftingTable.addShapeless(
   [<item:minecraft:red_dye>, <item:minecraft:blue_dye>, <item:minecraft:purple_dye>]
 );
 craftingTable.addShapeless(
+  "purple_dye_block_for_automation",
+  <item:sf5_things:block_of_purple_dye> * 3,
+  [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_purple_dye>]
+);
+craftingTable.addShapeless(
   "magenta_dye_for_automation",
   <item:minecraft:magenta_dye> * 3,
   [<item:minecraft:purple_dye>, <item:minecraft:pink_dye>, <item:minecraft:magenta_dye>]
+);
+craftingTable.addShapeless(
+  "magenta_dye_block_for_automation",
+  <item:sf5_things:block_of_magenta_dye> * 3,
+  [<item:sf5_things:block_of_purple_dye>, <item:sf5_things:block_of_pink_dye>, <item:sf5_things:block_of_magenta_dye>]
 );
 craftingTable.addShapeless(
   "lime_dye_for_automation",
@@ -470,9 +500,19 @@ craftingTable.addShapeless(
   [<item:minecraft:green_dye>, <item:minecraft:white_dye>, <item:minecraft:lime_dye>]
 );
 craftingTable.addShapeless(
+  "lime_dye_block_for_automation",
+  <item:sf5_things:block_of_lime_dye> * 3,
+  [<item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_lime_dye>]
+);
+craftingTable.addShapeless(
   "pink_dye_for_automation",
   <item:minecraft:pink_dye> * 3,
   [<item:minecraft:white_dye>, <item:minecraft:red_dye>, <item:minecraft:pink_dye>]
+);
+craftingTable.addShapeless(
+  "pink_dye_block_for_automation",
+  <item:sf5_things:block_of_pink_dye> * 3,
+  [<item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_pink_dye>]
 );
 craftingTable.addShapeless(
   "cyan_dye_for_automation",
@@ -480,12 +520,27 @@ craftingTable.addShapeless(
   [<item:minecraft:blue_dye>, <item:minecraft:green_dye>, <item:minecraft:cyan_dye>]
 );
 craftingTable.addShapeless(
+  "cyan_dye_block_for_automation",
+  <item:sf5_things:block_of_cyan_dye> * 3,
+  [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_cyan_dye>]
+);
+craftingTable.addShapeless(
   "light_blue_dye_for_automation",
   <item:minecraft:light_blue_dye> * 3,
   [<item:minecraft:blue_dye>, <item:minecraft:white_dye>, <item:minecraft:light_blue_dye>]
 );
 craftingTable.addShapeless(
+  "light_blue_dye_block_for_automation",
+  <item:sf5_things:block_of_light_blue_dye> * 3,
+  [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_light_blue_dye>]
+);
+craftingTable.addShapeless(
   "green_dye_for_automation",
   <item:minecraft:green_dye> * 3,
   [<item:minecraft:blue_dye>, <item:minecraft:yellow_dye>, <item:minecraft:green_dye>]
+);
+craftingTable.addShapeless(
+  "green_dye_block_for_automation",
+  <item:sf5_things:block_of_green_dye> * 3,
+  [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_green_dye>]
 );

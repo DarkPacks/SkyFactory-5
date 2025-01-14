@@ -1,0 +1,27 @@
+{
+  "type": "cyclic:melter",
+  "ingredients": [
+    {
+      "item": "minecraft:feather"
+    }
+  ],
+  "result": {
+    "fluid": "colouredstuff:water_none",
+    "count": 250
+  },
+  "energy": {
+    "rfpertick": 50,
+    "ticks": 20
+  },
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "cyclic",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ]
+}

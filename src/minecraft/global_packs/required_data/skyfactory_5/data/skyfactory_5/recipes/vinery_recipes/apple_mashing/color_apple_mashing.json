@@ -1,0 +1,10 @@
+{
+  "type": "vinery:apple_mashing",
+  "input": {
+    "tag": "skyfactory_5:color_apples"
+  },
+  "output": {
+    "item": "vinery:apple_mash",
+    "count": 1
+  }
+}

@@ -58,7 +58,6 @@ val items as ResourceLocation[] = [
   <resource:ae2:pink_smart_cable>,
   <resource:ae2:pink_smart_dense_cable>,
   <resource:biggerreactors:ludicrite_block>,
-  <resource:biggerreactors:wrench>,
   <resource:botania:astrolabe>,
   <resource:botania:chiseled_metamorphic_mesa_bricks>,
   <resource:botania:chiseled_red_quartz>,

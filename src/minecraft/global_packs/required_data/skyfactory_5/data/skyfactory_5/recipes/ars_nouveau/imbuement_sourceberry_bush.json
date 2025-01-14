@@ -1,0 +1,10 @@
+{
+  "type": "ars_nouveau:imbuement",
+  "count": 1,
+  "input": {
+    "item": "ars_nouveau:magebloom"
+  },
+  "output": "ars_nouveau:sourceberry_bush",
+  "pedestalItems": [],
+  "source": 2000
+}

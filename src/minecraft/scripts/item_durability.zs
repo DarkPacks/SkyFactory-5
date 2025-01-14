@@ -23,7 +23,8 @@ val itemsForDurability as IItemStack[][int] = {
   2147483647: [
     <item:create:super_glue>,
     <item:sophisticatedstorage:packing_tape>,
-    <item:supplementaries:soap>
+    <item:supplementaries:soap>,
+    <item:create:sand_paper>
     ]
 };
 
@@ -45,7 +46,6 @@ val itemsForUnbreakable = [
   <resource:create:copper_diving_helmet>,
   <resource:create:netherite_diving_boots>,
   <resource:create:netherite_diving_helmet>,
-  <resource:create:sand_paper>,
 
   // Cyclic
   <resource:cyclic:charm_antidote>,

@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "gateways:gate_pearl",
-      "nbt": "{gateway:\"gateways:normal/lime_vein_creeper\"}"
+      "nbt": "{gateway:\"gateways:titan/lime_vein_creeper\"}"
     },
     "title": {
       "translate": "gateways.titan/titan_lime"
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/creeper\"}"
+            "nbt": "{gateway:\"gateways:titan/creeper\"}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/creeper_tot\"}"
+            "nbt": "{gateway:\"gateways:titan/creeper_tot\"}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/lime_vein_creeper\"}"
+            "nbt": "{gateway:\"gateways:titan/lime_vein_creeper\"}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/slime\"}"
+            "nbt": "{gateway:\"gateways:titan/slime\"}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/turtle\"}"
+            "nbt": "{gateway:\"gateways:titan/turtle\"}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/whirlisprig\"}"
+            "nbt": "{gateway:\"gateways:titan/whirlisprig\"}"
           }
         ]
       }

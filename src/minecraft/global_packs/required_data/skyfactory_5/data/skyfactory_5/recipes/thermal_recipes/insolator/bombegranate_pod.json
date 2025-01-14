@@ -1,0 +1,13 @@
+{
+  "type": "thermal:insolator",
+  "ingredient": {
+    "item": "ars_nouveau:bombegranate_pod"
+  },
+  "result": [
+    {
+      "item": "ars_nouveau:bombegranate_pod",
+      "count": 2
+    }
+  ],
+  "energy": 100000
+}

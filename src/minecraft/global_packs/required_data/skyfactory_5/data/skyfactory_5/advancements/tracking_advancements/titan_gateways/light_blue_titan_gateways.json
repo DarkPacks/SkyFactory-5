@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "gateways:gate_pearl",
-      "nbt": "{gateway:\"gateways:normal/light_blue_vein_creeper\"}"
+      "nbt": "{gateway:\"gateways:titan/light_blue_vein_creeper\"}"
     },
     "title": {
       "translate": "gateways.titan/titan_light_blue"
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/allay\"}"
+            "nbt": "{gateway:\"gateways:titan/allay\"}"
           }
         ]
       }
@@ -34,7 +34,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/dolphin\"}"
+            "nbt": "{gateway:\"gateways:titan/dolphin\"}"
           }
         ]
       }
@@ -45,7 +45,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/fairy\"}"
+            "nbt": "{gateway:\"gateways:titan/fairy\"}"
           }
         ]
       }
@@ -56,7 +56,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/light_blue_vein_creeper\"}"
+            "nbt": "{gateway:\"gateways:titan/light_blue_vein_creeper\"}"
           }
         ]
       }
@@ -67,7 +67,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/tuna\"}"
+            "nbt": "{gateway:\"gateways:titan/tuna\"}"
           }
         ]
       }
@@ -78,7 +78,7 @@
         "items": [
           {
             "items": ["gateways:gate_pearl"],
-            "nbt": "{gateway:\"gateways:normal/vex\"}"
+            "nbt": "{gateway:\"gateways:titan/vex\"}"
           }
         ]
       }

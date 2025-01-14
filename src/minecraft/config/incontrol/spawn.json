@@ -1027,7 +1027,7 @@
     },
     "result": "allow",
     "minlight_full": 0,
-    "maxlight_full": 15
+    "maxlight_full": 7
   },
   {
     "mob": "minecraft:camel",
