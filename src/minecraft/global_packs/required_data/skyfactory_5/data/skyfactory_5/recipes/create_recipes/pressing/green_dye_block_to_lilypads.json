@@ -1,0 +1,14 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "sf5_things:block_of_green_dye"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:lily_pad",
+      "count": 9
+    }
+  ]
+}

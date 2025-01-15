@@ -360,6 +360,12 @@ craftingTable.addShapeless(
 );
 
 craftingTable.addShapeless(
+  "botania_flower_fert_from_rgb_blocks",
+  <item:botania:fertilizer> * 27,
+  [<item:minecraft:bone_block>, <item:sf5_things:block_of_rgb_dye>, <item:sf5_things:block_of_rgb_dye>, <item:sf5_things:block_of_rgb_dye>, <item:sf5_things:block_of_rgb_dye>]
+);
+
+craftingTable.addShapeless(
   "blocks_of_rgb_dye_from_rgb",
   <item:sf5_things:block_of_rgb_dye> * 3,
   [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_blue_dye>]
@@ -412,11 +418,25 @@ craftingTable.addShapeless(
   [<item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>]
 );
 
+// Block of Raw Crimson Iron
+craftingTable.addShapeless(
+  "raw_crimson_iron_block",
+  <item:silentgear:raw_crimson_iron_block> * 1,
+  [<item:sf5_things:block_of_pink_dye>, <item:sf5_things:block_of_pink_dye>, <item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_red_dye>]
+);
+
 // Raw Azure Silver
 craftingTable.addShapeless(
   "raw_azure_silver",
   <item:silentgear:raw_azure_silver> * 1,
   [<item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
+);
+
+// Block of Raw Azure Silver
+craftingTable.addShapeless(
+  "raw_azure_silver_block",
+  <item:silentgear:raw_azure_silver_block> * 1,
+  [<item:sf5_things:block_of_magenta_dye>, <item:sf5_things:block_of_magenta_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_white_dye>]
 );
 
 // Colorless Dye Block
