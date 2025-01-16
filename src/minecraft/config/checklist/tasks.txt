@@ -15,7 +15,7 @@
 
 #Mobs only spawn §5> 24 blocks away from the player
 
-#Mobs will spawn from Spawners found in the world. You can mine up the Spawners without Silk Touch, upgrade them, and use a Trophy on the Spawner to change what mob it will spawn.
+#Additionally, Mobs will spawn from Spawners found in the world. You can mine it up without Silk Touch, upgrade it, and use a Trophy on it to change what mob it will spawn.
 ===
 #Special Thank You to:
 #BlayTheNinth, Darkhax, Dutchs, FirstNecron, GoryMoon, Jaredlll08, KingLemming, linuxchr, Lothrazar, MarioLuigi7896, MrBysco, Muddr, Shadows_of_Fire, Twitch Chat
