@@ -77,3 +77,32 @@ craftingTable.addShapeless(
   [<tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>, <tag:items:forge:dyes/brown>]
 );
 
+// Crimsite
+craftingTable.addShapeless(
+  "crimsite_from_dye",
+  <item:create:crimsite>,
+  [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/light_gray>]
+);
+
+// Asurine
+craftingTable.addShapeless(
+  "asurine_from_dye",
+  <item:create:asurine>,
+  [<tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/light_gray>]
+);
+
+// Veridium
+craftingTable.addShapeless(
+  "veridium_from_dye",
+  <item:create:veridium>,
+  [<tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/orange>]
+);
+
+// Ochrum
+craftingTable.addShapeless(
+  "ochrum_from_dye",
+  <item:create:ochrum>,
+  [<tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/light_gray>]
+);
+
+
