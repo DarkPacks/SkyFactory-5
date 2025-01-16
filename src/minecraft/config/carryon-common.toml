@@ -367,7 +367,8 @@ forbiddenTiles = [
   "enderio:dense_me_conduit",
   "enderio:me_conduit",
   "refurbished_furniture:*",
-  "draconicevolution:*"
+  "draconicevolution:*",
+  "vinery:apple_press"
 ]
 # Entities that cannot be picked up
 forbiddenEntities = [
