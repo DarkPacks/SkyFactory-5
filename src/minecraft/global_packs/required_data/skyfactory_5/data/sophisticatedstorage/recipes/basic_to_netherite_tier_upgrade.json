@@ -8,7 +8,7 @@
   ],
   "ingredients": [
     {
-      "item": "sophisticatedstorage:basic_to_diamond_tier_upgrade"
+      "item": "minecraft:redstone_torch"
     },
     {
       "tag": "forge:ingots/netherite"
