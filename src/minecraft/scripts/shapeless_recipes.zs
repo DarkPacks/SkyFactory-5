@@ -544,3 +544,10 @@ craftingTable.addShapeless(
   <item:sf5_things:block_of_green_dye> * 3,
   [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_green_dye>]
 );
+
+// Blank Firework Star (Pulverizer Catalyst)
+  craftingTable.addShapeless(
+  "fire_charge_to_firework_star",
+  <item:minecraft:firework_star>,
+  [<item:minecraft:gunpowder>, <item:minecraft:fire_charge>]
+);
