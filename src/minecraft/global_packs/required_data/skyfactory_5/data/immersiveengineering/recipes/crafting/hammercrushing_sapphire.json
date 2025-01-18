@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "forge:ores/sapphire"
+  },
+  "result": {
+    "item": "thermal:sapphire_dust"
+  }
+}

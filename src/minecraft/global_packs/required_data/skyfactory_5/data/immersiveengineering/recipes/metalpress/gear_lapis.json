@@ -1,0 +1,10 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "energy": 2400,
+  "input": {
+    "base_ingredient": { "tag": "forge:gems/lapis" },
+    "count": 4
+  },
+  "mold": "immersiveengineering:mold_gear",
+  "result": { "item": "thermal:lapis_gear" }
+}

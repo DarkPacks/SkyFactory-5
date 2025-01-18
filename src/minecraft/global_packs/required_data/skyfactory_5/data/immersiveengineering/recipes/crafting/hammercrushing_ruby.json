@@ -1,0 +1,9 @@
+{
+  "type": "immersiveengineering:hammer_crushing",
+  "input": {
+    "tag": "forge:ores/ruby"
+  },
+  "result": {
+    "item": "thermal:ruby_dust"
+  }
+}
