@@ -1,0 +1,7 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 4000,
+  "input": { "tag": "forge:gems/sapphire" },
+  "result": { "count": 1, "item": "thermal:sapphire_dust" },
+  "secondaries": []
+}

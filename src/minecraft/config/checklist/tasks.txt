@@ -7,11 +7,15 @@
 ===
 #§1--==§ Mob Spawning§1==--
 
-#In SkyFactory 5, mobs spawn differently than previous modpacks or vanilla. Mobs will not spawn naturally and require you to complete Gateways to obtain a Trophy. You can then place and activate the Trophy to spawn only that mob. Mobs will spawn on most blocks and don't require specific blocks like Grass or Water. You do not need to worry about Biomes, Dimensions, or Y levels as mob spawning is not dependent on these.
+#Mobs do not spawn initially and require you to complete Gateways to obtain Trophies, these can be placed and activated to allow that mob to spawn around the player.
 
-#Light levels will matter when spawning mobs. Friendly mobs will spawn in light levels 8 to 15 while hostile mobs will need light levels 0 to 7. You can easily find the light level by pressing F7.
+#Mobs will spawn on most normal blocks and don't require specific blocks like grass or water. You do not need to worry about Biomes, Dimensions, etc, only light level and distance requirements matter.
 
-#Mobs will spawn from Spawners found in the world. You can then collect the Spawners, upgrade them, and use a Trophy on the Spawner to change what mob it will spawn.
+#Light levels matter when spawning mobs, §2Passives from 8 to 15§0 while §4Hostiles require light levels 0 to 7§0 You can easily find the light level by pressing §3§lF7
+
+#Mobs only spawn §5> 24 blocks away from the player
+
+#Additionally, Mobs will spawn from Spawners found in the world. You can mine it up without Silk Touch, upgrade it, and use a Trophy on it to change what mob it will spawn.
 ===
 #Special Thank You to:
 #BlayTheNinth, Darkhax, Dutchs, FirstNecron, GoryMoon, Jaredlll08, KingLemming, linuxchr, Lothrazar, MarioLuigi7896, MrBysco, Muddr, Shadows_of_Fire, Twitch Chat

@@ -539,8 +539,55 @@ craftingTable.addShapeless(
   <item:minecraft:green_dye> * 3,
   [<item:minecraft:blue_dye>, <item:minecraft:yellow_dye>, <item:minecraft:green_dye>]
 );
+
+// Gem BLocks to Gems
+craftingTable.addShapeless(
+  "sapphire_block_to_gem",
+  <item:thermal:sapphire> * 9,
+  [<item:thermal:sapphire_block> * 1]
+);
+
+craftingTable.addShapeless(
+  "ruby_block_to_gem",
+  <item:thermal:ruby> * 9,
+  [<item:thermal:ruby_block> * 1]
+
 craftingTable.addShapeless(
   "green_dye_block_for_automation",
   <item:sf5_things:block_of_green_dye> * 3,
   [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_green_dye>]
+);
+
+// Coral Blocks
+  craftingTable.addShapeless(
+  "dead_tube_coral_block_to_living",
+  <item:minecraft:tube_coral_block>,
+  [<item:minecraft:dead_tube_coral_block>, <tag:items:forge:dyes/blue>]
+);
+  craftingTable.addShapeless(
+  "dead_brain_coral_block_to_living",
+  <item:minecraft:brain_coral_block>,
+  [<item:minecraft:dead_brain_coral_block>, <tag:items:forge:dyes/pink>]
+);
+  craftingTable.addShapeless(
+  "dead_bubble_coral_block_to_living",
+  <item:minecraft:bubble_coral_block>,
+  [<item:minecraft:dead_bubble_coral_block>, <tag:items:forge:dyes/purple>]
+);
+  craftingTable.addShapeless(
+  "dead_fire_coral_block_to_living",
+  <item:minecraft:fire_coral_block>,
+  [<item:minecraft:dead_fire_coral_block>, <tag:items:forge:dyes/red>]
+);
+  craftingTable.addShapeless(
+  "dead_horn_coral_block_to_living",
+  <item:minecraft:horn_coral_block>,
+  [<item:minecraft:dead_horn_coral_block>, <tag:items:forge:dyes/yellow>]
+);
+
+// Sea Pickle
+  craftingTable.addShapeless(
+  "sea_grass_to_sea_pickle",
+  <item:minecraft:sea_pickle>,
+  [<item:minecraft:seagrass>, <item:sushigocrafting:cucumber>, <item:refurbished_furniture:sea_salt>]
 );
