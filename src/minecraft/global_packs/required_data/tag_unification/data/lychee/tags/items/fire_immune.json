@@ -8,6 +8,10 @@
     "mysticalagriculture:prosperity_shard",
     "minecraft:light_blue_dye",
     "sf5_things:block_of_light_blue_dye",
-    "mysticalagriculture:prosperity_block"
+    "mysticalagriculture:prosperity_block",
+    "minecraft:lapis_lazuli",
+    "minecraft:lapis_block",
+    "minecraft:prismarine_crystals",
+    "minecraft:prismarine_shard"
   ]
 }
