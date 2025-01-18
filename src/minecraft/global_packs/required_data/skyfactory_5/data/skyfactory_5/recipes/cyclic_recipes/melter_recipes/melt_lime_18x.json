@@ -1,0 +1,19 @@
+{
+  "type": "cyclic:melter",
+  "ingredients": [
+    {
+      "item": "sf5_things:block_of_lime_dye"
+    },
+    {
+      "item": "sf5_things:block_of_lime_dye"
+    }
+  ],
+  "result": {
+    "fluid": "colouredstuff:water_lime",
+    "count": 4500
+  },
+  "energy": {
+    "rfpertick": 50,
+    "ticks": 180
+  }
+}

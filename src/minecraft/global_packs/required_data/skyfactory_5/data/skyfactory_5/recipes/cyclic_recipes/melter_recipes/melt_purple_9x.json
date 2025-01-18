@@ -1,0 +1,16 @@
+{
+  "type": "cyclic:melter",
+  "ingredients": [
+    {
+      "item": "sf5_things:block_of_purple_dye"
+    }
+  ],
+  "result": {
+    "fluid": "colouredstuff:water_purple",
+    "count": 2250
+  },
+  "energy": {
+    "rfpertick": 50,
+    "ticks": 180
+  }
+}

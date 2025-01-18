@@ -1,0 +1,19 @@
+{
+  "type": "cyclic:melter",
+  "ingredients": [
+    {
+      "item": "sf5_things:block_of_orange_dye"
+    },
+    {
+      "item": "sf5_things:block_of_orange_dye"
+    }
+  ],
+  "result": {
+    "fluid": "colouredstuff:water_orange",
+    "count": 4500
+  },
+  "energy": {
+    "rfpertick": 50,
+    "ticks": 180
+  }
+}
