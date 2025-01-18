@@ -48,6 +48,20 @@ new NoPrinterMaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Ruby Gem Block
+new NoPrinterMaterialCraftingRecipe(
+  "ruby_block_from_dye_blocks",
+  <item:thermal:ruby_block>,
+  [
+    <item:sf5_things:block_of_red_dye>,
+    <item:sf5_things:block_of_red_dye>,
+    <item:sf5_things:block_of_red_dye>,
+    <item:sf5_things:block_of_red_dye>,
+    <item:sf5_things:block_of_red_dye>,
+    <item:sf5_things:block_of_red_dye>
+  ]
+).addRecipes();
+
 // Sapphire Gem
 new NoPrinterMaterialCraftingRecipe(
   "sapphire_from_dye",
@@ -59,5 +73,19 @@ new NoPrinterMaterialCraftingRecipe(
     <tag:items:forge:dyes/blue>,
     <tag:items:forge:dyes/blue>,
     <tag:items:forge:dyes/blue>
+  ]
+).addRecipes();
+
+// Sapphire Gem Bock
+new NoPrinterMaterialCraftingRecipe(
+  "sapphire_block_from_dye_blocks",
+  <item:thermal:sapphire_block>,
+  [
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>
   ]
 ).addRecipes();

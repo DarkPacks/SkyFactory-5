@@ -140,12 +140,22 @@ craftingTable.addShapeless(
   <item:create:crimsite>,
   [<tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/red>, <tag:items:forge:dyes/light_gray>]
 );
+craftingTable.addShapeless(
+  "crimsite_from_dye_blocks",
+  <item:create:crimsite> * 9,
+  [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_light_gray_dye>]
+);
 
 // Asurine
 craftingTable.addShapeless(
   "asurine_from_dye",
   <item:create:asurine>,
   [<tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/blue>, <tag:items:forge:dyes/light_gray>]
+);
+craftingTable.addShapeless(
+  "asurine_from_dye_blocks",
+  <item:create:asurine> * 9,
+  [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_light_gray_dye>]
 );
 
 // Veridium
@@ -154,6 +164,11 @@ craftingTable.addShapeless(
   <item:create:veridium>,
   [<tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/cyan>, <tag:items:forge:dyes/orange>]
 );
+craftingTable.addShapeless(
+  "veridium_from_dye_blocks",
+  <item:create:veridium> * 9,
+  [<item:sf5_things:block_of_cyan_dye>, <item:sf5_things:block_of_cyan_dye>, <item:sf5_things:block_of_cyan_dye>, <item:sf5_things:block_of_orange_dye>]
+);
 
 // Ochrum
 craftingTable.addShapeless(
@@ -161,5 +176,8 @@ craftingTable.addShapeless(
   <item:create:ochrum>,
   [<tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/yellow>, <tag:items:forge:dyes/light_gray>]
 );
-
-
+craftingTable.addShapeless(
+  "ochrum_from_dye_blocks",
+  <item:create:ochrum> * 9,
+  [<item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_light_gray_dye>]
+);
