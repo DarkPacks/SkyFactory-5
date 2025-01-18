@@ -54,5 +54,22 @@ furnace.addRecipe(
   100
 );
 
+// Gem Dust to Gem
+furnace.addRecipe(
+  "sapphire_gem_from_dust",
+  <item:thermal:sapphire>,
+  <item:thermal:sapphire_dust>,
+  0.15,
+  100
+);
+
+furnace.addRecipe(
+  "ruby_gem_from_dust",
+  <item:thermal:ruby>,
+  <item:thermal:ruby_dust>,
+  0.15,
+  100
+);
+
 // Makes items burnable
 <item:minecraft:black_dye>.burnTime = 400;

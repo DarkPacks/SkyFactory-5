@@ -1,0 +1,20 @@
+{
+  "type": "immersiveengineering:metal_press",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": { "type": "forge:tag_empty", "tag": "forge:ingots/signalum" }
+    },
+    {
+      "type": "forge:not",
+      "value": { "type": "forge:tag_empty", "tag": "forge:gears/signalum" }
+    }
+  ],
+  "energy": 2400,
+  "input": {
+    "base_ingredient": { "tag": "forge:ingots/signalum" },
+    "count": 4
+  },
+  "mold": "immersiveengineering:mold_gear",
+  "result": { "item": "thermal:signalum_gear" }
+}
