@@ -195,7 +195,7 @@ enabled = true
 # Range: 1 ~ 16
 radius = 2
 # Set false to stop enchantment from working
-enabled = true
+enabled = false
 
 [cyclic.enchantment.step]
 # Set false to stop enchantment from working
