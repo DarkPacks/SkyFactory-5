@@ -40,7 +40,7 @@ showTankSetting = "NORMAL"
 # Show brewing stand setting (0 = not, 1 = always, 2 = sneak)
 showBrewStandSetting = "NORMAL"
 # Show mob spawner setting (0 = not, 1 = always, 2 = sneak)
-showMobSpawnerSetting = "EXTENDED"
+showMobSpawnerSetting = "NORMAL"
 # Show animal owner setting (0 = not, 1 = always, 2 = sneak)
 showAnimalOwnerSetting = "EXTENDED"
 # Show horse stats setting (0 = not, 1 = always, 2 = sneak)
