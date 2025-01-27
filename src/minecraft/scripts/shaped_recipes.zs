@@ -1333,11 +1333,22 @@ craftingTable.addShaped(
 // Witherproof Glass block
   craftingTable.addShaped(
   "mys_ag_witherproof_glass",
-  <item:mysticalagriculture:witherproof_block> * 4,
+  <item:mysticalagriculture:witherproof_glass> * 4,
   [
     [<item:minecraft:tinted_glass>, <item:bhc:wither_bone>, <item:minecraft:tinted_glass>],
     [<item:bhc:wither_bone>, <item:minecraft:tinted_glass>, <item:bhc:wither_bone>],
     [<item:minecraft:tinted_glass>, <item:bhc:wither_bone>, <item:minecraft:tinted_glass>]
+  ]
+);
+
+// Witherproof Block
+  craftingTable.addShaped(
+  "mys_ag_witherproof_block",
+  <item:mysticalagriculture:witherproof_block> * 4,
+  [
+    [<item:minecraft:obsidian>, <item:bhc:wither_bone>, <item:minecraft:obsidian>],
+    [<item:bhc:wither_bone>, <item:minecraft:obsidian>, <item:bhc:wither_bone>],
+    [<item:minecraft:obsidian>, <item:bhc:wither_bone>, <item:minecraft:obsidian>]
   ]
 );
 
