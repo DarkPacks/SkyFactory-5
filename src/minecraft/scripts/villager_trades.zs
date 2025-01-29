@@ -41,6 +41,7 @@ villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:oak
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:spruce_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:birch_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:jungle_sapling>, 4, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:thermal:rubberwood_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:acacia_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:dark_oak_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:melon_seeds>, 4, 8, 0.05);
