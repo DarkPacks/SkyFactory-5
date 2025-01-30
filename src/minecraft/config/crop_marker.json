@@ -54,18 +54,6 @@
       "hasMarker": true,
       "color": "green"
     },
-    "mysticalagriculture:block/none_crop_crop7": {
-      "offset": 15,
-      "animated": false,
-      "hasMarker": true,
-      "color": "blue"
-    },
-    "mysticalagriculture:block/inferium_crop": {
-      "offset": 15,
-      "animated": false,
-      "hasMarker": true,
-      "color": "blue"
-    },
     "mysticalagriculture:block/flower_dust_resource": {
       "offset": 15,
       "animated": true,
