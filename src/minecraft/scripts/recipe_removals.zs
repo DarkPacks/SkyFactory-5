@@ -331,9 +331,6 @@ val items as IItemStack[] = [
   <item:immersiveengineering:pickaxe_steel>,
   <item:immersiveengineering:shovel_steel>,
   <item:immersiveengineering:sword_steel>,
-  <item:immersiveengineering:ingot_nickel>,
-  <item:immersiveengineering:ingot_lead>,
-  <item:immersiveengineering:ingot_silver>,
 
   // Cyclic
   <item:cyclic:copper_nugget>,
@@ -526,6 +523,15 @@ furnace.remove(<item:bhc:red_heart_melted>);
 furnace.remove(<item:bhc:yellow_heart_melted>);
 furnace.remove(<item:bhc:green_heart_melted>);
 furnace.remove(<item:bhc:blue_heart_melted>);
+
+furnace.remove(<item:immersiveengineering:ingot_nickel>);
+furnace.remove(<item:immersiveengineering:ingot_lead>);
+furnace.remove(<item:immersiveengineering:ingot_silver>);
+
+//Remove EnderIO Smelting for leak nickel and silver
+<recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_lead_compat_immersiveengineering");
+<recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_nickel_compat_immersiveengineering");
+<recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_silver_compat_immersiveengineering");
 
 // Furnace Remove by Name
 furnace.removeByInput(<item:bhc:red_heart_melted>);
