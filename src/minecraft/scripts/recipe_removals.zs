@@ -323,9 +323,18 @@ val items as IItemStack[] = [
   <item:createaddition:electrum_sheet>,
 
   // Immersive Engineering
-    <item:immersiveengineering:nugget_copper>,
-    <item:immersiveengineering:nugget_electrum>,
-    <item:immersiveengineering:storage_electrum>,
+  <item:immersiveengineering:nugget_copper>,
+  <item:immersiveengineering:nugget_electrum>,
+  <item:immersiveengineering:storage_electrum>,
+  <item:immersiveengineering:axe_steel>,
+  <item:immersiveengineering:hoe_steel>,
+  <item:immersiveengineering:pickaxe_steel>,
+  <item:immersiveengineering:shovel_steel>,
+  <item:immersiveengineering:sword_steel>,
+  <item:immersiveengineering:ingot_nickel>,
+  <item:immersiveengineering:ingot_lead>,
+  <item:immersiveengineering:ingot_silver>,
+
   // Cyclic
   <item:cyclic:copper_nugget>,
 
@@ -461,11 +470,6 @@ val items as IItemStack[] = [
   <item:ae2:nether_quartz_shovel>,
   <item:ae2:nether_quartz_sword>,
 
-  <item:immersiveengineering:axe_steel>,
-  <item:immersiveengineering:hoe_steel>,
-  <item:immersiveengineering:pickaxe_steel>,
-  <item:immersiveengineering:shovel_steel>,
-  <item:immersiveengineering:sword_steel>,
   <item:monsterplus:ancient_crystal>,
   <item:monsterplus:crystal_arrow>,
   <item:monsterplus:crystal_boots>,
