@@ -528,7 +528,7 @@ furnace.remove(<item:immersiveengineering:ingot_nickel>);
 furnace.remove(<item:immersiveengineering:ingot_lead>);
 furnace.remove(<item:immersiveengineering:ingot_silver>);
 
-//Remove EnderIO Smelting for leak nickel and silver
+//Remove EnderIO Alloy Smelter for lead nickel and silver duplicate craft (issue #406)
 <recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_lead_compat_immersiveengineering");
 <recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_nickel_compat_immersiveengineering");
 <recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_silver_compat_immersiveengineering");
