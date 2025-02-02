@@ -327,7 +327,6 @@
   <item:ars_nouveau:archwood_planks> * 6,
   [<item:thermal:sawdust>]
 );
-
 <recipetype:immersiveengineering:sawmill>.addRecipe(
   "sawmill_archwood_red_to_planks_ie",
   <item:ars_nouveau:red_archwood_log>,
@@ -337,7 +336,6 @@
   <item:ars_nouveau:archwood_planks> * 6,
   [<item:thermal:sawdust>]
 );
-
 <recipetype:immersiveengineering:sawmill>.addRecipe(
   "sawmill_archwood_green_to_planks_ie",
   <item:ars_nouveau:green_archwood_log>,
@@ -347,7 +345,6 @@
   <item:ars_nouveau:archwood_planks> * 6,
   [<item:thermal:sawdust>]
 );
-
 <recipetype:immersiveengineering:sawmill>.addRecipe(
   "sawmill_archwood_purple_to_planks_ie",
   <item:ars_nouveau:purple_archwood_log>,
