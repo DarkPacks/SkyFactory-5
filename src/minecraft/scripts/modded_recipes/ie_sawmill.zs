@@ -387,7 +387,7 @@
   "sawmill_apple_tree_wood_to_planks_ie",
   <item:vinery:apple_wood>,
   1000,
-  <item:minecraft:stripped_oak_log>,
+  <item:minecraft:stripped_oak_wood>,
   [<item:thermal:sawdust>],
   <item:minecraft:oak_planks> * 6,
   [<item:thermal:sawdust>]
