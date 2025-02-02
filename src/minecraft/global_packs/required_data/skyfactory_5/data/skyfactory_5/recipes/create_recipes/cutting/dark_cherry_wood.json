@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "vinery:dark_cherry_wood"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "vinery:stripped_dark_cherry_wood"
+    }
+  ]
+}
