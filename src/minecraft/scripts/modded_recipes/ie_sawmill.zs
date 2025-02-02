@@ -354,3 +354,41 @@
   <item:ars_nouveau:archwood_planks> * 6,
   [<item:thermal:sawdust>]
 );
+
+// Recipes for Let's Do Vinery logs
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_dark_cherry_to_planks_ie",
+  <item:vinery:dark_cherry_log>,
+  1000,
+  <item:vinery:stripped_dark_cherry_log>,
+  [<item:thermal:sawdust>],
+  <item:vinery:dark_cherry_planks> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_dark_cherry_wood_to_planks_ie",
+  <item:vinery:dark_cherry_wood>,
+  1000,
+  <item:vinery:stripped_dark_cherry_wood>,
+  [<item:thermal:sawdust>],
+  <item:vinery:dark_cherry_planks> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_apple_tree_to_planks_ie",
+  <item:vinery:apple_log>,
+  1000,
+  <item:minecraft:stripped_oak_log>,
+  [<item:thermal:sawdust>],
+  <item:minecraft:oak_planks> * 6,
+  [<item:thermal:sawdust>]
+);
+<recipetype:immersiveengineering:sawmill>.addRecipe(
+  "sawmill_apple_tree_wood_to_planks_ie",
+  <item:vinery:apple_wood>,
+  1000,
+  <item:minecraft:stripped_oak_log>,
+  [<item:thermal:sawdust>],
+  <item:minecraft:oak_planks> * 6,
+  [<item:thermal:sawdust>]
+);
