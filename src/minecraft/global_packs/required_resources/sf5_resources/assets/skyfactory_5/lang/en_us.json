@@ -1,6 +1,7 @@
 {
   "accessibility.onboarding.screen.narrator": "Press enter to enable the narrator",
-  "accessibility.onboarding.screen.title": "Welcome to SkyFactory 5!\n\nWould you like to enable the Narrator or visit the Accessibility Settings?\n\n 404: §nColor not found§r. Colors will unlock in your world as you progress",
+  "accessibility.onboarding.screen.title": "Welcome to SkyFactory 5!\n404: Color not found - Colors will unlock in your world as you progress\nWould you like to enable the Narrator or visit the Accessibility Settings?",
+  "accessibility.onboarding.screen.title2": "Welcome to SkyFactory 5!\n404: §2C§3o§4l§5o§6r§r §cnot found§r - Colors will unlock in your world as you progress\nWould you like to enable the Narrator or visit the Accessibility Settings?",
   "betteradvancements.criterion.skyfactory_5:color_stages/all_colors.sapling_black": "Obtain Black Sapling",
   "betteradvancements.criterion.skyfactory_5:color_stages/all_colors.sapling_blue": "Obtain Blue Sapling",
   "betteradvancements.criterion.skyfactory_5:color_stages/all_colors.sapling_brown": "Obtain Brown Sapling",
