@@ -76,11 +76,12 @@ ContentBuilder.factory
       }
 
       val appleDropChance = 5;
-
+      val appleDropAmount = ctx.random.nextIntBetweenInclusive(4, 7);
       val player: Player = (ctx.thisEntity as Entity) as Player;
 
       if !player.hasGameStage(Stage.Green) && rollsChance(ctx.random, appleDropChance) {
-        drops.add(<item:sf5_things:green_apple>);
+
+        drops.add(<item:sf5_things:green_apple> * appleDropAmount);
       }
 
       return drops;

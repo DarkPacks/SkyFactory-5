@@ -104,17 +104,6 @@
         ]
       }
     },
-    "stone": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "player": [],
-        "items": [
-          {
-            "items": ["minecraft:stone"]
-          }
-        ]
-      }
-    },
     "silicon": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
@@ -169,6 +158,17 @@
           }
         ]
       }
+    },
+    "block_of_kitty_litter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_kitty_litter"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -186,7 +186,8 @@
       "mycelium_spores",
       "pile_of_gunpowder",
       "claw",
-      "graphite_ingot"
+      "graphite_ingot",
+      "block_of_kitty_litter"
     ]
   ],
   "rewards": {

@@ -8,14 +8,14 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 8192,
+  "sim_cost": 4096,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:gray_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.illusioner",
   "fabricator_drops": [
@@ -26,11 +26,11 @@
     },
     {
       "item": "minecraft:arrow",
-      "count": 42
+      "count": 4
     },
     {
       "item": "minecraft:emerald",
-      "count": 32
+      "count": 2
     }
   ],
   "tier_data": [12, 60, 360, 1260],

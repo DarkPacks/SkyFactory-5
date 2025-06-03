@@ -54,23 +54,125 @@
       "hasMarker": true,
       "color": "green"
     },
-    "mysticalagriculture:block/none_crop_crop7": {
-      "offset": 15,
-      "animated": false,
-      "hasMarker": true,
-      "color": "blue"
-    },
-    "mysticalagriculture:block/inferium_crop": {
-      "offset": 15,
-      "animated": false,
-      "hasMarker": true,
-      "color": "blue"
-    },
     "mysticalagriculture:block/flower_dust_resource": {
       "offset": 15,
       "animated": true,
       "hasMarker": true,
       "color": "red"
+    },
+    "mysticalagriculture:block/inferium_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/coal_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/cobalt_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/dirt_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/prismarine_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/tungsten_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/nature_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/diamond_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/iron_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/experience_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/elementium_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/graphite_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/honey_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/pig_iron_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/draconium_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/redstone_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/dye_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/marble_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
+    },
+    "mysticalagriculture:block/gold_crop": {
+      "offset": 0,
+      "animated": false,
+      "hasMarker": true,
+      "color": "blue"
     }
   }
 }

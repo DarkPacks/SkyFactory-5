@@ -169,6 +169,17 @@
           }
         ]
       }
+    },
+    "block_of_ketchup": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_ketchup"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -186,7 +197,8 @@
       "fermented_spider_eye",
       "beetroot_soup",
       "nether_wart",
-      "red_baubly_heart"
+      "red_baubly_heart",
+      "block_of_ketchup"
     ]
   ],
   "rewards": {

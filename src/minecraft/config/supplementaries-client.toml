@@ -119,6 +119,10 @@ min_angle = 0.0
 max_angle = 54.999996
 damping = 1.625
 
+[blocks.bunting]
+# Makes buntings use normal block models with no animation for faster performance. When off this is only active when viewed from a distance
+fast_buntings = false
+
 # Particle parameters
 [particles]
 
@@ -155,14 +159,11 @@ no_optifine_warn_screen = false
 config_button_y_offset = 0
 # Disables Amendments suggestion screen
 no_amendments_screen = true
+# Disable incompatible mods warning screen
+no_incompatible_mods_screen = false
 
 # Game tweaks
 [tweaks]
-# Colors the brewing stand potion texture depending on the potions it's brewing.
-# If using a resource pack add tint index from 0 to 3 to the 3 potion layers
-brewing_stand_colors = true
-# Makes tipped arrows show their colors when loaded with a crossbow
-crossbows_colors = true
 # Allow to right click with a clock to display current time in numerical form
 clock_right_click = true
 # Allow to right click with a compass to display current coordinates in numerical form
@@ -194,6 +195,8 @@ tooltip_image_size = 80
 mob_head_shaders = true
 # Sends your current chat when you die while typing
 send_chat_on_death = true
+# Adds an overlay to projectile weapons in gui displaying currently selected ammo
+projectile_weapon_overlay = true
 
 [tweaks.colored_maps]
 # Needs the server config with same name on. If on here it will ignore the server one and keep vanilla colors
@@ -206,7 +209,7 @@ accurate_colors = false
 [items]
 
 [items.slingshot]
-# Adds an overlay to slingshots in gui displaying currently selected block
+# Adds an overlay to slingshots in gui displaying currently selected ammo
 overlay = false
 # Render the block outline for distant blocks that are reachable with a slingshot enchanted with Stasis
 stasis_block_outline = true
@@ -254,3 +257,11 @@ turn_particles = true
 [items.flute]
 # Display visual particles when a playing a flute
 note_particles = true
+
+[items.lunch_basket]
+# Adds an overlay to lunch boxes in gui displaying currently selected food
+overlay = true
+
+[items.cannonball]
+# Render cannonballs as 3D models
+3d_model = true

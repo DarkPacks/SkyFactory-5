@@ -191,6 +191,17 @@
           }
         ]
       }
+    },
+    "block_of_meat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_meat"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -210,7 +221,8 @@
       "niter",
       "fertilizer",
       "fish_fillet",
-      "dragon_breath"
+      "dragon_breath",
+      "block_of_meat"
     ]
   ],
   "rewards": {

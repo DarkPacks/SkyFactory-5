@@ -191,11 +191,22 @@ ignored = ["minecraft:bad_omen", "minecraft:nausea", "botania:clear"]
 enabled = true
 
 [cyclic.enchantment.growth]
-# Radius per level.  size around player to perform growth logic
+# Radius increase per level.  Actual radius is (this * level + 1)
 # Range: 1 ~ 16
-radius = 2
+radius = 1
 # Set false to stop enchantment from working
 enabled = true
+# Height of growth enchantment range
+# Range: 0 ~ 16
+height = 2
+# Max number of crops grown per growth per level. Actual is (level * this + 4 bonus when its raining)
+# Range: 1 ~ 16
+limit = 1
+# Chance of trying to grow per tick / 100
+# Range: 1 ~ 100
+percent = 1
+# If true only players can use this (false allows anything with hands ie armor stands, zombies, etc)
+player_only = false
 
 [cyclic.enchantment.step]
 # Set false to stop enchantment from working

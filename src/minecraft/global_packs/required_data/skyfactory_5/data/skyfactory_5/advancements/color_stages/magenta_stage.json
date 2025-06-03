@@ -114,6 +114,17 @@
           }
         ]
       }
+    },
+    "block_of_blooming_onion": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_blooming_onion"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -126,7 +137,8 @@
       "onion_slice",
       "source_gem",
       "magenta_essence",
-      "magenta_essence_seeds"
+      "magenta_essence_seeds",
+      "block_of_blooming_onion"
     ]
   ],
   "rewards": {

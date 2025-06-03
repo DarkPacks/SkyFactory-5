@@ -14,28 +14,28 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:gray_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.abyssologer",
   "fabricator_drops": [
     {
       "item": "monsterplus:crystal_shard",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:obsidian",
-      "count": 26
+      "count": 4
     },
     {
       "item": "minecraft:crying_obsidian",
-      "count": 24
+      "count": 2
     }
   ],
   "tier_data": [12, 60, 360, 1260],

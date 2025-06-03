@@ -103,6 +103,17 @@
           }
         ]
       }
+    },
+    "block_of_blue_cheese": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_blue_cheese"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -114,7 +125,8 @@
       "elytra",
       "raw_tuna",
       "certus_quartz_crystal",
-      "heart_of_the_sea"
+      "heart_of_the_sea",
+      "block_of_blue_cheese"
     ]
   ],
   "rewards": {

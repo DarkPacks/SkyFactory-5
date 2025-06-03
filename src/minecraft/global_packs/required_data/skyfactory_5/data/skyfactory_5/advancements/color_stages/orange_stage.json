@@ -212,6 +212,17 @@
           }
         ]
       }
+    },
+    "block_of_pumpkin_spice_latte": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_pumpkin_spice_latte"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -233,7 +244,8 @@
       "shroomlight",
       "glow_berries",
       "magma_cream",
-      "cookie"
+      "cookie",
+      "block_of_pumpkin_spice_latte"
     ]
   ],
   "rewards": {

@@ -14,17 +14,22 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:magenta_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.starbuncle",
-  "fabricator_drops": [],
+  "fabricator_drops": [
+    {
+      "item": "minecraft:magenta_dye",
+      "count": 4
+    }
+  ],
   "tier_data": [12, 60, 360, 1260],
   "data_per_kill": [1, 4, 10, 18]
 }

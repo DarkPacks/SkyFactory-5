@@ -1,0 +1,16 @@
+{
+  "type": "cyclic:melter",
+  "ingredients": [
+    {
+      "item": "supplementaries:feather_block"
+    }
+  ],
+  "result": {
+    "fluid": "colouredstuff:water_none",
+    "count": 2250
+  },
+  "energy": {
+    "rfpertick": 50,
+    "ticks": 180
+  }
+}

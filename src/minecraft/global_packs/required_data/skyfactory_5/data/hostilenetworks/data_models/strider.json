@@ -8,24 +8,24 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 2560,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:red_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.strider",
   "fabricator_drops": [
     {
       "item": "minecraft:string",
-      "count": 16
+      "count": 4
     },
     {
       "item": "create:powdered_obsidian",
-      "count": 16,
+      "count": 2,
       "optional": true
     }
   ],

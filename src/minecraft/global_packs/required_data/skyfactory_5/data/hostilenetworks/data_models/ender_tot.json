@@ -14,24 +14,24 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:black_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.ender_tot",
   "fabricator_drops": [
     {
       "item": "minecraft:ender_pearl",
-      "count": 32
+      "count": 2
     },
     {
       "item": "forcecraft:spoils_bag",
-      "count": 4,
+      "count": 1,
       "cap_nbt": "{Parent:{Items:[],Size:8}}"
     }
   ],

@@ -70,6 +70,17 @@
           }
         ]
       }
+    },
+    "blue_ice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["minecraft:blue_ice"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -78,7 +89,8 @@
       "water_bottle",
       "wooden_bucket_water",
       "blue_essence",
-      "blue_essence_seeds"
+      "blue_essence_seeds",
+      "blue_ice"
     ]
   ],
   "rewards": {

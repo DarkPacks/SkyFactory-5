@@ -8,24 +8,24 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 2560,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:white_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.skeleton",
   "fabricator_drops": [
     {
       "item": "minecraft:bone",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:arrow",
-      "count": 32
+      "count": 4
     },
     {
       "item": "limbs:skeleton_torso",

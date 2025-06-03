@@ -39,6 +39,7 @@
       "earthmobsmod:bouldering_zombie",
       "earthmobsmod:cluck_shroom",
       "earthmobsmod:cream_cow",
+      "earthmobsmod:dairy_cow",
       "earthmobsmod:fancy_chicken",
       "earthmobsmod:furnace_golem",
       "earthmobsmod:horned_sheep",
@@ -933,7 +934,7 @@
     },
     "result": "allow",
     "minlight_full": 0,
-    "maxlight_full": 15
+    "maxlight_full": 7
   },
   {
     "mob": "minecraft:allay",
@@ -986,8 +987,8 @@
       }
     },
     "result": "allow",
-    "minlight_full": 0,
-    "maxlight_full": 7
+    "minlight_full": 8,
+    "maxlight_full": 15
   },
   {
     "mob": "minecraft:bee",
@@ -2884,6 +2885,7 @@
       "earthmobsmod:bouldering_drowned",
       "earthmobsmod:bouldering_zombie",
       "earthmobsmod:cluck_shroom",
+      "earthmobsmod:cookie_cow",
       "earthmobsmod:cream_cow",
       "earthmobsmod:fancy_chicken",
       "earthmobsmod:furnace_golem",
@@ -2898,6 +2900,7 @@
       "earthmobsmod:moolip",
       "earthmobsmod:skeleton_wolf",
       "earthmobsmod:stray_bone_spider",
+      "earthmobsmod:sunset_cow",
       "earthmobsmod:teacup_pig",
       "earthmobsmod:tropical_slime",
       "earthmobsmod:umbra_cow",

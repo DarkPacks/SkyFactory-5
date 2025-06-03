@@ -21,7 +21,7 @@
   },
   "base_drop": {
     "item": "minecraft:stick",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.fairy",
   "fabricator_drops": [],

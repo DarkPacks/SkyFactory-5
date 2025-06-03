@@ -1,0 +1,26 @@
+{
+  "type": "cyclic:solidifier",
+  "ingredients": [
+    {
+      "item": "bhc:relic_apple"
+    },
+    {
+      "tag": "forge:nuggets/netherite"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    }
+  ],
+  "mix": {
+    "tag": "forge:honey",
+    "count": 4000
+  },
+  "energy": {
+    "rfpertick": 100,
+    "ticks": 120
+  },
+  "result": {
+    "item": "minecraft:enchanted_golden_apple",
+    "count": 1
+  }
+}

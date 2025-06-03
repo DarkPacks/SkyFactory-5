@@ -1,0 +1,17 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": {
+    "tag": "forge:gems/ruby"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "item": "thermal:ruby_dust"
+      },
+      "optional": false
+    }
+  ]
+}

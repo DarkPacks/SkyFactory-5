@@ -71,6 +71,11 @@ events.register<RightClickBlockEvent>(event => {
     return;
   }
 
+  if player.isCrouching {
+    // Early exit when player is crouching, to allow for toggling the trophy base
+    return;
+  }
+
   if level.getBlockState(pos).block == <block:obtrophies:trophy> {
     val blockEntity = level.getBlockEntity(pos);
 

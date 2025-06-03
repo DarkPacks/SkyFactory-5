@@ -844,6 +844,7 @@ val items as ResourceLocation[] = [
   <resource:simplehats:seaweedhat>,
   <resource:simplehats:simsgem>,
   <resource:simplehats:spyzombie>,
+  <resource:supplementaries:awning_green>,
   <resource:supplementaries:candle_holder_green>,
   <resource:supplementaries:colouredstuff/sign_post_green>,
   <resource:supplementaries:flag_green>,

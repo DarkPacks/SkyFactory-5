@@ -1,0 +1,19 @@
+{
+  "type": "thermal:brewer",
+  "ingredients": [
+    {
+      "item": "minecraft:fire_charge"
+    },
+    {
+      "fluid": "colouredstuff:water_orange",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "fluid": "enderio:fire_water",
+      "amount": 1000
+    }
+  ],
+  "energy": 1600
+}

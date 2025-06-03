@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "silentgear:crushed_shulker_shell"
+    },
+    {
+      "amount": 1000,
+      "fluid": "colouredstuff:water_cyan",
+      "nbt": {}
+    }
+  ],
+  "results": [
+    {
+      "amount": 1000,
+      "fluid": "enderio:vapor_of_levity"
+    }
+  ]
+}

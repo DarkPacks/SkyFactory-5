@@ -58,7 +58,7 @@ export async function generateHostileNeuralNetworkEntries(data: MobData) {
       data.name_color = colorHex;
       data.base_drop = {
         item: dye,
-        count: 1,
+        count: 8,
       };
       data.tier_data = [12, 60, 360, 1260];
 

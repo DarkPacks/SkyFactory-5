@@ -1,0 +1,13 @@
+{
+  "type": "create:item_application",
+  "keepHeldItem": false,
+  "ingredients": [
+    {
+      "item": "minecraft:dead_fire_coral_block"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "results": [{ "item": "minecraft:fire_coral_block" }]
+}

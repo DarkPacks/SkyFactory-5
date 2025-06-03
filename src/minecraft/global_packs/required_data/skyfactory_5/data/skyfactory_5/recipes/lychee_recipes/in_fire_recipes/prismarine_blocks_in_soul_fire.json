@@ -1,0 +1,41 @@
+{
+  "type": "lychee:item_inside",
+  "item_in": {
+    "item": "minecraft:lapis_block"
+  },
+  "block_in": {
+    "blocks": ["minecraft:soul_fire"]
+  },
+  "post": [
+    {
+      "type": "random",
+      "empty_weight": 25,
+      "rolls": {
+        "min": 9,
+        "max": 9
+      },
+      "entries": [
+        {
+          "weight": 75,
+          "type": "drop_item",
+          "item": "minecraft:prismarine_shard"
+        }
+      ]
+    },
+    {
+      "type": "random",
+      "empty_weight": 82,
+      "rolls": {
+        "min": 9,
+        "max": 9
+      },
+      "entries": [
+        {
+          "weight": 12,
+          "type": "drop_item",
+          "item": "minecraft:prismarine_crystals"
+        }
+      ]
+    }
+  ]
+}

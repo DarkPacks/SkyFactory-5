@@ -21,7 +21,7 @@
   },
   "base_drop": {
     "item": "draconicevolution:dragon_heart",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.draconic_guardian",
   "fabricator_drops": [

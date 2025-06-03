@@ -1,0 +1,7 @@
+{
+  "type": "thermal:gourmand_fuel",
+  "ingredient": {
+    "tag": "skyfactory_5:color_dye_blocks"
+  },
+  "energy": 14400
+}

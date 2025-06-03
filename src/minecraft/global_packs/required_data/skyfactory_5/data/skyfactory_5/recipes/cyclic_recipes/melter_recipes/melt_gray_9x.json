@@ -1,0 +1,16 @@
+{
+  "type": "cyclic:melter",
+  "ingredients": [
+    {
+      "item": "sf5_things:block_of_gray_dye"
+    }
+  ],
+  "result": {
+    "fluid": "colouredstuff:water_gray",
+    "count": 2250
+  },
+  "energy": {
+    "rfpertick": 50,
+    "ticks": 180
+  }
+}

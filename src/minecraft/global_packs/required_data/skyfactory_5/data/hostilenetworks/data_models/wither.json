@@ -13,7 +13,7 @@
   },
   "base_drop": {
     "item": "minecraft:black_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.wither",
   "fabricator_drops": [

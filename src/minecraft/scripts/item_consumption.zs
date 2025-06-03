@@ -6,7 +6,6 @@ import crafttweaker.api.world.ServerLevel;
 import crafttweaker.api.food.FoodProperties;
 import crafttweaker.api.ingredient.type.IIngredientList;
 
-
 public class OnEat {
     public static var EATS = new List<OnEat>();
     public var toEat as IIngredient;
@@ -122,16 +121,14 @@ for stack, color in COLOR_MAP {
 
         if level is ServerLevel {
             val sl = level as ServerLevel;
-            sl.server.executeCommand("colorfulskies color @s sun " + color, player, true);
-            sl.server.executeCommand("colorfulskies color @s moon " + color, player, true);
-            sl.server.executeCommand("colorfulskies color @s sunrise " + color, player, true);
-            sl.server.executeCommand("colorfulskies color @s sky " + color, player, true);
-            sl.server.executeCommand("colorfulskies color @s cloud " + color, player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sun " + color, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " moon " + color, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sunrise " + color, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sky " + color, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " cloud " + color, true);
         }
 });
 }
-
-
 
 // Screwing around with day/nighttime alterations after eating food
     OnEat.register(<item:minecraft:wither_rose>, (player) => {
@@ -157,20 +154,17 @@ for stack, color in COLOR_MAP {
 });
 
 // Eat RGB Dye or Feather to clear sky colors
-
-
-
     OnEat.register(<item:sf5_things:rgb_dye>, (player) => {
         val level = player.level;
 
         if level is ServerLevel {
             val sl = level as ServerLevel;
 
-            sl.server.executeCommand("colorfulskies color @s sun clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s moon clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s sunrise clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s sky clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s cloud clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sun clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " moon clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sunrise clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sky clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " cloud clear", player, true);
             }
 });
 
@@ -180,15 +174,13 @@ for stack, color in COLOR_MAP {
         if level is ServerLevel {
             val sl = level as ServerLevel;
 
-            sl.server.executeCommand("colorfulskies color @s sun clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s moon clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s sunrise clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s sky clear", player, true);
-            sl.server.executeCommand("colorfulskies color @s cloud clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sun clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " moon clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sunrise clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " sky clear", player, true);
+            sl.server.executeCommand("colorfulskies color " + player.name + " cloud clear", player, true);
             }
 });
-
-
 
 OnEat.register(<item:minecraft:potion>, (player) => {
     val level = player.level;

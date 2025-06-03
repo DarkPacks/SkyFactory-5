@@ -164,10 +164,11 @@ import crafttweaker.api.text.Component;
 // Gateways
 // Ghast Cow and Wither
 var exploding_boss_gateway = Component.translatable("skyfactory_5.tooltip.exploding_boss_gateway").setStyle(<constant:formatting:red>);
-<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/ghast_cow"}).addTooltip(exploding_boss_gateway);
-<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/ghast_cow"}).addTooltip(exploding_boss_gateway);
-<item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/wither"}).addTooltip(exploding_boss_gateway);
-<item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/wither"}).addTooltip(exploding_boss_gateway);
+val exploding_mobs = ["gateways:normal/ghast_cow", "gateways:titan/ghast_cow", "gateways:normal/wither", "gateways:titan/wither"];
+<item:gateways:gate_pearl>.onlyIf("wither_pearl", stack => {
+  val gateway = stack.tag["gateway"];
+  return (gateway as string) in exploding_mobs;
+}).addTooltip(exploding_boss_gateway);
 
 // General Bosses
 var boss_mob_gateway = Component.translatable("skyfactory_5.tooltip.boss_mob_gateway").setStyle(<constant:formatting:red>);
@@ -193,3 +194,7 @@ var nether_painting = Component.translatable("skyfactory_5.tooltip.nether_painti
 
 var end_painting = Component.translatable("skyfactory_5.tooltip.end_painting").setStyle(<constant:formatting:yellow>);
 <item:dimpaintings:end_painting>.addTooltip(end_painting);
+
+// EnderIO Conduit Probe
+var conduit_probe = Component.literal("Shift-Mouse Wheel to Change Mode").setStyle(<constant:formatting:yellow>);
+<item:enderio:conduit_probe>.addTooltip(conduit_probe);

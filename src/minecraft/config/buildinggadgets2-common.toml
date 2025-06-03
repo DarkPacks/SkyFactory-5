@@ -30,9 +30,12 @@ baseCost = 100
 # Maximum power for the Cut and Paste Gadget
 # Range: > 0
 maxPower = 5000000
-# Base cost per block Cut (Paste is free)
+# (LEGACY) NO LONGER USED
 # Range: > 0
 baseCost = 200
+# Base cost per block - Checked during CUT, Charged during PASTE
+# Range: > 0
+baseCostNew = 50
 
 # Copy Paste Gadget
 [power.copypaste_gadget]

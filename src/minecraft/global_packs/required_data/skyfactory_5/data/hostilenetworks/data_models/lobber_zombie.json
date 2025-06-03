@@ -14,32 +14,32 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:green_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.lobber_zombie",
   "fabricator_drops": [
     {
       "item": "minecraft:rotten_flesh",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:potato",
-      "count": 1
+      "count": 4
     },
     {
       "item": "minecraft:poisonous_potato",
-      "count": 1
+      "count": 4
     },
     {
       "item": "minecraft:iron_ingot",
-      "count": 1
+      "count": 2
     }
   ],
   "tier_data": [12, 60, 360, 1260],

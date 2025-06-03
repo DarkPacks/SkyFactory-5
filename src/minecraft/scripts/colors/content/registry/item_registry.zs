@@ -1,7 +1,6 @@
 
 public enum ColoredItem {
   Apple = "apple",
-  Boat = "boat",
   Campfire = "campfire",
   ChallengeGateway = "challenge_gateway",
   CompostingBin = "composting_bin",
@@ -21,8 +20,10 @@ public enum ColoredItem {
   Sapling = "sapling",
   Seed = "seed",
   StorageChest = "storage_chest",
+  StrippedWood = "stripped_wood",
   Torch = "torch",
   TreasureBag = "treasure_bag",
+  Wood = "wood",
   Wool = "wool",
 }
 
@@ -33,34 +34,7 @@ ContentBuilder.factory
     }
     return <item:sf5_things:${color.getResourceName()}_apple>;
   })
-  .registerItem(ColoredItem.Boat, (color) => {
-    if color.getName() == ColorName.Brown {
-      return <item:minecraft:dark_oak_boat>;
-    }
-    if color.getName() == ColorName.Cyan {
-      return <item:minecraft:jungle_boat>;
-    }
-    if color.getName() == ColorName.Green {
-      return <item:minecraft:acacia_boat>;
-    }
-    if color.getName() == ColorName.LightBlue {
-      return <item:minecraft:mangrove_boat>;
-    }
-    if color.getName() == ColorName.Lime {
-      return <item:minecraft:spruce_boat>;
-    }
-    if color.getName() == ColorName.Pink {
-      return <item:minecraft:cherry_boat>;
-    }
-    if color.getName() == ColorName.Purple {
-      return <item:minecraft:birch_boat>;
-    }
-    if color.getName() == ColorName.Red {
-      return <item:minecraft:oak_boat>;
-    }
 
-    return null;
-  })
   .registerItem(ColoredItem.Campfire, (color) => {
     if color.getName() == ColorName.None {
       return null;
@@ -162,4 +136,12 @@ ContentBuilder.factory
     }
 
     return <item:minecraft:${color.getResourceName()}_wool>;
+  })
+
+  .registerItem(ColoredItem.Wood, (color) => {
+    return <item:colouredstuff:wood_${color.getResourceName()}>;
+  })
+
+  .registerItem(ColoredItem.StrippedWood, (color) => {
+    return <item:colouredstuff:wood_stripped_${color.getResourceName()}>;
   });

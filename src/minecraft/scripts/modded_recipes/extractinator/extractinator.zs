@@ -216,6 +216,6 @@ Extractinator.addRecipe("extractinator_block_of_black_olives", <item:sf5_things:
   new ExtractinatorDrop(<item:minecraft:ink_sac>,0.08,1,1),
   new ExtractinatorDrop(<item:minecraft:coal>,0.08,1,1),
   new ExtractinatorDrop(<item:minecraft:wither_skeleton_skull>,0.01,1,1),
-  new ExtractinatorDrop(<item:thermal:netherite_dust>,0.0001,1,1),
-  new ExtractinatorDrop(<item:minecraft:gilded_blackstone>,0.02,1,1),
+  new ExtractinatorDrop(<item:thermal:netherite_dust>,0.01,1,1),
+  new ExtractinatorDrop(<item:minecraft:gilded_blackstone>,0.04,1,1),
 ]);

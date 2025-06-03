@@ -22,7 +22,7 @@
   "maulerSavannaSpawnWeight": 32,
   "maulerSavannaSpawnMinGroupSize": 1,
   "maulerSavannaSpawnMaxGroupSize": 1,
-  "enableMoobloom": true,
+  "enableMoobloom": false,
   "enableMoobloomSpawn": false,
   "moobloomFlowerForestSpawnWeight": 32,
   "moobloomFlowerForestSpawnMinGroupSize": 2,

@@ -14,23 +14,19 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:light_blue_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.tuna",
   "fabricator_drops": [
     {
       "item": "sushigocrafting:raw_tuna",
-      "count": 32
-    },
-    {
-      "item": "minecraft:bone_meal",
       "count": 4
     }
   ],

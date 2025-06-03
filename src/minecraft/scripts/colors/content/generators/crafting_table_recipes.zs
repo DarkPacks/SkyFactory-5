@@ -16,25 +16,7 @@ ContentBuilder.factory
       [apple]
     );
   })
-  .addRecipeGenerator("_boat", (baseName, args) => {
-    val plankItem = args.getItem(ColoredItem.Plank);
-    val boatItem = args.getItem(ColoredItem.Boat);
 
-    if plankItem == null || boatItem == null {
-      return;
-    }
-
-    craftingTable.remove(boatItem);
-
-    craftingTable.addShaped(
-      args.color.getResourceName() + baseName,
-      boatItem,
-      [
-        [plankItem, <item:minecraft:air>, plankItem],
-        [plankItem, plankItem, plankItem]
-      ]
-    );
-  })
   .addRecipeGenerator("_dye_block_from_dye", (baseName, args) => {
     val dyeBlockItem = args.getItem(ColoredItem.DyeBlock);
     val dye = args.getItem(ColoredItem.Dye);
@@ -368,6 +350,30 @@ ContentBuilder.factory
         gatewaysIngredient,
         gatewaysIngredient,
         gatewaysIngredient
+      ]
+    );
+  })
+
+  .addRecipeGenerator("_coloured_wood_to_planks", (baseName, args) => {
+  val plankItem = args.getItem(ColoredItem.Plank);
+  val woodItem = args.getItem(ColoredItem.Wood);
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      plankItem * 4,
+      [
+        [woodItem]
+      ]
+    );
+  })
+
+  .addRecipeGenerator("_coloured_stripped_wood_to_planks", (baseName, args) => {
+  val plankItem = args.getItem(ColoredItem.Plank);
+  val strippedWoodItem = args.getItem(ColoredItem.StrippedWood);
+    craftingTable.addShaped(
+      args.color.getResourceName() + baseName,
+      plankItem * 4,
+      [
+        [strippedWoodItem]
       ]
     );
   });

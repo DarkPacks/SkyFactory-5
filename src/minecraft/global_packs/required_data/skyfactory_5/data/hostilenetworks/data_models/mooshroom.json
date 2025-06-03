@@ -8,32 +8,32 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:red_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.mooshroom",
   "fabricator_drops": [
     {
       "item": "minecraft:beef",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:leather",
-      "count": 44
+      "count": 4
     },
     {
       "item": "minecraft:brown_mushroom",
-      "count": 8
+      "count": 4
     },
     {
       "item": "minecraft:red_mushroom",
-      "count": 8
+      "count": 4
     }
   ],
   "tier_data": [12, 60, 360, 1260],

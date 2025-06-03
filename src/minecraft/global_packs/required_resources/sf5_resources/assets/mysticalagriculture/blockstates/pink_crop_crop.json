@@ -22,7 +22,7 @@
       "model": "mysticalagriculture:block/mystical_resource_crop_6"
     },
     "age=7": {
-      "model": "mysticalagriculture:block/elementium_crop"
+      "model": "mysticalagriculture:block/pig_iron_crop"
     }
   }
 }

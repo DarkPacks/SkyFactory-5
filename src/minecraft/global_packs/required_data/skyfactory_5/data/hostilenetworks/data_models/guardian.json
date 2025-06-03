@@ -8,50 +8,31 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 4096,
+  "sim_cost": 2048,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:light_gray_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.guardian",
   "fabricator_drops": [
     {
       "item": "minecraft:prismarine_shard",
-      "count": 32
+      "count": 2
     },
     {
       "item": "minecraft:prismarine_crystals",
-      "count": 33
-    },
-    {
-      "item": "minecraft:cod",
-      "count": 33
-    },
-    {
-      "item": "minecraft:sponge",
-      "count": 18
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:40}",
-      "optional": true
-    },
-    {
-      "item": "minecraft:salmon",
       "count": 1
     },
     {
-      "item": "sushigocrafting:raw_tuna",
-      "count": 1,
-      "optional": true
+      "item": "minecraft:cod",
+      "count": 4
     },
     {
-      "item": "minecraft:bone_meal",
+      "item": "minecraft:sponge",
       "count": 1
     }
   ],

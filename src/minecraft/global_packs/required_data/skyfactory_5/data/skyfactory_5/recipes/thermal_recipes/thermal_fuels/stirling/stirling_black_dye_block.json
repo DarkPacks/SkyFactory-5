@@ -1,0 +1,7 @@
+{
+  "type": "thermal:stirling_fuel",
+  "ingredient": {
+    "item": "sf5_things:block_of_black_dye"
+  },
+  "energy": 40000
+}

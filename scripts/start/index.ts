@@ -58,7 +58,7 @@ class Main {
       },
       memory: {
         max: process.env.MC_MEM_MAX || "8G",
-        min: process.env.MC_MEM_MIN || "4G",
+        min: process.env.MC_MEM_MIN || "8G",
       },
       forge: forgeFilePath,
       javaPath: process.env.MC_JAVA_PATH || undefined,

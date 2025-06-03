@@ -14,32 +14,32 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:green_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.overgrown_skeleton",
   "fabricator_drops": [
     {
       "item": "minecraft:bone",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:arrow",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:glow_berries",
-      "count": 49
+      "count": 4
     },
     {
       "item": "minecraft:vine",
-      "count": 23
+      "count": 4
     }
   ],
   "tier_data": [12, 60, 360, 1260],

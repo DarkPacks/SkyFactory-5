@@ -41,6 +41,7 @@ villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:oak
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:spruce_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:birch_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:jungle_sapling>, 4, 8, 0.05);
+villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:thermal:rubberwood_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:acacia_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:dark_oak_sapling>, 4, 8, 0.05);
 villagerTrades.addTrade(<profession:minecraft:farmer>, 1, 4, <item:minecraft:melon_seeds>, 4, 8, 0.05);
@@ -317,6 +318,7 @@ villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 1
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 1, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/sheep"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 1, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/skeleton"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 1, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/snow_golem"}), 4, 16, 0.05);
+villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 1, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/llama"}), 4, 16, 0.05);
 // Level 2
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/polar_bear"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 2, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:normal/albino_cow"}), 4, 16, 0.05);
@@ -336,6 +338,7 @@ villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/ghast"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/goat"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/melon_golem"}), 4, 16, 0.05);
+villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 4, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/llama"}), 4, 16, 0.05);
 // Level 5
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 5, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/opalescent_eye"}), 4, 16, 0.05);
 villagerTrades.addTrade(<profession:spacecatcustomprofessions:villager_white>, 5, 4, <item:gateways:gate_pearl>.withTag({gateway: "gateways:titan/panda"}), 4, 16, 0.05);

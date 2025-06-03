@@ -1,0 +1,7 @@
+{
+  "type": "immersiveengineering:crusher",
+  "energy": 6000,
+  "input": { "item": "minecraft:shulker_shell" },
+  "result": { "count": 1, "item": "silentgear:crushed_shulker_shell" },
+  "secondaries": []
+}

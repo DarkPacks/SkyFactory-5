@@ -224,6 +224,17 @@
           }
         ]
       }
+    },
+    "block_of_black_olives": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_black_olives"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -246,7 +257,8 @@
       "coal_block",
       "coal",
       "black_essence",
-      "black_essence_seeds"
+      "black_essence_seeds",
+      "block_of_black_olives"
     ]
   ],
   "rewards": {

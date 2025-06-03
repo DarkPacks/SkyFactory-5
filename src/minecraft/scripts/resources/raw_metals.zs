@@ -57,6 +57,18 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Raw Copper
+new MaterialCraftingRecipe(
+  "raw_copper_block_from_dye_blocks",
+  <item:minecraft:raw_copper_block>,
+  [
+    <item:sf5_things:block_of_green_dye>,
+    <item:sf5_things:block_of_orange_dye>,
+    <item:sf5_things:block_of_orange_dye>,
+    <item:sf5_things:block_of_orange_dye>
+  ]
+).addRecipes();
+
 // Raw Iron
 new MaterialCraftingRecipe(
   "raw_iron_from_dye",
@@ -66,6 +78,18 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/light_gray>,
     <tag:items:forge:dyes/light_gray>,
     <tag:items:forge:dyes/light_gray>
+  ]
+).addRecipes();
+
+// Block of Raw Iron
+new MaterialCraftingRecipe(
+  "raw_iron_block_from_dye_blocks",
+  <item:minecraft:raw_iron_block>,
+  [
+    <item:sf5_things:block_of_light_gray_dye>,
+    <item:sf5_things:block_of_light_gray_dye>,
+    <item:sf5_things:block_of_light_gray_dye>,
+    <item:sf5_things:block_of_light_gray_dye>
   ]
 ).addRecipes();
 
@@ -81,6 +105,18 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Raw Gold
+new MaterialCraftingRecipe(
+  "raw_gold_block_from_dye_blocks",
+  <item:minecraft:raw_gold_block>,
+  [
+    <item:sf5_things:block_of_yellow_dye>,
+    <item:sf5_things:block_of_yellow_dye>,
+    <item:sf5_things:block_of_yellow_dye>,
+    <item:sf5_things:block_of_yellow_dye>
+  ]
+).addRecipes();
+
 // Raw Zinc
 new MaterialCraftingRecipe(
   "raw_zinc_from_dye",
@@ -90,6 +126,18 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/light_gray>,
     <tag:items:forge:dyes/light_gray>,
     <tag:items:forge:dyes/light_gray>
+  ]
+).addRecipes();
+
+// Block of Raw Zinc
+new MaterialCraftingRecipe(
+  "raw_zinc_block_from_dye_blocks",
+  <item:create:raw_zinc_block>,
+  [
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_light_gray_dye>,
+    <item:sf5_things:block_of_light_gray_dye>,
+    <item:sf5_things:block_of_light_gray_dye>
   ]
 ).addRecipes();
 
@@ -105,6 +153,18 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Coal
+new MaterialCraftingRecipe(
+  "coal_block_from_dye_blocks",
+  <item:minecraft:coal_block>,
+  [
+    <item:sf5_things:block_of_black_dye>,
+    <item:sf5_things:block_of_black_dye>,
+    <item:sf5_things:block_of_black_dye>,
+    <item:sf5_things:block_of_black_dye>
+  ]
+).addRecipes();
+
 // Redstone
 new MaterialCraftingRecipe(
   "redstone_from_dye",
@@ -116,6 +176,17 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Redstone
+new MaterialCraftingRecipe(
+  "redstone_block_from_dye_blocks",
+  <item:minecraft:redstone_block> * 2,
+  [
+    <item:sf5_things:block_of_red_dye>,
+    <item:sf5_things:block_of_red_dye>,
+    <item:sf5_things:block_of_red_dye>
+  ]
+).addRecipes();
+
 // Lapis
 new MaterialCraftingRecipe(
   "lapis_from_dye",
@@ -124,6 +195,17 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/blue>,
     <tag:items:forge:dyes/blue>,
     <tag:items:forge:dyes/blue>
+  ]
+).addRecipes();
+
+// Block of Lapis
+new MaterialCraftingRecipe(
+  "lapis_block_from_dye_blocks",
+  <item:minecraft:lapis_block> * 2,
+  [
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>
   ]
 ).addRecipes();
 
@@ -143,6 +225,22 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Diamond
+new MaterialCraftingRecipe(
+  "diamond_block_from_dye_blocks",
+  <item:minecraft:diamond_block>,
+  [
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_cyan_dye>
+  ]
+).addRecipes();
+
 // Emerald
 new MaterialCraftingRecipe(
   "emerald_from_dye",
@@ -159,6 +257,22 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Emerald
+new MaterialCraftingRecipe(
+  "emerald_block_from_dye_blocks",
+  <item:minecraft:emerald_block>,
+  [
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_lime_dye>,
+    <item:sf5_things:block_of_green_dye>
+  ]
+).addRecipes();
+
 // Glowstone
 new MaterialCraftingRecipe(
   "glowstone_from_dye",
@@ -168,6 +282,16 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/brown>,
     <tag:items:forge:dyes/orange>,
     <tag:items:forge:dyes/orange>
+  ]
+).addRecipes();
+new MaterialCraftingRecipe(
+  "glowstone_from_dye_blocks",
+  <item:minecraft:glowstone> * 9,
+  [
+    <item:sf5_things:block_of_brown_dye>,
+    <item:sf5_things:block_of_brown_dye>,
+    <item:sf5_things:block_of_orange_dye>,
+    <item:sf5_things:block_of_orange_dye>
   ]
 ).addRecipes();
 
@@ -181,6 +305,15 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/magenta>
   ]
 ).addRecipes();
+new MaterialCraftingRecipe(
+  "amethyst_from_dye_blocks",
+  <item:minecraft:amethyst_shard> * 18,
+  [
+    <item:sf5_things:block_of_purple_dye>,
+    <item:sf5_things:block_of_magenta_dye>,
+    <item:sf5_things:block_of_magenta_dye>
+  ]
+).addRecipes();
 
 // Quartz
 new MaterialCraftingRecipe(
@@ -190,6 +323,15 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/white>,
     <tag:items:forge:dyes/white>,
     <tag:items:forge:dyes/light_gray>
+  ]
+).addRecipes();
+new MaterialCraftingRecipe(
+  "quartz_from_dye_blocks",
+  <item:minecraft:quartz> * 18,
+  [
+    <item:sf5_things:block_of_white_dye>,
+    <item:sf5_things:block_of_white_dye>,
+    <item:sf5_things:block_of_light_gray_dye>
   ]
 ).addRecipes();
 
@@ -205,6 +347,18 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Raw Aluminum
+new MaterialCraftingRecipe(
+  "raw_aluminum_block_from_dye_blocks",
+  <item:immersiveengineering:raw_block_aluminum>,
+  [
+    <item:sf5_things:block_of_white_dye>,
+    <item:sf5_things:block_of_orange_dye>,
+    <item:sf5_things:block_of_orange_dye>,
+    <item:sf5_things:block_of_orange_dye>
+  ]
+).addRecipes();
+
 // Raw Lead
 new MaterialCraftingRecipe(
   "raw_lead_from_dye",
@@ -214,6 +368,18 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/blue>,
     <tag:items:forge:dyes/blue>,
     <tag:items:forge:dyes/blue>
+  ]
+).addRecipes();
+
+// Block of Raw Lead
+new MaterialCraftingRecipe(
+  "raw_lead_block_from_dye_blocks",
+  <item:thermal:raw_lead_block>,
+  [
+    <item:sf5_things:block_of_purple_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>
   ]
 ).addRecipes();
 
@@ -229,6 +395,18 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Block of Raw Silver
+new MaterialCraftingRecipe(
+  "raw_silver_block_from_dye_blocks",
+  <item:thermal:raw_silver_block>,
+  [
+    <item:sf5_things:block_of_white_dye>,
+    <item:sf5_things:block_of_light_gray_dye>,
+    <item:sf5_things:block_of_light_gray_dye>,
+    <item:sf5_things:block_of_light_gray_dye>
+  ]
+).addRecipes();
+
 // Raw Nickel
 new MaterialCraftingRecipe(
   "raw_nickel_from_dye",
@@ -238,6 +416,18 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/white>,
     <tag:items:forge:dyes/white>,
     <tag:items:forge:dyes/white>
+  ]
+).addRecipes();
+
+// Block of Raw Nickel
+new MaterialCraftingRecipe(
+  "raw_nickel_block_from_dye_blocks",
+  <item:thermal:raw_nickel_block>,
+  [
+    <item:sf5_things:block_of_yellow_dye>,
+    <item:sf5_things:block_of_white_dye>,
+    <item:sf5_things:block_of_white_dye>,
+    <item:sf5_things:block_of_white_dye>
   ]
 ).addRecipes();
 
@@ -253,6 +443,18 @@ new MaterialCraftingRecipe(
   ]
 ).addRecipes();
 
+// Raw Uranium Block
+new MaterialCraftingRecipe(
+  "raw_uranium_block_from_dye_blocks",
+  <item:immersiveengineering:raw_block_uranium>,
+  [
+    <item:sf5_things:block_of_gray_dye>,
+    <item:sf5_things:block_of_green_dye>,
+    <item:sf5_things:block_of_green_dye>,
+    <item:sf5_things:block_of_green_dye>
+  ]
+).addRecipes();
+
 // Raw Tin
 new MaterialCraftingRecipe(
   "raw_tin_from_dye",
@@ -262,6 +464,18 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/blue>,
     <tag:items:forge:dyes/light_blue>,
     <tag:items:forge:dyes/light_blue>
+  ]
+).addRecipes();
+
+// Block of Raw Tin
+new MaterialCraftingRecipe(
+  "raw_tin_block_from_dye_blocks",
+  <item:thermal:raw_tin_block>,
+  [
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_blue_dye>,
+    <item:sf5_things:block_of_light_blue_dye>,
+    <item:sf5_things:block_of_light_blue_dye>
   ]
 ).addRecipes();
 
@@ -280,6 +494,20 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/green>
   ]
 ).addRecipes();
+new MaterialCraftingRecipe(
+  "ender_pearl_from_dye_block",
+  <item:minecraft:ender_pearl> * 9,
+  [
+    <item:sf5_things:block_of_cyan_dye>,
+    <item:sf5_things:block_of_cyan_dye>,
+    <item:sf5_things:block_of_cyan_dye>,
+    <item:sf5_things:block_of_cyan_dye>,
+    <item:sf5_things:block_of_cyan_dye>,
+    <item:sf5_things:block_of_cyan_dye>,
+    <item:sf5_things:block_of_cyan_dye>,
+    <item:sf5_things:block_of_green_dye>
+  ]
+).addRecipes();
 
 // Certus Quartz Crystal
 new MaterialCraftingRecipe(
@@ -290,6 +518,16 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/light_blue>,
     <tag:items:forge:dyes/light_blue>,
     <tag:items:forge:dyes/light_blue>
+  ]
+).addRecipes();
+new MaterialCraftingRecipe(
+  "certus_quartz_from_dye_blocks",
+  <item:ae2:certus_quartz_crystal> * 9,
+  [
+    <item:sf5_things:block_of_light_blue_dye>,
+    <item:sf5_things:block_of_light_blue_dye>,
+    <item:sf5_things:block_of_light_blue_dye>,
+    <item:sf5_things:block_of_light_blue_dye>
   ]
 ).addRecipes();
 
@@ -303,8 +541,17 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/light_blue>
   ]
 ).addRecipes();
+new MaterialCraftingRecipe(
+  "sky_stone_from_dye_blocks",
+  <item:ae2:sky_dust> * 18,
+  [
+    <item:sf5_things:block_of_gray_dye>,
+    <item:sf5_things:block_of_gray_dye>,
+    <item:sf5_things:block_of_light_blue_dye>
+  ]
+).addRecipes();
 
-// Draconic Evolution
+// Draconium Dust
 new MaterialCraftingRecipe(
   "draconium_dust_from_dye",
   <item:draconicevolution:draconium_dust> * 1,
@@ -313,6 +560,16 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/magenta>,
     <tag:items:forge:dyes/magenta>,
     <tag:items:forge:dyes/magenta>
+  ]
+).addRecipes();
+new MaterialCraftingRecipe(
+  "draconium_dust_from_dye_blocks",
+  <item:draconicevolution:draconium_dust> * 9,
+  [
+    <item:sf5_things:block_of_purple_dye>,
+    <item:sf5_things:block_of_magenta_dye>,
+    <item:sf5_things:block_of_magenta_dye>,
+    <item:sf5_things:block_of_magenta_dye>
   ]
 ).addRecipes();
 
@@ -325,5 +582,15 @@ new MaterialCraftingRecipe(
     <tag:items:forge:dyes/yellow>,
     <tag:items:forge:dyes/yellow>,
     <tag:items:forge:dyes/yellow>
+  ]
+).addRecipes();
+new MaterialCraftingRecipe(
+  "force_gem_from_dye_blocks",
+  <item:forcecraft:force_gem> * 9,
+  [
+    <item:sf5_things:block_of_white_dye>,
+    <item:sf5_things:block_of_yellow_dye>,
+    <item:sf5_things:block_of_yellow_dye>,
+    <item:sf5_things:block_of_yellow_dye>
   ]
 ).addRecipes();

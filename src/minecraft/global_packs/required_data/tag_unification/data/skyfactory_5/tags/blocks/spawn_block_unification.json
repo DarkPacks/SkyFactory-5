@@ -13,6 +13,9 @@
     "minecraft:stone",
     "mob_grinding_utils:entity_conveyor",
     "#skyfactory_5:color_stone",
-    "#skyfactory_5:rechiseled_solid_blocks"
+    "#skyfactory_5:rechiseled_solid_blocks",
+    "#minecraft:stone_bricks",
+    "mysticalagriculture:witherproof_bricks",
+    "mysticalagriculture:witherproof_block"
   ]
 }

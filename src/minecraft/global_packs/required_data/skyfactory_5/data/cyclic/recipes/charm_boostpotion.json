@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["ggg", "fbf", "gag"],
+  "key": {
+    "g": {
+      "item": "minecraft:gold_nugget"
+    },
+    "f": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "a": {
+      "item": "sf5_things:blue_apple"
+    },
+    "b": {
+      "item": "cyclic:gem_amber"
+    }
+  },
+  "result": {
+    "item": "cyclic:charm_boostpotion"
+  }
+}

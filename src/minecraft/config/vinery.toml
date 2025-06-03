@@ -8,14 +8,6 @@ maxFluidLevel = 100
 # How much Fluid a Grapejuice Bottle fills
 # Range: 1 ~ 1000
 maxFluidPerJuice = 25
-# Maximum Grape storage capacity for Grapevine pots
-# Range: 6 ~ 100
-maxStorageCapacity = 6
-# Number of jumps required to harvest from the Grapevine Pot
-# Range: 1 ~ 100
-grapevinePotRequiredJumps = 5
-# Set to true to enable splash particles.
-shouldShowSplashParticles = true
 # Apple Press mashing time in ticks
 # Range: 1 ~ 1000
 applePressMaxMashingProgress = 600

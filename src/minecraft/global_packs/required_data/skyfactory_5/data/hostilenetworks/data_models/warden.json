@@ -15,37 +15,37 @@
   },
   "base_drop": {
     "item": "minecraft:cyan_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.warden",
   "fabricator_drops": [
     {
       "item": "minecraft:cyan_dye",
-      "count": 32
+      "count": 4
     },
     {
       "item": "apotheosis:warden_tendril",
-      "count": 59
+      "count": 2
     },
     {
       "item": "minecraft:sculk_catalyst",
-      "count": 18
+      "count": 2
     },
     {
       "item": "minecraft:echo_shard",
-      "count": 12
+      "count": 2
     },
     {
       "item": "minecraft:sculk",
-      "count": 8
+      "count": 2
     },
     {
       "item": "minecraft:sculk_shrieker",
-      "count": 5
+      "count": 2
     },
     {
       "item": "minecraft:sculk_sensor",
-      "count": 4
+      "count": 2
     }
   ],
   "tier_data": [12, 60, 360, 1260],

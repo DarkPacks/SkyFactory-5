@@ -290,6 +290,17 @@
           }
         ]
       }
+    },
+    "block_of_grape_hi_chew": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_grape_hi_chew"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -320,7 +331,8 @@
       "purple_essence",
       "purple_essence_seeds",
       "enchanted_book",
-      "Eggplant"
+      "Eggplant",
+      "block_of_grape_hi_chew"
     ]
   ],
   "rewards": {

@@ -1,0 +1,13 @@
+{
+  "type": "thermal:pulverizer",
+  "ingredient": {
+    "item": "minecraft:shulker_shell"
+  },
+  "result": [
+    {
+      "item": "silentgear:crushed_shulker_shell",
+      "count": 1
+    }
+  ],
+  "energy_mod": 0.5
+}

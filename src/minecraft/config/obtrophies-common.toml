@@ -9,7 +9,7 @@ any_kill_drops = false
 # This value works as a percentage (number * 100), so 0.2 would be a 20% chance for example.
 # Set this value to any negative number to disable the override.
 # Range: -1.0 ~ 1.0
-trophy_drop_override = -1.0
+trophy_drop_override = 0.0
 # The chance a player will drop a trophy when killed by a charged creeper.
 # This config mostly exists for singleplayer worlds where getting a player kill on a player is rather difficult.
 # This value works as a percentage (number * 100), so 0.2 would be a 20% chance for example.

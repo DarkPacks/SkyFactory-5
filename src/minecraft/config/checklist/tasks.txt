@@ -1,278 +1,279 @@
-#skyfactory_5.task.1
-#skyfactory_5.task.2
-#skyfactory_5.task.3
+# Welcome to SkyFactory® 5
+#§1============================
+#You probably noticed there's no color! Don't worry, your computer isn't broken. Each of the 16 Minecraft Colors will have to be discovered in a variety of ways: Crafting, in-world actions, etc. If you get stuck, the Advancements should help you out.
 ===
-#skyfactory_5.task.4
-#skyfactory_5.task.5
+# How to Use This Book
+#Use the arrows at the bottom of the pages to navigate. You will see challenges separated into ages that represent the general path of progression, although you do not need to do them in order. Simply check the box next to each challenge on completion. Careful though, tasks become increasingly difficult as you progress! Also, don't forget to craft yourself a Task Table to store this book!
 ===
-#skyfactory_5.task.6
+#§1--==§ Mob Spawning§1==--
 
-#skyfactory_5.task.7
+#Mobs do not spawn initially and require you to complete Gateways to obtain Trophies, these can be placed and activated to allow that mob to spawn around the player.
 
-#skyfactory_5.task.8
+#Mobs will spawn on most normal blocks and don't require specific blocks like grass or water. You do not need to worry about Biomes, Dimensions, etc, only light level and distance requirements matter.
 
-#skyfactory_5.task.9
+#Light levels matter when spawning mobs, §2Passives from 8 to 15§0 while §4Hostiles require light levels 0 to 7§0 You can easily find the light level by pressing §3§lF7
+
+#Mobs only spawn §5> 24 blocks away from the player
+
+#Additionally, Mobs will spawn from Spawners found in the world. They can be mined, without Silk Touch, and upgraded. Using a Trophy on them will change which mobs spawn.
 ===
-#skyfactory_5.task.10
-#skyfactory_5.task.11
-#skyfactory_5.task.12
-#skyfactory_5.task.13
+#Special Thank You to:
+#BlayTheNinth, Darkhax, Dutchs, FirstNecron, GoryMoon, Jaredlll08, KingLemming, linuxchr, Lothrazar, MarioLuigi7896, MrBysco, Muddr, Shadows_of_Fire, Twitch Chat
+#To everyone who has supported the development process
+#And finally, big thanks to the modding community for making this happen!
 ===
-#skyfactory_5.task.14
+# From the Developer
 
-#skyfactory_5.task.15
+# Hi! My name is Darkosto and I am the developer of SkyFactory 5
 
-skyfactory_5.task.16
-[skyfactory_5.task.17](https://twitch.tv/darkosto)
-#skyfactory_5.task.18
-[skyfactory_5.task.19](https://discord.gg/darkosto)
+ If you have any questions head on over to §9§n[Twitch](https://twitch.tv/darkosto)§r or the official §9§n[Discord Community](https://discord.gg/darkosto)§r
 
-#skyfactory_5.task.20
-
-===
-skyfactory_5.task.21
-skyfactory_5.task.22
-skyfactory_5.task.23
-skyfactory_5.task.24
-skyfactory_5.task.25
-skyfactory_5.task.26
-skyfactory_5.task.27
-skyfactory_5.task.28
-skyfactory_5.task.29
-skyfactory_5.task.30
-skyfactory_5.task.31
-skyfactory_5.task.32
-skyfactory_5.task.33
-skyfactory_5.task.34
-skyfactory_5.task.35
-skyfactory_5.task.36
+# Thanks for playing the modpack
 
 ===
-#skyfactory_5.task.37
-skyfactory_5.task.38
-skyfactory_5.task.39
-skyfactory_5.task.40
-skyfactory_5.task.41
-skyfactory_5.task.42
-skyfactory_5.task.43
-skyfactory_5.task.44
-skyfactory_5.task.45
-skyfactory_5.task.46
-skyfactory_5.task.47
-skyfactory_5.task.48
-skyfactory_5.task.49
-skyfactory_5.task.50
-skyfactory_5.task.51
-skyfactory_5.task.52
-skyfactory_5.task.53
-===
-#skyfactory_5.task.54
-skyfactory_5.task.55
-skyfactory_5.task.56
-skyfactory_5.task.57
-skyfactory_5.task.58
-===
-#skyfactory_5.task.59
-skyfactory_5.task.60
-skyfactory_5.task.61
-skyfactory_5.task.62
-skyfactory_5.task.63
-skyfactory_5.task.64
-skyfactory_5.task.65
-===
-#skyfactory_5.task.66
-skyfactory_5.task.67
-skyfactory_5.task.68
-skyfactory_5.task.69
-skyfactory_5.task.70
-skyfactory_5.task.71
-skyfactory_5.task.72
-skyfactory_5.task.73
-===
-#skyfactory_5.task.74
-skyfactory_5.task.75
-skyfactory_5.task.76
-skyfactory_5.task.77
-skyfactory_5.task.78
-skyfactory_5.task.79
-skyfactory_5.task.80
-skyfactory_5.task.81
-skyfactory_5.task.82
-skyfactory_5.task.83
-skyfactory_5.task.84
-skyfactory_5.task.85
-===
-#skyfactory_5.task.86
-skyfactory_5.task.87
-skyfactory_5.task.88
-skyfactory_5.task.89
-skyfactory_5.task.90
-skyfactory_5.task.91
-skyfactory_5.task.92
-skyfactory_5.task.93
-skyfactory_5.task.94
-skyfactory_5.task.95
-skyfactory_5.task.96
-===
-#skyfactory_5.task.97
-skyfactory_5.task.98
-skyfactory_5.task.99
-skyfactory_5.task.100
-skyfactory_5.task.101
-skyfactory_5.task.102
-===
-#skyfactory_5.task.103
-skyfactory_5.task.104
-skyfactory_5.task.105
-skyfactory_5.task.106
-skyfactory_5.task.107
-===
-#skyfactory_5.task.108
-skyfactory_5.task.109
-===
-#skyfactory_5.task.110
-skyfactory_5.task.111
-skyfactory_5.task.112
-skyfactory_5.task.113
-skyfactory_5.task.114
-skyfactory_5.task.115
-===
-#skyfactory_5.task.116
-skyfactory_5.task.117
-skyfactory_5.task.118
-skyfactory_5.task.119
-skyfactory_5.task.120
-skyfactory_5.task.121
-===
-#skyfactory_5.task.122
-skyfactory_5.task.123
-skyfactory_5.task.124
-skyfactory_5.task.125
-skyfactory_5.task.126
-skyfactory_5.task.127
-skyfactory_5.task.128
-skyfactory_5.task.129
-===
-#skyfactory_5.task.130
-#skyfactory_5.task.131
-skyfactory_5.task.132
-skyfactory_5.task.133
-skyfactory_5.task.134
-skyfactory_5.task.135
-skyfactory_5.task.136
-skyfactory_5.task.137
-skyfactory_5.task.138
-skyfactory_5.task.139
-skyfactory_5.task.140
-skyfactory_5.task.141
-skyfactory_5.task.142
-skyfactory_5.task.143
-skyfactory_5.task.144
-skyfactory_5.task.145
-skyfactory_5.task.146
-skyfactory_5.task.147
-skyfactory_5.task.148
-skyfactory_5.task.149
-skyfactory_5.task.150
-skyfactory_5.task.151
-skyfactory_5.task.152
-skyfactory_5.task.153
-skyfactory_5.task.154
-skyfactory_5.task.155
-skyfactory_5.task.156
-===
-#skyfactory_5.task.157
-skyfactory_5.task.158
-skyfactory_5.task.159
-skyfactory_5.task.160
-skyfactory_5.task.161
-skyfactory_5.task.162
-skyfactory_5.task.163
-skyfactory_5.task.164
-skyfactory_5.task.165
-skyfactory_5.task.166
-skyfactory_5.task.167
-skyfactory_5.task.168
-skyfactory_5.task.169
-skyfactory_5.task.170
-skyfactory_5.task.171
-skyfactory_5.task.172
-skyfactory_5.task.173
-skyfactory_5.task.174
-===
-#skyfactory_5.task.175
-skyfactory_5.task.176
-skyfactory_5.task.177
-skyfactory_5.task.178
-skyfactory_5.task.179
-skyfactory_5.task.180
-skyfactory_5.task.181
-skyfactory_5.task.182
-skyfactory_5.task.183
+Discover §0==§0Black§0==
+Discover §1==§0Blue§1==
+Discover §6==§0Brown§6==
+Discover §3==§0Cyan§3==
+Discover §8==§0Gray§8==
+Discover §2==§0Green§2==
+Discover §b==§0Light Blue§b==
+Discover §7==§0Light Gray§7==
+Discover §a==§0Lime§a==
+Discover §5==§0Magenta§5==
+Discover §6==§0Orange§6==
+Discover §d==§0Pink§d==
+Discover §5==§0Purple§5==
+Discover §c==§0Red§c==
+Discover §f==§0White§f==
+Discover §e==§0Yellow§e==
+
+===
+# §1--==§0Age of Discovery§1==--
+Use the Crafting Stick to make a Colorless Crafting Table
+Use a Barrel to create Dirt
+Eat Dirt!
+Use Colored Planks to craft any Color Crafting Table
+Change the color of a Sapling by using Dye on it
+Use any Dye and a Stick to make a Color Torch
+Craft a Crafting Station to make recipes not available in the Color Crafting Tables
+Craft a Silent's Gear Sickle to break Leaves faster
+Craft a Silent's Gear Axe to break Wood faster
+Right Click with an Axe on a Log to get a Template Board
+Use a Crucible to melt Leaves or Saplings to get Water (or collect via rain)
+Infest Leaves with a Silkworm to obtain String
+Use a Campfire to obtain Ash and use it to craft Cobblestone
+Use a Hammer from Ex Nihilo or a Millstone to create Sand
+Use Sand on a Barrel filled with Water to make Clay
+Craft an Eccentric Tome to get all Guide Books
+===
+#§1--==§0Stone Age§1==--
+Make Lava in a Fired Crucible
+Obtain Obsidian
+Automate your Cobblestone generation
+Upgrade your Silent's Gear tools with a Stone Material (Cobblestone, Andesite, Diorite, Granite)
+===
+#§1--==§0Chromatic Age§1==--
+Throw Dye into Water to change its color
+Use Color Dyed Water to convert Sand into a Dye Block
+Click on a Color Leaves block with Dye to create Flowers
+Throw a Color Sapling into Water to change its color
+Throw a Color Sapling into Fire or Lava to change its color
+Use Dripstone to convert a Block of Sand into a Dye Block
+===
+#§1--==§0Age of Automation§1==--
+Use a Stirling or Combustion Generator to make power
+Craft RGB Dye
+Craft a Blender to Mix Dyes together
+Craft a Printer to automate resource collection
+Obtain an EnderIO Grain of Infinity
+Use a Pulverizer as a Catalyst in a Pulverizer
+Speed up your machines by capturing the Warden with the Industrial Foregoing Souls mod
+===
+#§1--==§0Age of Power§1==--
+Create a Passively cooled reactor from the Bigger Reactors Mod
+Create an Actively cooled reactor from the Bigger Reactors Mod
+Create a 32x48x32 Passively cooled reactor
+Create a Turbine from the Bigger Reactors Mod
+Produce 1,000 RF/t
+Produce 10,000 RF/t
+Produce 100k RF/t
+Produce 1 million RF/t
+Craft Energetic Shears and use them to shear Energetic Sheep to collect energy
+Use Energetic Shears or Energetic Wool to add power to a machine by discharging the shears or right-clicking the Wool in supported machines/batteries
+Collect all 16 colors of Energetic Sheep
+===
+#§1--==§0Age of Life§1==--
+Herd all 16 Colorful Villagers (Villager Trades will automatically cycle after a short duration of time)
+Obtain all 146 Trophies
+Find and pickup a Mob Spawner
+Change a Mob Spawner by right-clicking on it with a Trophy
+Use a Mega Torch to block creature spawns
+Build a Modular Golem
+Build a Modular Wolf
+Build a Modular Humanoid
+Gear up a Modular Golem with Netherite
+Fully upgrade a Modular Golem
+===
+#§1--==§0Normal Gateways§1==--
+Obtain a Normal Gateway Pearl
+Complete a Gateway and receive a mob Trophy
+Right-click on a Trophy to activate it (and again to deactivate)
+Complete all 146 Normal Gateways (not Titan)
+Complete the Normal Ender Dragon Gateway
+===
+#§1--==§0Titan Gateways§1==--
+Obtain a Titan Gateway Pearl
+Complete wave 50 of any Titan Gateway
+Complete wave 100 of any Titan Gateway
+Complete wave 150 of any Titan Gateway
+===
+#§1--==§0Challenge Gateways§1==--
+Complete all 16 Challenge Gateways
+===
+#§1--==§0Age of Farming§1==--
+Obtain an Inferium Seed
+Capture a Cow in a Jar
+Grow Sugar Cane from the bottom of the world to max height (y=448)
+Obtain all 16 color Mystical Agriculture Seeds
+Obtain an RGB Essence Seed
+===
+#§1--==§0Age of Travel§1==--
+Fly
+Craft a Wayback Stone to easily teleport to your spawn location from anywhere
+Use a Bubble Blower to place a block in the air
+Travel to the Nether
+Travel to the End
+===
+#§1--==§0Age of Miscellaneous§1==--
+Craft a Create Sabers Saber
+Craft a Hammock to sleep to night time
+Fall through the void into a pool of water
+Grow your head to 150% by crafting 2 of the same heads together
+Grow your head to 250% by crafting 2 of the same heads together
+Collect all 6 Limbs of any one mob (Head, Torso, Arms, Legs)
+Use an Organic Matter Compressor to transform matter into Loot Bags
+===
+#§1--==§0Age of Magic§1==--
+#§1-=§0Ars Nouveau§1=-
+Make a Source Gem
+Make a Spellbook
+Make a Scribe's Table
+Generate Source for machines
+Make an Enchanting Apparatus
+Make a Ritual Brazier
+Use a Crush Spell to automate Sand and Gravel
+Use a Ritual of Summon Wilden and defeat them
+Use a Ritual of Flight to fly around!
+Summon a Weald Walker by performing an Awakening ritual near an Archwood Tree
+Use Starbuncles to automate item retrieval
+Use Wixies to automate Potion Brewing
+Automate a farm with a Harvest Ritual
+Make an island using a Conjure Island ritual (either plains or desert)
+Summon and defeat the Wilden Chimera
+Automate a farm with Spell Turrets
+Farm mob drops with Drygmies
+Summon a Decoy of yourself
+Capture every boss in a Containment Jar
+Generate Source using every type of Sourcelink
+Fully upgrade a set of Ars Nouveau armor (Tier 3 fill all thread slots)
+Summon a Familiar
+Use a Scryer's Oculus to remotely access a block
+Teleport with a Warp Scroll/Portal
+Use a Flask Cannon
+===
+#§1-=§0Occultism§1=-
+Eat Demon's Dream Fruit to get the 3rd Eye Effect
+Make a Spiritfire
+Obtain White Chalk
+Summon a Crusher Spirit to help automate resources
+Summon a Possessed Endermite and kill it for Endstone
+Use an Ars Nouveau Containment Jar to capture an Occultism Spirit, letting them work without decaying
+Capture one of each Trader Spirit in an Ars Nouveau Containment Jar
+Create a Dimensional Matrix for mass item storage
+Summon a Djinni Machine Operator to automate crafting with the Dimensional Matrix
+Use a Dimensional Mineshaft to automate resources
+Have a Dimensional Matrix with max slots (12416, with one tier 4 on all sides including above and below)
+Summon an Afrit
+Summon the Wild Hunt and defeat it
+Use a Transporter Spirit to automate item transport
+Use a Janitor Spirit to automate collecting items
+Summon a Familiar and capture it in a Familiar Ring
+Summon a Demonic Wife/Husband
+===
+#§1-=§0Age of the Botanist§1=-
+Craft a Petal Apothecary
+Create 64 Livingwood and 64 Livingrock with a Pure Daisy
+Craft a tiny potato and name it Direwolf20
+Craft a Mana Pool and a Mana Spreader
+Craft a Wand of the Forest
+Create a portal to Alfheim
+Use the portal to Alfheim to trade for Dye or resources
+Create an automated flower farm with a Jaded Amaranthus
 ===
-#skyfactory_5.task.184
-skyfactory_5.task.185
-skyfactory_5.task.186
-skyfactory_5.task.187
-skyfactory_5.task.188
+#§1-=§0Mastery§1=-
+Automate a Pure Daisy with only Botania and vanilla mechanics
+Craft and fill a Terrasteel Mana Ring
+Complete the Ritual of Gaia
+Complete the Ritual of Gaia II
 ===
-#skyfactory_5.task.189
-skyfactory_5.task.190
-skyfactory_5.task.191
-skyfactory_5.task.192
-skyfactory_5.task.193
-skyfactory_5.task.194
+#§1--==§0Age of Legends§1==--
+Defeat the Warden
+Defeat the Ender Dragon
+Defeat the Wither
+Defeat the Gaia Guardian
+Defeat the Ghast Cow
 ===
-#skyfactory_5.task.195
-skyfactory_5.task.196
-skyfactory_5.task.197
-skyfactory_5.task.198
-skyfactory_5.task.199
-skyfactory_5.task.200
+#§1--==§0Age of Hoarding§1==--
+Create a 9x9x9 Colossal Chest
+Obtain a Netherite Backpack from Sophisticated Backpacks
+Craft and use the Inception Upgrade in a Sophisticated Backpack to add more backpacks to your backpacks
+Craft and use the Everlasting Upgrade in a Sophisticated Backpack to keep your stuff safe from the void
+Connect your Applied Energistics Storage System across dimensions using the Quantum Link Chamber
 ===
-#skyfactory_5.task.201
-skyfactory_5.task.202
-skyfactory_5.task.203
-skyfactory_5.task.204
-skyfactory_5.task.205
-skyfactory_5.task.206
-skyfactory_5.task.207
+#§1--==§0Age of Worlds§1==--
+Acquire and research a Lost Knowledge Pattern
+Create and travel to an RFTools Dimension
+Create a dimension full of Potatoes
+Infuse your Infuser Machine to 100%
+Destroy a created dimension by sending a Block of TNT to a dimension with the Dimension Editor
+Create a dimension of RGB Blocks
 ===
-#skyfactory_5.task.208
-skyfactory_5.task.209
-skyfactory_5.task.210
-skyfactory_5.task.211
-skyfactory_5.task.212
-skyfactory_5.task.213
-skyfactory_5.task.214
+#§1--==§0Age of Dragons§1==--
+Craft the Draconic Chestpiece
+Draconic Pickaxe
+Draconic Axe
+Draconic Shovel
+Draconic Hoe
+Draconic Staff of Power
 ===
-skyfactory_5.task.215
-skyfactory_5.task.216
-skyfactory_5.task.217
-skyfactory_5.task.218
-skyfactory_5.task.219
-skyfactory_5.task.220
+Automate Wither killing
+Defeat the Chaos Dragon
+Build a tier 6 Energy Core or Higher (Max is 8)
+Make a Charm of Dislocation
+Fill a tier 6 Draconic Energy Core
+Make a Draconic Chest
 ===
-#skyfactory_5.task.221
-skyfactory_5.task.222
-skyfactory_5.task.223
-skyfactory_5.task.224
-skyfactory_5.task.225
-skyfactory_5.task.226
+#§1--==§0Age of Simulation§1==--
+Obtain a Hostile Neural Network Faulty Data Model for any mob
+Upgrade a Hostile Neural Network Data Model to Self Aware
+Use the Wither Prediction in the Loot Fabricator to create Nether Stars
+Upgrade the Ender Dragon Data Model to Self Aware
+Upgrade the Chaos Guardian Data Model to Self Aware
 ===
-#skyfactory_5.task.227
-skyfactory_5.task.228
-skyfactory_5.task.229
-skyfactory_5.task.230
-skyfactory_5.task.231
-skyfactory_5.task.232
-skyfactory_5.task.233
+#§1--==§0Age of Craziness§1==--
+Collect all 238 Hats
+Obtain 90 total hearts of health
+Craft an Infinity Wand
+Create a Perfect Sushi Roll
+Create a Culinary Construct Sandwich full of different types of Perfect Sushi
+Fill an entire chunk with Colorless Dye Blocks (16x448x16)
 ===
-#skyfactory_5.task.234
-#skyfactory_5.task.235
-skyfactory_5.task.236
-skyfactory_5.task.237
-skyfactory_5.task.238
+#§1--==§0Age of Excess§1==--
+#§1--==§0AKA Nobody Is Crazy Enough to Actually Do This§1==--
+Fill the Tier 8 Draconic Energy Core to max 9,223,000,000,000,000,000op
+Fill an Infinity Tool to max charge
+Create a maximum size Passively cooled reactor (64x64x64)
 ===
 ===
 ===
@@ -284,7 +285,7 @@ skyfactory_5.task.238
 ===
 ===
 ===
-#skyfactory_5.task.239
+#There's nothing else back here!
 ===
 ===
 ===
@@ -296,7 +297,7 @@ skyfactory_5.task.238
 ===
 ===
 ===
-#skyfactory_5.task.240
+#What do you want? Stop it!
 ===
 ===
 ===
@@ -308,7 +309,7 @@ skyfactory_5.task.238
 ===
 ===
 ===
-#skyfactory_5.task.241
+#Quit it!
 ===
 ===
 ===
@@ -328,7 +329,7 @@ skyfactory_5.task.238
 ===
 ===
 ===
-#skyfactory_5.task.242
+#>.>
 ===
 ===
 ===
@@ -337,8 +338,8 @@ skyfactory_5.task.238
 ===
 ===
 ===
-#skyfactory_5.task.243
+#<.<
 ===
 ===
 ===
-skyfactory_5.task.244
+Discover the SCP 1689 Dimension

@@ -1,0 +1,12 @@
+{
+  "type": "immersiveengineering:mixer",
+  "energy": 1001,
+  "fluid": { "amount": 1000, "tag": "skyfactory_5:cyan_water" },
+  "inputs": [
+    {
+      "base_ingredient": { "item": "silentgear:crushed_shulker_shell" },
+      "count": 1
+    }
+  ],
+  "result": { "amount": 1000, "fluid": "enderio:vapor_of_levity" }
+}

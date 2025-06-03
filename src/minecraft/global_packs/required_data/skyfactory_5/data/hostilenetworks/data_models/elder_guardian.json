@@ -8,91 +8,40 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:light_gray_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.elder_guardian",
   "fabricator_drops": [
     {
       "item": "minecraft:wet_sponge",
-      "count": 32
+      "count": 2
     },
     {
       "item": "minecraft:sponge",
-      "count": 32
+      "count": 2
     },
     {
       "item": "minecraft:prismarine_shard",
-      "count": 43
+      "count": 4
     },
     {
       "item": "minecraft:cod",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:prismarine_crystals",
-      "count": 23
+      "count": 2
     },
     {
       "item": "minecraft:tide_armor_trim_smithing_template",
-      "count": 13
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:26}",
-      "optional": true
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:49}",
-      "optional": true
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:48}",
-      "optional": true
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:47}",
-      "optional": true
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:37}",
-      "optional": true
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:43}",
-      "optional": true
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 1,
-      "nbt": "{Amount:42}",
-      "optional": true
-    },
-    {
-      "item": "minecraft:salmon",
       "count": 1
-    },
-    {
-      "item": "sushigocrafting:raw_tuna",
-      "count": 1,
-      "optional": true
     }
   ],
   "tier_data": [12, 60, 360, 1260],

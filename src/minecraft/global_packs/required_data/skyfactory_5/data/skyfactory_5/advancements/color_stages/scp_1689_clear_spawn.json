@@ -15,19 +15,10 @@
   },
   "criteria": {
     "location_check": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:changed_dimension",
       "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "dimension": "skyfactory_5:scp_1689"
-              }
-            }
-          }
-        ]
+        "player": [],
+        "to": "skyfactory_5:scp_1689"
       }
     }
   },

@@ -8,20 +8,20 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:blue_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.wandering_trader",
   "fabricator_drops": [
     {
       "item": "minecraft:blue_dye",
-      "count": 16
+      "count": 4
     }
   ],
   "tier_data": [12, 60, 360, 1260],

@@ -8,45 +8,45 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:pink_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.piglin",
   "fabricator_drops": [
     {
       "item": "limbs:piglin_right_arm",
-      "count": 32,
+      "count": 1,
       "optional": true
     },
     {
       "item": "limbs:piglin_torso",
-      "count": 57,
+      "count": 1,
       "optional": true
     },
     {
       "item": "limbs:piglin_left_leg",
-      "count": 53,
+      "count": 1,
       "optional": true
     },
     {
       "item": "limbs:piglin_left_arm",
-      "count": 42,
+      "count": 1,
       "optional": true
     },
     {
       "item": "limbs:piglin_right_leg",
-      "count": 34,
+      "count": 1,
       "optional": true
     },
     {
       "item": "limbs:piglin_head",
-      "count": 23,
+      "count": 1,
       "optional": true
     }
   ],

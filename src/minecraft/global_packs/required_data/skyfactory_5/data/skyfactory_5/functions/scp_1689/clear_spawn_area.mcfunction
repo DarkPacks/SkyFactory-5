@@ -17,3 +17,4 @@ execute as @s run execute in skyfactory_5:scp_1689 run setblock ~ ~ ~-1 minecraf
 execute as @s run execute in skyfactory_5:scp_1689 run setblock ~ ~ ~-1 minecraft:air replace
 execute as @s run execute in skyfactory_5:scp_1689 run setblock ~ ~1 ~-1 minecraft:air replace
 execute as @s run execute in skyfactory_5:scp_1689 run setblock ~ ~1 ~-1 minecraft:air replace
+advancement revoke @s only skyfactory_5:color_stages/scp_1689_clear_spawn

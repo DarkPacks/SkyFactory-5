@@ -51,7 +51,7 @@ defaultBaseFluid = "colouredstuff:water_light_blue"
 [dimensionbuilder]
 # Maximum RF storage that the dimension builder can receive per side
 # Range: > 0
-generatorMaxRF = 20000
+generatorMaxRF = 200000
 # Maximum RF storage that the phased field generator item can hold
 # Range: 0 ~ 9223372036854775807
 phasedFieldMaxRF = 1000000

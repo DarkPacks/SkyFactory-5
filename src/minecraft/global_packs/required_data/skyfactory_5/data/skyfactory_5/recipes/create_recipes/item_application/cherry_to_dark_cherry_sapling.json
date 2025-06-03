@@ -1,0 +1,12 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:cherry_sapling"
+    },
+    {
+      "item": "minecraft:dark_oak_sapling"
+    }
+  ],
+  "results": [{ "item": "vinery:dark_cherry_sapling" }]
+}

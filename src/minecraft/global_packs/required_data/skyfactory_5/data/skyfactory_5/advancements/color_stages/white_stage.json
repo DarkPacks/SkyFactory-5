@@ -114,6 +114,17 @@
           }
         ]
       }
+    },
+    "sugar_cube": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["supplementaries:sugar_cube"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -126,7 +137,8 @@
       "chalk_white",
       "chalk_white_impure",
       "tallow",
-      "rice"
+      "rice",
+      "sugar_cube"
     ]
   ],
   "rewards": {

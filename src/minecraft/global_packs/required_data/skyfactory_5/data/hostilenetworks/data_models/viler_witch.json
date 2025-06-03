@@ -14,53 +14,53 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 4096,
+  "sim_cost": 2048,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:blue_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.viler_witch",
   "fabricator_drops": [
     {
       "item": "minecraft:sugar",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:glowstone_dust",
-      "count": 32
+      "count": 2
     },
     {
       "item": "minecraft:glass_bottle",
-      "count": 16
+      "count": 4
     },
     {
       "item": "minecraft:gunpowder",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:redstone",
-      "count": 32
+      "count": 2
     },
     {
       "item": "minecraft:lapis_lazuli",
-      "count": 32
+      "count": 2
     },
     {
       "item": "earthmobsmod:bone_spider_eye",
-      "count": 16
+      "count": 2
     },
     {
       "item": "minecraft:lingering_potion",
-      "count": 8,
+      "count": 1,
       "nbt": "{Potion:\"minecraft:poison\"}"
     },
     {
       "item": "minecraft:lingering_potion",
-      "count": 8,
+      "count": 1,
       "nbt": "{Potion:\"minecraft:slowness\"}"
     }
   ],

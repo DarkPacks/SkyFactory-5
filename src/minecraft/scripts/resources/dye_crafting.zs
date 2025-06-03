@@ -130,6 +130,13 @@ craftingTable.addShapeless(
   [<item:minecraft:white_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
 );
 
+// Bone Block from Dye Blocks
+craftingTable.addShapeless(
+  "bone_block_from_dye_blocks",
+  <item:minecraft:bone_block> * 2,
+  [<item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_white_dye>]
+);
+
 // Colorless Dye Block
 craftingTable.addShapeless(
   "apple_to_block_of_colorless_dye",

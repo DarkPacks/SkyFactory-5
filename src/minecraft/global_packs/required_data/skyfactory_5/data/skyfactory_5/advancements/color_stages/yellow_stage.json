@@ -114,6 +114,17 @@
           }
         ]
       }
+    },
+    "yellow_snow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["yellow_snow:yellow_snow"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -126,7 +137,8 @@
       "yellow_essence",
       "yellow_essence_seeds",
       "sunflower",
-      "pineapple"
+      "pineapple",
+      "yellow_snow"
     ]
   ],
   "rewards": {

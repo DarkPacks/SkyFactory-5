@@ -21,26 +21,26 @@
   },
   "base_drop": {
     "item": "minecraft:brown_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.ghast_cow",
   "fabricator_drops": [
     {
       "item": "bhc:yellow_heart",
-      "count": 32,
+      "count": 1,
       "optional": true
     },
     {
       "item": "minecraft:cooked_beef",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:leather",
-      "count": 59
+      "count": 4
     },
     {
       "item": "minecraft:gunpowder",
-      "count": 59
+      "count": 4
     }
   ],
   "tier_data": [12, 60, 360, 1260],

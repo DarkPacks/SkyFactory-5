@@ -323,9 +323,15 @@ val items as IItemStack[] = [
   <item:createaddition:electrum_sheet>,
 
   // Immersive Engineering
-    <item:immersiveengineering:nugget_copper>,
-    <item:immersiveengineering:nugget_electrum>,
-    <item:immersiveengineering:storage_electrum>,
+  <item:immersiveengineering:nugget_copper>,
+  <item:immersiveengineering:nugget_electrum>,
+  <item:immersiveengineering:storage_electrum>,
+  <item:immersiveengineering:axe_steel>,
+  <item:immersiveengineering:hoe_steel>,
+  <item:immersiveengineering:pickaxe_steel>,
+  <item:immersiveengineering:shovel_steel>,
+  <item:immersiveengineering:sword_steel>,
+
   // Cyclic
   <item:cyclic:copper_nugget>,
 
@@ -461,11 +467,6 @@ val items as IItemStack[] = [
   <item:ae2:nether_quartz_shovel>,
   <item:ae2:nether_quartz_sword>,
 
-  <item:immersiveengineering:axe_steel>,
-  <item:immersiveengineering:hoe_steel>,
-  <item:immersiveengineering:pickaxe_steel>,
-  <item:immersiveengineering:shovel_steel>,
-  <item:immersiveengineering:sword_steel>,
   <item:monsterplus:ancient_crystal>,
   <item:monsterplus:crystal_arrow>,
   <item:monsterplus:crystal_boots>,
@@ -491,8 +492,25 @@ val items as IItemStack[] = [
 
   // Hostile Neural Network
   <item:hostilenetworks:nether_prediction>,
-  <item:hostilenetworks:end_prediction>
+  <item:hostilenetworks:end_prediction>,
 
+  // Colored Torches
+  <item:colored_torches:white_torch>,
+  <item:colored_torches:orange_torch>,
+  <item:colored_torches:magenta_torch>,
+  <item:colored_torches:light_blue_torch>,
+  <item:colored_torches:yellow_torch>,
+  <item:colored_torches:lime_torch>,
+  <item:colored_torches:pink_torch>,
+  <item:colored_torches:gray_torch>,
+  <item:colored_torches:light_gray_torch>,
+  <item:colored_torches:cyan_torch>,
+  <item:colored_torches:purple_torch>,
+  <item:colored_torches:blue_torch>,
+  <item:colored_torches:brown_torch>,
+  <item:colored_torches:green_torch>,
+  <item:colored_torches:red_torch>,
+  <item:colored_torches:black_torch>
 ];
 
 for item in items {
@@ -505,6 +523,15 @@ furnace.remove(<item:bhc:red_heart_melted>);
 furnace.remove(<item:bhc:yellow_heart_melted>);
 furnace.remove(<item:bhc:green_heart_melted>);
 furnace.remove(<item:bhc:blue_heart_melted>);
+
+furnace.remove(<item:immersiveengineering:ingot_nickel>);
+furnace.remove(<item:immersiveengineering:ingot_lead>);
+furnace.remove(<item:immersiveengineering:ingot_silver>);
+
+// Remove EnderIO Alloy Smelter for lead nickel and silver duplicate craft (issue #406)
+<recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_lead_compat_immersiveengineering");
+<recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_nickel_compat_immersiveengineering");
+<recipetype:enderio:alloy_smelting>.removeByName("enderio:smelting/create/smelting/ingot_silver_compat_immersiveengineering");
 
 // Furnace Remove by Name
 furnace.removeByInput(<item:bhc:red_heart_melted>);
@@ -534,6 +561,9 @@ craftingTable.removeByName("luphieclutteredmod:luphie_glow_wood_set_stick_recipe
 craftingTable.removeByName("immersiveengineering:crafting/nugget_copper_to_copper_ingot");
 craftingTable.removeByName("thermal:storage/copper_ingot_from_nuggets");
 craftingTable.removeByName("create:crafting/materials/copper_ingot");
+
+// Supplementaries
+craftingTable.removeByName("supplementaries:bubble_blower");
 
 // //
 // Attempts to remove Draconic Evolution Spawner Conversion

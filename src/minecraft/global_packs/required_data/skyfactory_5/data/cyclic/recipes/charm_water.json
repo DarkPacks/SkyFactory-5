@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["eee", "faf", "iai"],
+  "key": {
+    "e": {
+      "item": "minecraft:blue_orchid"
+    },
+    "f": {
+      "item": "minecraft:lily_pad"
+    },
+    "i": {
+      "item": "minecraft:gold_ingot"
+    },
+    "a": {
+      "item": "sf5_things:light_blue_apple"
+    }
+  },
+  "result": {
+    "item": "cyclic:charm_water"
+  }
+}

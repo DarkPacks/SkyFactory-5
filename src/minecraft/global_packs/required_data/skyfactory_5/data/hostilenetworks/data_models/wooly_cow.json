@@ -14,28 +14,28 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 2560,
+  "sim_cost": 1280,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:orange_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.wooly_cow",
   "fabricator_drops": [
     {
       "item": "minecraft:orange_wool",
-      "count": 8
+      "count": 2
     },
     {
       "item": "minecraft:beef",
-      "count": 8
+      "count": 4
     },
     {
       "item": "minecraft:leather",
-      "count": 8
+      "count": 4
     }
   ],
   "tier_data": [12, 60, 360, 1260],

@@ -8,24 +8,24 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 8192,
+  "sim_cost": 4096,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:gray_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.evoker",
   "fabricator_drops": [
     {
       "item": "minecraft:totem_of_undying",
-      "count": 32
+      "count": 1
     },
     {
       "item": "minecraft:emerald",
-      "count": 35
+      "count": 2
     }
   ],
   "tier_data": [12, 60, 360, 1260],

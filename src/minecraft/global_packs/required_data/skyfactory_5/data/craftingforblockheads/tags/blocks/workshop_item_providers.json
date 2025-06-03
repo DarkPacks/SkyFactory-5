@@ -131,6 +131,8 @@
     "refurbished_furniture:purple_cooler",
     "refurbished_furniture:red_cooler",
     "refurbished_furniture:white_cooler",
-    "refurbished_furniture:yellow_cooler"
+    "refurbished_furniture:yellow_cooler",
+    "colossalchests:interface_wood",
+    "colossalchests:colossal_chest_wood"
   ]
 }

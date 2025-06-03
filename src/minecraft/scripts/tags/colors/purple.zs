@@ -929,6 +929,7 @@ val items as ResourceLocation[] = [
   <resource:simplehats:headphonesblue>,
   <resource:simplehats:jesterhat>,
   <resource:simplehats:smokingpipe>,
+  <resource:supplementaries:awning_purple>,
   <resource:supplementaries:candle_holder_purple>,
   <resource:supplementaries:colouredstuff/sign_post_purple>,
   <resource:supplementaries:flag_purple>,

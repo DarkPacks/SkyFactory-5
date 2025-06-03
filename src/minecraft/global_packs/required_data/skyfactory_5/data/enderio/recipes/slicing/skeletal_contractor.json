@@ -1,27 +1,7 @@
 {
-  "type": "enderio:slicing",
-  "energy": 20000,
-  "inputs": [
+  "conditions": [
     {
-      "tag": "forge:ingots/soularium"
-    },
-    {
-      "tag": "forge:heads/skeleton"
-    },
-    {
-      "tag": "forge:ingots/soularium"
-    },
-    {
-      "item": "minecraft:rotten_flesh"
-    },
-    {
-      "item": "enderio:basic_capacitor"
-    },
-    {
-      "item": "minecraft:rotten_flesh"
+      "type": "forge:false"
     }
-  ],
-  "output": {
-    "item": "enderio:skeletal_contractor"
-  }
+  ]
 }

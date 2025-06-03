@@ -1,0 +1,13 @@
+{
+  "type": "create:item_application",
+  "keepHeldItem": false,
+  "ingredients": [
+    {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    }
+  ],
+  "results": [{ "item": "minecraft:bubble_coral_block" }]
+}

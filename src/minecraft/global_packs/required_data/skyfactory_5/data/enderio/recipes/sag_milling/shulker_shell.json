@@ -1,0 +1,17 @@
+{
+  "type": "enderio:sag_milling",
+  "bonus": "none",
+  "energy": 2400,
+  "input": {
+    "item": "minecraft:shulker_shell"
+  },
+  "outputs": [
+    {
+      "chance": 1.0,
+      "item": {
+        "item": "silentgear:crushed_shulker_shell"
+      },
+      "optional": false
+    }
+  ]
+}

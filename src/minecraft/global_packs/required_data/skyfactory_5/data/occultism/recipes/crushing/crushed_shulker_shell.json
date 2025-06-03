@@ -1,0 +1,12 @@
+{
+  "type": "occultism:crushing",
+  "crushing_time": 200,
+  "ignore_crushing_multiplier": true,
+  "ingredient": {
+    "item": "minecraft:shulker_shell"
+  },
+  "result": {
+    "count": 1,
+    "item": "silentgear:crushed_shulker_shell"
+  }
+}

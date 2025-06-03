@@ -13,7 +13,7 @@
   },
   "base_drop": {
     "item": "minecraft:black_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.ender_dragon",
   "fabricator_drops": [
@@ -23,7 +23,7 @@
     },
     {
       "item": "minecraft:dragon_breath",
-      "count": 16
+      "count": 4
     },
     {
       "item": "minecraft:dragon_egg",

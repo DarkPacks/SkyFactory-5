@@ -461,7 +461,6 @@ var colors = [
 // Using this as a test for goat spawns not working on this block normally
 <tag:blocks:minecraft:dirt>.addId(<resource:colouredstuff:dirt_none>);
 
-
 // Adding every block to the dragon immune tag
 for block in game.blocks {
   <tag:blocks:minecraft:dragon_immune>.add(block);

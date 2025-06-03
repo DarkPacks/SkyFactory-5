@@ -1,0 +1,34 @@
+# Enables advancement syncing
+advancementSync = true
+# Enables gamestages syncing
+gamestagesSync = true
+# How delayed
+backlistedGamestages = [
+  "mooshroom_pearl",
+  "pig_pearl",
+  "enderman_pearl",
+  "zombie_pearl",
+  "cow_pearl",
+  "blaze_pearl",
+  "squid_pearl",
+  "bee_pearl",
+  "slime_pearl",
+  "tuna_pearl",
+  "glow_skeleton_pearl",
+  "snow_golem_pearl",
+  "bone_spider_pearl",
+  "pillager_pearl",
+  "iron_golem_pearl",
+  "crystal_zombie_pearl",
+  "spider_pearl",
+  "villager_pearl",
+  "drowned_pearl",
+  "creeper_pearl",
+  "fancy_chicken_pearl",
+  "goat_pearl",
+  "shulker_pearl",
+  "cat_pearl",
+  "witch_pearl"
+]
+# How delayed the syncing is done after logging in
+syncDataSecondsDelay = 20

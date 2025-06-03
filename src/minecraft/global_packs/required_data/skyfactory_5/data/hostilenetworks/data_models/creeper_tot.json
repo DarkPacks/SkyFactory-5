@@ -14,14 +14,14 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:lime_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.creeper_tot",
   "fabricator_drops": [
@@ -31,11 +31,11 @@
     },
     {
       "item": "minecraft:creeper_head",
-      "count": 10
+      "count": 4
     },
     {
       "item": "forcecraft:spoils_bag",
-      "count": 3,
+      "count": 1,
       "cap_nbt": "{Parent:{Items:[],Size:8}}"
     }
   ],

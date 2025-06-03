@@ -14,166 +14,21 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 1280,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:pink_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.shrimp",
   "fabricator_drops": [
     {
       "item": "sushigocrafting:shrimp",
-      "count": 32,
-      "nbt": "{Amount:43}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 32,
-      "nbt": "{Amount:47}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 63,
-      "nbt": "{Amount:39}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 62,
-      "nbt": "{Amount:24}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 62,
-      "nbt": "{Amount:35}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 61,
-      "nbt": "{Amount:42}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 61,
-      "nbt": "{Amount:23}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 59,
-      "nbt": "{Amount:44}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 59,
-      "nbt": "{Amount:26}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 57,
-      "nbt": "{Amount:28}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 56,
-      "nbt": "{Amount:38}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 55,
-      "nbt": "{Amount:21}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 54,
-      "nbt": "{Amount:30}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 53,
-      "nbt": "{Amount:40}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 53,
-      "nbt": "{Amount:49}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 52,
-      "nbt": "{Amount:29}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 52,
-      "nbt": "{Amount:31}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 52,
-      "nbt": "{Amount:32}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 52,
-      "nbt": "{Amount:22}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 50,
-      "nbt": "{Amount:27}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 50,
-      "nbt": "{Amount:48}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 50,
-      "nbt": "{Amount:20}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 50,
-      "nbt": "{Amount:45}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 50,
-      "nbt": "{Amount:37}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 47,
-      "nbt": "{Amount:36}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 47,
-      "nbt": "{Amount:33}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 46,
-      "nbt": "{Amount:25}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 46,
-      "nbt": "{Amount:34}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 45,
-      "nbt": "{Amount:41}"
-    },
-    {
-      "item": "sushigocrafting:shrimp",
-      "count": 40,
-      "nbt": "{Amount:46}"
+      "count": 4,
+      "nbt": "{Amount:2}"
     }
   ],
   "tier_data": [12, 60, 360, 1260],

@@ -39,6 +39,18 @@
         },
         {
           "item": "minecraft:netherrack"
+        },
+        {
+          "item": "create:crimsite"
+        },
+        {
+          "item": "create:asurine"
+        },
+        {
+          "item": "create:veridium"
+        },
+        {
+          "item": "create:ochrum"
         }
       ],
       "excludes": [

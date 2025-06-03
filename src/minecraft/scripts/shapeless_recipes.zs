@@ -360,6 +360,12 @@ craftingTable.addShapeless(
 );
 
 craftingTable.addShapeless(
+  "botania_flower_fert_from_rgb_blocks",
+  <item:botania:fertilizer> * 27,
+  [<item:minecraft:bone_block>, <item:sf5_things:block_of_rgb_dye>, <item:sf5_things:block_of_rgb_dye>, <item:sf5_things:block_of_rgb_dye>, <item:sf5_things:block_of_rgb_dye>]
+);
+
+craftingTable.addShapeless(
   "blocks_of_rgb_dye_from_rgb",
   <item:sf5_things:block_of_rgb_dye> * 3,
   [<item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_green_dye>, <item:sf5_things:block_of_blue_dye>]
@@ -374,7 +380,7 @@ craftingTable.addShapeless(
 // Eccentric Tome
 craftingTable.addShapeless(
   "eccentric_tome_all_books",
-  <item:eccentrictome:tome>.withTag({"eccentrictome:mods": {enderio: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "enderio:guide"}, Count: 1}}, cyclic: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "cyclic:guide_book"}, Count: 1}}, sushigocrafting: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "sushigocrafting:sushigocrafting"}, Count: 1}}, apotheosis: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "apotheosis:apoth_chronicle"}, Count: 1}}, checklist: {"0": {id: "checklist:task_book", Count: 1}}, ae2: {"0": {id: "ae2:guide", Count: 1}}, industrialforegoing: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "industrialforegoing:industrial_foregoing"}, Count: 1}}, sebastrnlib: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"}, Count: 1}}, modulargolems: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "modulargolems:golem_guide"}, Count: 1}}, ars_nouveau: {"0": {id: "ars_nouveau:worn_notebook", Count: 1}}, laserio: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "laserio:laseriobook"}, Count: 1}}, forcecraft: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "forcecraft:force_and_you"}, Count: 1}}, immersiveengineering: {"0": {id: "immersiveengineering:manual", Count: 1}}, littlelogistics: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "littlelogistics:guide"}, Count: 1}}, thermal: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "thermal:guidebook"}, Count: 1}}, mysticalagriculture: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "mysticalagriculture:guide"}, Count: 1}}, occultism: {"0": {id: "occultism:dictionary_of_spirits", tag: {"modonomicon:book_id": "occultism:dictionary_of_spirits"}, Count: 1}}}}),
+  <item:eccentrictome:tome>.withTag({"eccentrictome:mods": {cyclic: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "cyclic:guide_book"}, Count: 1}}, enderio: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "enderio:guide"}, Count: 1}}, sushigocrafting: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "sushigocrafting:sushigocrafting"}, Count: 1}}, botania: {"0": {id: "botania:lexicon", Count: 1}}, apotheosis: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "apotheosis:apoth_chronicle"}, Count: 1}}, checklist: {"0": {id: "checklist:task_book", Count: 1}}, ae2: {"0": {id: "ae2:guide", Count: 1}}, industrialforegoing: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "industrialforegoing:industrial_foregoing"}, Count: 1}}, sebastrnlib: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "sebastrnlib:sebastrn_mods_guide_book"}, Count: 1}}, modulargolems: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "modulargolems:golem_guide"}, Count: 1}}, ars_nouveau: {"0": {id: "ars_nouveau:worn_notebook", Count: 1}}, buildinggadgets2: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "buildinggadgets2:buildinggadgets2book"}, Count: 1}}, laserio: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "laserio:laseriobook"}, Count: 1}}, forcecraft: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "forcecraft:force_and_you"}, Count: 1}}, immersiveengineering: {"0": {id: "immersiveengineering:manual", Count: 1}}, littlelogistics: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "littlelogistics:guide"}, Count: 1}}, thermal: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "thermal:guidebook"}, Count: 1}}, mysticalagriculture: {"0": {id: "patchouli:guide_book", tag: {"patchouli:book": "mysticalagriculture:guide"}, Count: 1}}, occultism: {"0": {id: "occultism:dictionary_of_spirits", tag: {"modonomicon:book_id": "occultism:dictionary_of_spirits"}, Count: 1}}}}),
   [<item:minecraft:book>, <tag:items:forge:bookshelves>]
 );
 
@@ -412,11 +418,25 @@ craftingTable.addShapeless(
   [<item:minecraft:pink_dye>, <item:minecraft:pink_dye>, <item:minecraft:red_dye>, <item:minecraft:red_dye>]
 );
 
+// Block of Raw Crimson Iron
+craftingTable.addShapeless(
+  "raw_crimson_iron_block",
+  <item:silentgear:raw_crimson_iron_block> * 1,
+  [<item:sf5_things:block_of_pink_dye>, <item:sf5_things:block_of_pink_dye>, <item:sf5_things:block_of_red_dye>, <item:sf5_things:block_of_red_dye>]
+);
+
 // Raw Azure Silver
 craftingTable.addShapeless(
   "raw_azure_silver",
   <item:silentgear:raw_azure_silver> * 1,
   [<item:minecraft:magenta_dye>, <item:minecraft:magenta_dye>, <item:minecraft:white_dye>, <item:minecraft:white_dye>]
+);
+
+// Block of Raw Azure Silver
+craftingTable.addShapeless(
+  "raw_azure_silver_block",
+  <item:silentgear:raw_azure_silver_block> * 1,
+  [<item:sf5_things:block_of_magenta_dye>, <item:sf5_things:block_of_magenta_dye>, <item:sf5_things:block_of_white_dye>, <item:sf5_things:block_of_white_dye>]
 );
 
 // Colorless Dye Block
@@ -539,8 +559,63 @@ craftingTable.addShapeless(
   <item:minecraft:green_dye> * 3,
   [<item:minecraft:blue_dye>, <item:minecraft:yellow_dye>, <item:minecraft:green_dye>]
 );
+
+// Gem BLocks to Gems
+craftingTable.addShapeless(
+  "sapphire_block_to_gem",
+  <item:thermal:sapphire> * 9,
+  [<item:thermal:sapphire_block> * 1]
+);
+
+craftingTable.addShapeless(
+  "ruby_block_to_gem",
+  <item:thermal:ruby> * 9,
+  [<item:thermal:ruby_block> * 1]
+);
+
 craftingTable.addShapeless(
   "green_dye_block_for_automation",
   <item:sf5_things:block_of_green_dye> * 3,
   [<item:sf5_things:block_of_blue_dye>, <item:sf5_things:block_of_yellow_dye>, <item:sf5_things:block_of_green_dye>]
+);
+
+// Blank Firework Star (Pulverizer Catalyst)
+  craftingTable.addShapeless(
+  "fire_charge_to_firework_star",
+  <item:minecraft:firework_star>,
+  [<item:minecraft:gunpowder>, <item:minecraft:fire_charge>]
+);
+
+// Coral Blocks
+  craftingTable.addShapeless(
+  "dead_tube_coral_block_to_living",
+  <item:minecraft:tube_coral_block>,
+  [<item:minecraft:dead_tube_coral_block>, <tag:items:forge:dyes/blue>]
+);
+  craftingTable.addShapeless(
+  "dead_brain_coral_block_to_living",
+  <item:minecraft:brain_coral_block>,
+  [<item:minecraft:dead_brain_coral_block>, <tag:items:forge:dyes/pink>]
+);
+  craftingTable.addShapeless(
+  "dead_bubble_coral_block_to_living",
+  <item:minecraft:bubble_coral_block>,
+  [<item:minecraft:dead_bubble_coral_block>, <tag:items:forge:dyes/purple>]
+);
+  craftingTable.addShapeless(
+  "dead_fire_coral_block_to_living",
+  <item:minecraft:fire_coral_block>,
+  [<item:minecraft:dead_fire_coral_block>, <tag:items:forge:dyes/red>]
+);
+  craftingTable.addShapeless(
+  "dead_horn_coral_block_to_living",
+  <item:minecraft:horn_coral_block>,
+  [<item:minecraft:dead_horn_coral_block>, <tag:items:forge:dyes/yellow>]
+);
+
+// Sea Pickle
+  craftingTable.addShapeless(
+  "sea_grass_to_sea_pickle",
+  <item:minecraft:sea_pickle>,
+  [<item:minecraft:seagrass>, <item:sushigocrafting:cucumber>, <item:refurbished_furniture:sea_salt>]
 );

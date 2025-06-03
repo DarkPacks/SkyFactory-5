@@ -8,24 +8,24 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 4096,
+  "sim_cost": 2048,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:pink_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.zombified_piglin",
   "fabricator_drops": [
     {
       "item": "minecraft:rotten_flesh",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:gold_ingot",
-      "count": 4
+      "count": 2
     },
     {
       "item": "limbs:zombified_piglin_torso",

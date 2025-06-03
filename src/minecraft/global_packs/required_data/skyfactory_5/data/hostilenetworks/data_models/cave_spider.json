@@ -8,28 +8,28 @@
   "gui_x_offset": 0,
   "gui_y_offset": 0,
   "gui_z_offset": 0,
-  "sim_cost": 2560,
+  "sim_cost": 640,
   "input": {
     "item": "hostilenetworks:prediction_matrix",
     "count": 1
   },
   "base_drop": {
     "item": "minecraft:black_dye",
-    "count": 1
+    "count": 8
   },
   "trivia": "hostilenetworks.trivia.cave_spider",
   "fabricator_drops": [
     {
       "item": "minecraft:string",
-      "count": 32
+      "count": 4
     },
     {
       "item": "minecraft:spider_eye",
-      "count": 32
+      "count": 4
     },
     {
       "item": "silentgear:fine_silk",
-      "count": 5,
+      "count": 4,
       "optional": true
     }
   ],

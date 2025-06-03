@@ -255,6 +255,17 @@
           }
         ]
       }
+    },
+    "block_of_grass_clippings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_grass_clippings"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -280,7 +291,8 @@
       "grass",
       "sea_pickle",
       "small_dripleaf",
-      "tall_grass"
+      "tall_grass",
+      "block_of_grass_clippings"
     ]
   ],
   "rewards": {

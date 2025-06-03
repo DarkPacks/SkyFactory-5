@@ -1,0 +1,12 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_sapling"
+    },
+    {
+      "item": "minecraft:apple"
+    }
+  ],
+  "results": [{ "item": "vinery:apple_tree_sapling" }]
+}

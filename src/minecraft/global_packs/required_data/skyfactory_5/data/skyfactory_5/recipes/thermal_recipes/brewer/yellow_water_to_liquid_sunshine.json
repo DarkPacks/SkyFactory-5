@@ -1,0 +1,19 @@
+{
+  "type": "thermal:brewer",
+  "ingredients": [
+    {
+      "item": "minecraft:sunflower"
+    },
+    {
+      "fluid": "colouredstuff:water_yellow",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "fluid": "enderio:liquid_sunshine",
+      "amount": 1000
+    }
+  ],
+  "energy": 1600
+}

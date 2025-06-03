@@ -167,5 +167,7 @@ enabledItems = [
   "sophisticatedstorage:stack_upgrade_tier_5|true",
   "sophisticatedstorage:decoration_table|true",
   "sophisticatedstorage:paintbrush|true",
-  "sophisticatedbackpacks:smithing_upgrade|true"
+  "sophisticatedbackpacks:smithing_upgrade|true",
+  "sophisticatedstorage:advanced_jukebox_upgrade|true",
+  "sophisticatedbackpacks:advanced_jukebox_upgrade|true"
 ]

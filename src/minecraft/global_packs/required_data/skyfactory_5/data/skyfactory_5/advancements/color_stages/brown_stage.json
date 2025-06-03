@@ -147,6 +147,28 @@
           }
         ]
       }
+    },
+    "block_of_jerky": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["sf5_things:block_of_jerky"]
+          }
+        ]
+      }
+    },
+    "potato_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [],
+        "items": [
+          {
+            "items": ["thermal:potato_block"]
+          }
+        ]
+      }
     }
   },
   "requirements": [
@@ -162,7 +184,9 @@
       "rabbit_foot",
       "rabbit_hide",
       "potato",
-      "baked_potato"
+      "baked_potato",
+      "block_of_jerky",
+      "potato_block"
     ]
   ],
   "rewards": {

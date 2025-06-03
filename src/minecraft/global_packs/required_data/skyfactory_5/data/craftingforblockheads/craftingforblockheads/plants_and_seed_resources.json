@@ -52,7 +52,8 @@
         { "item": "thermal:rice_seeds" },
         { "item": "thermal:spinach_seeds" },
         { "item": "thermal:green_bean_seeds" },
-        { "item": "thermal:peanut_seeds" }
+        { "item": "thermal:peanut_seeds" },
+        { "item": "minecraft:glow_lichen" }
       ],
       "soft_requirements": ["vanilla_composter_present"],
       "hard_requirements": ["colored_crafting_table_present"],

@@ -9,7 +9,7 @@
         "type": "gateways:standard",
         "count": 4,
         "entity": "minecraft:hoglin",
-        "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:reach\":{scale:0.05f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
+        "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:reach\":{scale:0.05f}},IsImmuneToZombification:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}"
       }
     ],
     "rewards": [
@@ -72,7 +72,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "minecraft:hoglin",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:1f},\"pehkui:width\":{scale:1f},\"pehkui:height\":{scale:1f}},IsImmuneToZombification:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -92,7 +92,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "minecraft:hoglin",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.95f},\"pehkui:width\":{scale:1.5f},\"pehkui:height\":{scale:1.5f}},IsImmuneToZombification:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -112,7 +112,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "minecraft:hoglin",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.8f},\"pehkui:width\":{scale:2f},\"pehkui:height\":{scale:2f}},IsImmuneToZombification:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -132,7 +132,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "minecraft:hoglin",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.75f},\"pehkui:width\":{scale:2.5f},\"pehkui:height\":{scale:2.5f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.75f},\"pehkui:width\":{scale:2.5f},\"pehkui:height\":{scale:2.5f}},IsImmuneToZombification:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
           "modifiers": [
             {
               "type": "gateways:gear_set",
@@ -152,7 +152,7 @@
           "type": "gateways:standard",
           "count": 1,
           "entity": "minecraft:hoglin",
-          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.72f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
+          "nbt": "{\"pehkui:scale_data_types\":{\"pehkui:hitbox_width\":{scale:0.72f},\"pehkui:width\":{scale:3f},\"pehkui:height\":{scale:3f}},IsImmuneToZombification:1b,ArmorItems:[{},{},{},{id:\"simplehats:fro\",Count:1b,tag:{display:{color:16352035},Unbreakable:1b}}],Tags:[\"gateway_entity\"]}",
           "modifiers": [
             {
               "type": "gateways:gear_set",

@@ -1,0 +1,19 @@
+{
+  "type": "thermal:brewer",
+  "ingredients": [
+    {
+      "item": "silentgear:crushed_shulker_shell"
+    },
+    {
+      "fluid": "colouredstuff:water_cyan",
+      "amount": 1000
+    }
+  ],
+  "result": [
+    {
+      "fluid": "enderio:vapor_of_levity",
+      "amount": 1000
+    }
+  ],
+  "energy": 1600
+}
